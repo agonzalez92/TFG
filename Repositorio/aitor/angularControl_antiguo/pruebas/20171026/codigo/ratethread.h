@@ -475,7 +475,7 @@ public:
         }
 
         fprintf(fp,"\n%.2f", act_time);
-        fprintf(fp,",%.2f", _angulo2);
+        fprintf(fp,",%.2f",_angulo2);
         fprintf(fp,",%i", Xcom);
         fprintf(fp,",%i", Ycom);
         fprintf(fp,",%.2f", Zcom);
