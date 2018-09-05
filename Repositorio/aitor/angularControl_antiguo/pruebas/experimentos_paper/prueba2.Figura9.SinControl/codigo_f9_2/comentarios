@@ -1,3 +1,5 @@
+Todos los test se han realizado con ZMP_ref = 5 cm.
+
 test1 - En este test se han puesto la kp y la ki de LIPM2d a cero.
 test2 - En este test se han quitado la kp dejando sus terminos de pre-zmperror y la multiplicacion por la T y la ki(que se ha eliminado su formula completa al contrario que la anterior) de la formula y se ha puesto a 1 la ku.
 test3 - Se ha dejado de utilizar la funcion evaluate model y se ha hecho una nueva funcion para llevar el robot a esa posicion en funcion de la referencia. No he incluido la referencia en el csv por lo que se ha tenido que hacer un test4 en el que si se incluye para poder hacer la grafica de Tiempo,zmp_ref y Xzmp-Loli.

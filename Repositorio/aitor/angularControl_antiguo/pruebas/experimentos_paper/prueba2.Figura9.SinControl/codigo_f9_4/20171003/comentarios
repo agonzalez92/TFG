@@ -1,3 +1,5 @@
+Todos los test se han desarrollado con Ku = 1.4
+
 test 1 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.01
 test 2 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.03
 test 3 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.05
