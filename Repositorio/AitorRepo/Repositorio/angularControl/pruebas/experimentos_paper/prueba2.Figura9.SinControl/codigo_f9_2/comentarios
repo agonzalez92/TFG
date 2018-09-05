@@ -1,0 +1,28 @@
+test1 - En este test se han puesto la kp y la ki de LIPM2d a cero.
+test2 - En este test se han quitado la kp dejando sus terminos de pre-zmperror y la multiplicacion por la T y la ki(que se ha eliminado su formula completa al contrario que la anterior) de la formula y se ha puesto a 1 la ku.
+test3 - Se ha dejado de utilizar la funcion evaluate model y se ha hecho una nueva funcion para llevar el robot a esa posicion en funcion de la referencia. No he incluido la referencia en el csv por lo que se ha tenido que hacer un test4 en el que si se incluye para poder hacer la grafica de Tiempo,zmp_ref y Xzmp-Loli.
+
+test7 y 8 no han valido para nada
+
+test9 - eval.model solo con Kp=-0.5, 
+
+test10 - eval.model solo con Kp=-0.05 y Ku=1.65
+
+test11 - eval.model con Kp=-0.05 y Kd=0.005 y Ku=1.65
+
+test12 - eval.model con Kp=-0.005 y Kd=0.0005 y Ku =1
+
+test13 - eval.model con Kp=-0.005 y Kd=0.0005 y Ku =1.65
+
+test14 - eval.model con Kp=-0.01 y Kd=0.0005 y Ku =1 
+
+test15 - eval.model con Kp=-0.01 y Kd=0.0005 y Ku =1.65 
+
+test16 - eval.model con Kp=-0.0025 y Kd=0.00005 y Ku =1
+
+test17 - eval.model con Kp=-0.0025 y Kd=0.00005 y Ku =1.2
+
+test18 - eval.model con Kp=-0.0025 y Kd=0.00005 y Ku =2
+
+test19 - eval.model con Kp=-0.0025 y Kd=0.00005 y Ku =1.4
+

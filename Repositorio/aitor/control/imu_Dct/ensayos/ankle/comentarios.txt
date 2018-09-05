@@ -1,0 +1,54 @@
+
+el test 1 es un primer test para ver que esta ocurriendo. parece que el PID esta generando un angulo de actuacion contrario al ZMP que
+está leyendo el sensor inercial. pero no es suficientemente fuerte la actuacion para ver una respuesta en el robot. samples=20
+
+//Ankle parameters
+#define Kp_ankle 1 //Proportional gain
+#define Kd_ankle 0.1 //Derivative gain
+#define Ki_ankle 0.01 //Integral gain
+//Hip parameters
+#define Kp_hip 1 //Proportional gain
+#define Kd_hip 0.01 //Derivative gain
+#define Ki_hip 0.001 //Integral gain
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+con el test2 y nuevos valores del PID del ankle, el control se fue a pitis. samples=20
+
+//Ankle parameters
+#define Kp_ankle 100 //Proportional gain
+#define Kd_ankle 10 //Derivative gain
+#define Ki_ankle 1 //Integral gain
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+con el test3 parece que hemos acertado, el controlador responde bien, quizas podira afinase mas. Pero parece una buena primera aproximacion.
+samples=20
+
+//Ankle parameters
+#define Kp_ankle 50 //Proportional gain
+#define Kd_ankle 5 //Derivative gain
+#define Ki_ankle 0.5 //Integral gain
+
+el test4 ha sido grabado, en este caso hemos arreglado el problema de escoger un buen primer valor de ZMP_ref y ademas hemos cambiado
+el valor de samples = 40. Los valores del PID son igual al test3
+
+el test5 ha sido grabado y solo he cambiado los samples = 30. en la grafica se observa que no termina de llegar a la referencia
+en regimen estacionario.
+
+en el test6, he modificado los parametros del PID para solucionar lo comentado en el test5. No he visto ningun cambio.
+
+//Ankle parameters
+#define Kp_ankle 50 //Proportional gain
+#define Kd_ankle 5 //Derivative gain
+#define Ki_ankle 1 //Integral gain
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+en el test7 forzare aun mas el valor Ki del PID. el aumento del valor integrador no cambiado nada en las respuesta en los motores. 
+siempre se queda un error de zmp que no termina de eliminar el controlador.
+
+//Ankle parameters
+#define Kp_ankle 50 //Proportional gain
+#define Kd_ankle 5 //Derivative gain
+#define Ki_ankle 8 //Integral gain

@@ -1,0 +1,11 @@
+test 1 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.01
+test 2 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.03
+test 3 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.05
+test 4 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.07
+test 5 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.09
+test 6 -> kp = -0.035 ; kd = -0.0001 ZmpRef= 0.11
+test 7 -> kp = -0.015 ; kd = -0.00025 ZmpRef= 0.01
+test 8 -> kp = -0.015 ; kd = -0.00025 ZmpRef= 0.03
+test 9 -> kp = -0.015 ; kd = -0.00025 ZmpRef= 0.05
+test 10 -> kp = -0.015 ; kd = -0.00025 ZmpRef= 0.07
+test 11 -> kp = -0.015 ; kd = -0.00025 ZmpRef= 0.09

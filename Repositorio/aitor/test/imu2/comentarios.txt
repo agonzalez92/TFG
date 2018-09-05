@@ -1,0 +1,52 @@
+
+
+bateria de test
+
+deberiamos empezar ajustando el zmp que se obtiene a partir del sensor inercial. 
+
+el sensor inercial, al igual que el sensor FT, tendrá unas imprecisiones en las medidas que sumadas a la linearizaciones
+del modelo cart-table, harán que el ZMP_imu contenga errores.
+
+Por lo tanto, vamos a seguir con las misma idea que hicimos para ajustar el modelo DLIPM y aplicarlo al modelo CT
+
+Paso a seguir:
+
+	* En primer lugar vamos a realizar la misma bateria de test, dnd iremos forzando el valor del algulo aplicado a los 
+	tobillos, para obtener ZMP_DLIPM y ZMP_CT. Vamos a presuponer que todos los valores del modelo DLIPM son correctos 
+	y los vamos a comparar con el modelo CT. 
+	
+	* En segundo lugar, con la bateria de test deberiamos ir ajustando en primer lugar cual es el mejor valor de Zcom 
+	(empezaremos con un valor de 103cm que es la altura a la que se encuentra el sensor). Podemos ajustarlo a un solo 
+	punto de trabajo (el cual me decantaria por zmp = 0.05m) o sino tomar los valores para 1-3-5-7-9. Elegiria la primera 
+	opcion por la razon de que nos aproximaremos, pero no eliminaremos todos los errores, pudiendo mas adelantes 
+	aplicar los metodos de ajustes dinamicos.
+
+	* En terecer lugar, habria que calular el nuevo modelo dinamico del CT (DCT) en funcion del modelado del error, y 
+	repetir las bateria de test (desde 1 a 10) para ver si hemos mejorado y eliminado el error del zmp y validar.
+
+bateria de test.
+
+	* La bateria de test será casi igual. Vamos a forzar un zmp_ref el cual entrará en el modelo del DLIPM para obterner 
+	el valor del angulo a aplicar en los tobillos. 
+
+	* Al mismo tiempo, como minimo, se iran tomando los valores tanto del ZMP_DLIPM como del ZMP_CT.
+
+	* Actuacion en posicion. (no creo que sea necesario generar el test con el modo de control en velocidad)
+
+
+---------------------------------------------------------------------------------------
+
+comentarios para el controlador
+
+en este codigo, tenemos como input el sensor inercial. a traves de la imu, vamos a calcular el ZMP basado en el
+modelo Cart-Table. podriamos usar el codigo de control de juanlo, para cerrar el lazo de control e intentar mantener la posicion.
+En teoria esto esta hecho tanto en el plano sagital como en el frontal. 
+
+1º seria recuperar la operatividad del controlador de juanlo
+2º seria interesante aplicar los mismos test del DLIPM y compararlos con el ZMP-CT
+3º generar DCT si fuera necesario aunque esto puede estar en otro codigo.
+
+4º mas a largo plazo, generar el controlador predictivo de santi FT+-IMU con sus
+   respectivos modelos dinamicos.
+
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/teo/Repositorios/LoliRepo/TFM/test/jr3pci1channel/jr3pci-ioctl.h
+linux/ioctl.h
+-
+linux/types.h
+-
+
+/home/teo/Repositorios/LoliRepo/TFM/test/jr3pci1channel/main.cpp
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+stdio.h
+-
+unistd.h
+-
+sys/ioctl.h
+-
+jr3pci-ioctl.h
+/home/teo/Repositorios/LoliRepo/TFM/test/jr3pci1channel/jr3pci-ioctl.h
+

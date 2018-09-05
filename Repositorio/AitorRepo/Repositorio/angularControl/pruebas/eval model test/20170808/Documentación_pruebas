@@ -1,0 +1,3 @@
+Test1: hemos realizado el test como hemos podido a causa de los device 109 y 111 de la pierna izquierda y la prueba ha salido correcta excepto porque el zmp de juanlo ha salido por debajo, cosa que hemos intentado arreglar en el programa para test de otros días, añadiendo una nueva función llamada mediumIMU que hace que los primeros 100 valores del sensor inercial no se recojan en el programa.
+
+Test2: Este test ha sido una prueba fallida a causa de no darnos cuenta de que el robot se apoyaba en los tirantes y solo hemos llegado a 5.5 grados, y los nombres de las variables se nos han ido y no sabemos por qué

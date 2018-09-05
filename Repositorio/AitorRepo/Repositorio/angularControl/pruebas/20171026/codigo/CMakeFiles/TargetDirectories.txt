@@ -1,0 +1,3 @@
+/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/20171026/codigo/CMakeFiles/edit_cache.dir
+/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/20171026/codigo/CMakeFiles/rebuild_cache.dir
+/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/20171026/codigo/CMakeFiles/graph.dir

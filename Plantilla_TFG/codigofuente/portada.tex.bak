@@ -1,0 +1,42 @@
+\begin{titlepage}
+\begin{sffamily}
+\color{azulUC3M}
+\begin{center}
+%\vspace*{-1cm}
+\begin{figure}[htb]
+\begin{center}
+\vspace*{0.6cm}
+\includegraphics[width=15cm]{imagenes/Portada_Logo.png}
+\vspace*{1.3cm}
+\end{center}
+\end{figure}
+\begin{LARGE}
+Grado en Ingeniería Electrónica Industrial y Automática\\%completar el nombre del grado
+2017/2018 \\%indicar el curso académico
+\vspace*{2cm}
+\textsl{Trabajo Fin de Grado}\\
+\end{LARGE}
+
+\begin{huge}
+%%\textbf{Estudio de estabilidad del robot humanoide TEO} \\
+\textbf{Calibración de los sistemas electromecánicos para habilitar el control de estabilidad del robot humanoide TEO} \\
+\rule{80mm}{0.1mm}\\
+\vspace*{1cm}
+Aitor González Martínez de la Casa %Separar cada autor con \\ 
+\end{huge}
+
+\vspace*{1cm}
+\begin{Large}
+Tutor\\
+Juan Miguel García Haro\\
+Leganés, Septiembre de 2018\\
+\end{Large}
+\end{center}
+\vspace*{1cm}
+\color{black}
+\includegraphics[scale=0.65]{imagenes/creativecommons.png}\\
+\emph{[Incluir en el caso de interés en su publicación en el archivo abierto]}\\
+Esta obra se encuentra sujeta a la licencia Creative Commons \textbf{Reconocimiento - No Comercial - Sin Obra Derivada}
+
+\end{sffamily}
+\end{titlepage}

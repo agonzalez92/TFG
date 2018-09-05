@@ -1,0 +1,20 @@
+
+
+Este segundo test es para comprobar si con el nuevo valor de Zcom, los dos ZMPs (DLIPM y CT) obtienen el mismo valor en regimen estacionario.
+
+a partir del primer valor obtenido en los test1 (Zcom = 0.6), (31,51,71,91) se consiguio aproximar ambos ZMP de los sensores.
+pero no lo suficiente.
+
+los siguientes test (32,52,72,92), se incremento el Zcom = 0.645 para un ajuste mas fino, pero esto no mejoro que ambos ZMPs se igualaran.
+de hecho, en "allCSV.csv" se ve en la grafica como todos los test tienen un offset inicial. creemos que la razon de este offset es la postura 
+inicial de la IMU uq eprovoca que parte de la aceleracion de la gravedad sea leida como acc en X, y por tanto estemos leyendo un ZMP != 0, 
+cuando la referencia es 0 metros.
+
+por lo tanto en la nueva fase de test (33,53,73,93) se va a aplicar una primer opcion de modificar el codigo y eliminar el offset. 
+Podemos aplicar tres metodos:
+	* añadiendo una variable que elimine el offset de la acc en X (opcion escogida)
+	* añadiendo una variable que elimine el offset del ZMP 
+	* aplicando una correccion de la acc's a traves del angulo leido. (modificacion virtual de la postura)
+
+a traves de los test (33,53,73,93), se ha conseguido eliminar el offset del zmp del sensor inercial, y con los valores del ZMP_ft, hemos calculado
+que el Zcom promedio es de 0.683m . Por lo tanto, en los nuevos test (34,54,74,94) se va a comprobar que ambos ZMPs sean iguales.

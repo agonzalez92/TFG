@@ -1,0 +1,5 @@
+el test 5 cambiamos la formula del zmp de juanlo quitandole el valor de Xcom
+
+el test 6 seguimos en las mismas condiciones q 5 pero le añadimos el calculo y resta del offset a la ecuacion final del Xzmp
+
+en el test 7, hemos cambiado el valor del Zcom 103cm de juanlo por el valor de L de loli  89cm

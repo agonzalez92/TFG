@@ -1,0 +1,2 @@
+/usr/bin/ar cr libteoMWI.a  CMakeFiles/teoMWI.dir/MiddlewareInterface.o
+/usr/bin/ranlib libteoMWI.a

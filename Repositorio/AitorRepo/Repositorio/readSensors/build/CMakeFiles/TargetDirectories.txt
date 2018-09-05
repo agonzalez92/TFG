@@ -1,0 +1,3 @@
+/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/readSensors/build/CMakeFiles/edit_cache.dir
+/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/readSensors/build/CMakeFiles/rebuild_cache.dir
+/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/readSensors/build/CMakeFiles/yarpy.dir

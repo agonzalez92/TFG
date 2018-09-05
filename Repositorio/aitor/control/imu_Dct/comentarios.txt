@@ -1,0 +1,15 @@
+
+
+
+en este codigo, tenemos como input el sensor inercial. a traves de la imu, vamos a calcular el ZMP basado en el
+modelo Cart-Table. podriamos usar el codigo de control de juanlo, para cerrar el lazo de control e intentar mantener la posicion.
+En teopria esto esta hecho tanto en el plano sagital como en el frontal. 
+
+1º seria recuperar la operatividad del controlador de juanlo
+2º seria interesante aplicar los mismos test del DLIPM y compararlos con el ZMP-CT
+3º generar DCT si fuera necesario aunque esto puede estar en otro codigo.
+
+4º mas a largo plazo, generar el controlador predictivo de santi FT+-IMU con sus
+   respectivos modelos dinamicos.
+
+

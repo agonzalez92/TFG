@@ -1,0 +1,5 @@
+test1 - No valido
+
+test1_2 - eval.model con kp=-0.0025 kd=0.00005 y ku=1 y en evalmodel angle_x = -(_eval_x.y/L) * 180 / pi;
+
+

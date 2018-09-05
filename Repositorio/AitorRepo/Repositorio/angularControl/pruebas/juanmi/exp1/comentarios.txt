@@ -1,0 +1,14 @@
+
+en la carpeta "anteriores pruebas" esta todo lo hecho con bulce abierto, pero no encontre el codigo, hay graficas que relacionan el angulo con el zmp_ft.
+
+este codigo trata de generar una respuesta en bucle abierto. la idea es generar una bateria de experimentos variando el zmp_ref, transformalo a un angulo y aplicarlo al robot. 
+
+por otro lado, se calculara el zmp_ft para poder compararlo a posteriori.
+
+queremos elaborar tres graficas:
+	1º visualizacion de la evoluvion del zmp_ref y zmp_ft, en funcion del tiempo.
+	2º visulacion de la relacion entre el zmp_ft y el angulo_ref.
+	3º visualizacion del error, relacion entre el zmp_ref y el zmp_ft.
+
+es importante guardar la siguiente informacion: tiempo, zmp_ref, angle_ref, zmp_ft (loli), error_zmp (?).
+para las graficas 2º y 3º, habra que sacar un valor promedio de los ultimos 100 valores guardados del ZMP_ft.

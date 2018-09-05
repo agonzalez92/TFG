@@ -1,0 +1,3 @@
+/home/teo/repos/aitor/test/ft_Dlipm/build/CMakeFiles/edit_cache.dir
+/home/teo/repos/aitor/test/ft_Dlipm/build/CMakeFiles/rebuild_cache.dir
+/home/teo/repos/aitor/test/ft_Dlipm/build/CMakeFiles/ft_Dlipm.dir

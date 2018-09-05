@@ -1,0 +1,74 @@
+
+
+partiendo de los experimentos sobre la estrategia de control del tobillo, voy a empezar a generar la estrategia de la cadera (mas bien cintura)
+para ello, nos basaremos en el capture point. en un principio los valores limites para distinguir entre estrategias esta relacionado con el 
+tamaño del poligono de soporte (24cm). Juanlo supuso que el centro de gravedad caia en el centro del poligono y que por tanto los limites 
+eran +/- 12cm . 
+
+En el test1, habilito la posibilidad de controlar con la cintura, manteniedo valores PID ankle y poniendo algo mas pequeños para el PID hip.
+
+//Ankle parameters
+#define Kp_ankle 50 //Proportional gain
+#define Kd_ankle 5 //Derivative gain
+#define Ki_ankle 1 //Integral gain
+//Hip parameters
+#define Kp_hip 5 //Proportional gain
+#define Kd_hip 0.5 //Derivative gain
+#define Ki_hip 0.1 //Integral gain
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+en el test1, el capture point ha llegado como mucho a los 3cm, luego es imposible que se aplique la HIP strategy. En el test2 hare una prueba 
+para ver con que pertubacion se cae el robot. mantengo todo igual. 
+
+se puede ver como se ha llegado a varlores de hasta 8cm, dnd el control ya era bastante malo. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+en el test3, voy a cambiar los limites del capture point. las razones son ver si funciona el controlador de la cadera y tambien si esta 
+aplicandose dicha estrategia. delta = +/- 3cm. 
+
+parece que la actuacion no es suficiente para ver una respuesta en el robot. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+en el test 4, delta = +/- 3cm. pero ahora aumento los parametros del PID hip
+
+//Hip parameters
+#define Kp_hip 50 //Proportional gain
+#define Kd_hip 5 //Derivative gain
+#define Ki_hip 1 //Integral gain
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+en el test 5, delta = +/- 3cm. pero ahora aumento los parametros del PID hip
+
+//Hip parameters
+#define Kp_hip 100 //Proportional gain
+#define Kd_hip 10 //Derivative gain
+#define Ki_hip 5 //Integral gain
+
+aunque en el csv parece que se aplica una actuacion sobre la cintura cuando el capture point es mayor que 3. En el video se ve que no se mueve 
+en ningun momento. quizas sea xq el teimpo de actuacion en el que funciona el HIP strategy es tan pequeño que apenas se aprecia.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+el test6, voy a modificar el codigo de tal manera que siempre estoy aplicando la HIP strategy, sin importar el valor del capture point.
+
+//Hip parameters
+#define Kp_hip 50 //Proportional gain
+#define Kd_hip 5 //Derivative gain
+#define Ki_hip 1 //Integral gain
+
+el test6 ha respondido bastante bien. el controlador responde y genera una actuacion para que el ZMP imu siga a la referencia. Pero surge un 
+problema, se puede ver como entre la cintura y los tobillos se compensa la postura para que el sensor inercial este horizontal, pero no esta 
+las postura estable del robot, pues el zmp ft sigue aumentando constantemente.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+en el test 7, manteniendo todo igual, solo voy a cambiar el valor del zmp que introduzco en los PIDs, como la suma del :
+
+ZMP total = (zmp imu + zmp ft)/2
+
+
+

@@ -1,0 +1,1 @@
+/home/teo/Repositorios/LoliRepo/TFM/test/jr3pci2channel/build/CMakeFiles/yarpy.dir

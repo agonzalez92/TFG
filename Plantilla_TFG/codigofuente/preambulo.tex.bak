@@ -1,0 +1,84 @@
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{blindtext}
+\usepackage{enumitem}
+%\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{color}
+\usepackage{afterpage}
+\usepackage{blindtext}
+\definecolor{azulUC3M}{RGB}{0,0,102}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\usepackage{listings}
+\usepackage{parskip}
+\usepackage{afterpage}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\usepackage{float}
+\usepackage{subfigure}
+\lstset{ frame=Ltb,
+     framerule=0pt,
+     aboveskip=0.5cm,
+     framextopmargin=3pt,
+     framexbottommargin=3pt,
+     framexleftmargin=0.4cm,
+     framesep=0pt,
+     rulesep=.4pt,
+     backgroundcolor=\color{gray97},
+     rulesepcolor=\color{black},
+     %
+     stringstyle=\ttfamily,
+     showstringspaces = false,
+     basicstyle=\small\ttfamily,
+     commentstyle=\color{gray45},
+     keywordstyle=\bfseries,
+     %
+     numbers=left,
+     numbersep=15pt,
+     numberstyle=\tiny,
+     numberfirstline = false,
+     breaklines=true,
+   }
+ 
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+   {\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+ 
+\lstdefinestyle{consola}
+   {basicstyle=\scriptsize\bf\ttfamily,
+    backgroundcolor=\color{gray75},
+   }
+ 
+\lstdefinestyle{C}
+   {language=C,
+   }
+\usepackage[top=2cm]{geometry}
+\pretolerance=2000
+\tolerance=3000
+\usepackage{verbatim} % comentarios
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}%renombra las figuras por capítulos y secciones
+\usepackage{chngcntr}
+\counterwithin{figure}{section}%estas tres últimas líneas para poner el número de la figura como sección.númeroimagen
+%%\renewcommand\thefigure{\getCurrentSectionNumber-\arabic{figure}}
+\counterwithin{table}{section}
+\usepackage[nottoc]{tocbibind}
+\usepackage{glossaries} %para acrónimos
+\makeglossaries
+\usepackage{afterpage} %para páginas en blanco
+\usepackage{colortbl} %Para colores en las tablas
+\usepackage{multirow,array}%para las tablas
+%\usepackage[table,xcdraw]{xcolor}
+\usepackage{ulem}%para que cuando se utilice el comando \emph{•} la palabra entre llaves esté subrayada. si lo quitamos la palabra estría en cursiva
+\usepackage{eurosym} % para el euro
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\counterwithin{equation}{section}
+\usepackage{cite}
+\usepackage{hyperref}

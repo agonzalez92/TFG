@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="imu_Dct" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\YARP\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\YCM\;CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake\;CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake-3.8\;CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake-3.8\Modules\;CMake Files\..\..\..\..\..\..\usr\local\share\yarp\;CMake Files\..\..\..\..\..\..\usr\local\share\yarp\cmake\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/teo/repos/aitor/control/imu_Dct/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/teo/repos/aitor/control/imu_Dct/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/teo/repos/aitor/control/imu_Dct/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="imu_Dct">
+         <Option output="/home/teo/repos/aitor/control/imu_Dct/build/imu_Dct" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/teo/repos/aitor/control/imu_Dct/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/teo/repos/aitor/control/imu_Dct" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 imu_Dct" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="imu_Dct/fast">
+         <Option output="/home/teo/repos/aitor/control/imu_Dct/build/imu_Dct" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/teo/repos/aitor/control/imu_Dct/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/teo/repos/aitor/control/imu_Dct" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 imu_Dct/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/teo/repos/aitor/control/imu_Dct/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/LIPM2d.cpp">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/LIPM2d.h">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/global.h">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/main.cpp">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/pid.cpp">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/pid.h">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/ratethread.h">
+         <Option target="imu_Dct"/>
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/lib/cmake/YARP/YARPConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\YARP\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/lib/cmake/YARP/YARPConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\YARP\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/lib/cmake/YARP/YARPTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\YARP\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/lib/cmake/YARP/YARPTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\YARP\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/YCM/cmake/YCMConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/YCM/cmake/YCMConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/YCM/cmake-3.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake-3.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/YCM/cmake-3.8/Modules/CMakeParseArguments.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\YCM\cmake-3.8\Modules\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/yarp/cmake/YarpIDL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\yarp\cmake\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/yarp/cmake/YarpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\yarp\cmake\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/yarp/cmake/YarpInstallationHelpers.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\yarp\cmake\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/yarp/cmake/YarpDeprecatedWarning.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\yarp\cmake\" />
+      </Unit>
+      <Unit filename="/home/teo/repos/aitor/control/imu_Dct/../../../../../../usr/local/share/yarp/cmake/YarpInstallationHelpers.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\yarp\cmake\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
