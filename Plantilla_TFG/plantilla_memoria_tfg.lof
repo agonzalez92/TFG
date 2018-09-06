@@ -55,18 +55,20 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2 grados de libertad}}}{44}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Modelo P\IeC {\'e}ndulo Invertido Lineal 3D (3DLIPM)}}{45}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Modelo LIPM con un sensor F/T entre el tobillo y la suela}}{48}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Modelo Cart-Table}}{49}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces C\IeC {\'a}lculo del ZMP. a) Modelo ficticio, b) Modelo real}}{50}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Estrategias de balance}}{52}{figure.4.7}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Control de posici\IeC {\'o}n b\IeC {\'a}sico del ZMP usando el modelo LIPM}}{56}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de flujo del programa}}{57}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Evolucion ZMP modelo LIPM}}{58}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{59}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{60}{figure.5.5}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Modelo DLIPM}}{49}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Modelo Cart-Table}}{51}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces C\IeC {\'a}lculo del ZMP. a) Modelo ficticio, b) Modelo real}}{52}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelos LIPM y cart-table}}{53}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Estrategias de balance}}{54}{figure.4.9}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Control de posici\IeC {\'o}n b\IeC {\'a}sico del ZMP usando el modelo LIPM}}{58}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de flujo del programa}}{59}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{60}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{61}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{61}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{61}{figure.5.7}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{62}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{62}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{62}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{64}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{65}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo DLIPM}}{65}{figure.5.12}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{63}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{65}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{66}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo DLIPM}}{66}{figure.5.12}

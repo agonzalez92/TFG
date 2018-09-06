@@ -48,7 +48,7 @@ En el presente proyecto se ha llevado a cabo una batería de 30 experimentos.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{imagenes/apartado_5/5.1/53_evolucion_zmp_lipm}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/53_evolucion_zmp_lipm}
 \caption{Evolucion ZMP modelo LIPM}
 \label{figura53}
 \end{figure}
@@ -58,7 +58,7 @@ En el presente proyecto se ha llevado a cabo una batería de 30 experimentos.
 \begin{comment}
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{imagenes/apartado_5/5.1/53_2_evolucion_zmp_lipm}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/53_2_evolucion_zmp_lipm}
 \caption{Evolucion ZMP modelo LIPM}
 \label{figura53}
 \end{figure}
@@ -70,7 +70,7 @@ En el presente proyecto se ha llevado a cabo una batería de 30 experimentos.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1\textwidth]{imagenes/apartado_5/5.1/54_evolucion_zmpref_5mm}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/54_evolucion_zmpref_5mm}
 \caption{Evolución ZMP modelo LIPM para ZMPref = 5mm}
 \label{figura54}
 \end{figure}
@@ -103,35 +103,35 @@ Exp. & $k_p$    & $k_d$    & $k_u$ \\ \hline
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{imagenes/apartado_5/5.1/55}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/55}
 \caption{Evolución ZMP modelo LIPM para ZMPref = 5mm}
 \label{figura55}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{imagenes/apartado_5/5.1/56}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/56}
 \caption{Evolución ZMP modelo LIPM para ZMPref = 5mm}
 \label{figura56}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{imagenes/apartado_5/5.1/57}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/57}
 \caption{Evolución ZMP modelo LIPM para ZMPref = 5mm}
 \label{figura57}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{imagenes/apartado_5/5.1/58}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/58}
 \caption{Evolución ZMP modelo LIPM para ZMPref = 5mm}
 \label{figura58}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{imagenes/apartado_5/5.1/59}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/59}
 \caption{Evolución ZMP modelo LIPM para ZMPref = 5mm}
 \label{figura59}
 \end{figure}
@@ -149,7 +149,7 @@ Más tarde se decidió realizar las pruebas en bucle cerrado y se puede observar
 %aquí introducir las gráficas de zmp_ft y zmp_ref frente al ángulo en grados (deg) 
 
 
-\subsubsection{Modelo Péndulo Invertido Lineal Dinámico (DLIPM)}
+\subsubsection{Modelo Péndulo Invertido Lineal Dinámico (DLIPM)}\label{DLIPM}
 
 Como se ha comentado en el capítulo 4, existen errores provenientes de la información de los sensores F-T de los tobillos del robot debido a los efectos que aparecen en los pares y fuerzas medidos por los sensores cuando éste es sometido a una perturbación de su equilibrio, por lo que se hace necesario separar las inexactitudes de las mediciones y la información relacionada con el comportamiento esperado ante dichas perturbaciones.
 
@@ -161,24 +161,24 @@ A continuación se van a describir las diferentes fases seguidas para llegar a d
 
 \subsubsection{Estudio de la respuesta del sistema}
 
-Para estudiar la respuesta de los sensores F-T ante perturbaciones y aplicar dicha información obtenida al modelo simplificado de TEO, y poder así desarrollar un nuevo modelo personalizado, se ha seguido una serie de pasos divididos en tres fases (fase experimental, fase de análisis de datos y fase de validación de resultados) que se ilustran en la figura \ref{figura52}. 
-
-Para poder establecer el nuevo modelo lo primero que hay que hacer es fijar las variables que intervienen en el modelo. La masa del robot TEO es de 62,6 kg y la altura desde el suelo al CoM es 0,893 m (la longitud del péndulo). El siguiente paso que se realizó fue someter al robot a una serie de variaciones en el ángulo de los tobillos para simular perturbaciones pequeñas, con la excepción de que no volvía al ZMP inicial, para así poder modelar mejor la diferencia entre el ZMP esperado y el medido, estudiándose su variación dinámica también a lo largo del proceso. Por último, se validaron los datos para el nuevo modelo con la nueva arquitectura de control.
+Para estudiar la respuesta de los sensores F-T ante perturbaciones y aplicar dicha información obtenida al modelo simplificado de TEO, y poder así desarrollar un nuevo modelo personalizado, se ha seguido una serie de pasos divididos en tres fases: fase experimental, fase de análisis de datos y fase de validación de resultados, que se ilustran en la figura \ref{figura510}. 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{imagenes/apartado_5/52_diagrama_desarrollo_nuevo_modelo}
 \caption{Diagrama del desarrollo experimental del nuevo modelo}
-\label{figura52}
+\label{figura510}
 \end{figure}
 
-En la figura \ref{figura53} se presenta al robot apoyado sobre las dos piernas (doble soporte) en un entorno plano orientado hacia el plano en el que se ha desarrollado dicho modelo, el plano sagital (x-z). Esta metodología también se podría aplicar para cualquier otro plano espacial ya que se obtuvieron resultados similares en el plano frontal (y-z). 
+Para poder establecer el nuevo modelo lo primero que hay que hacer es fijar las variables que intervienen en el modelo. La masa del robot TEO es de 62,6 kg y la altura desde el suelo al CoM es 0,893 m (la longitud del péndulo). El siguiente paso que se realizó fue someter al robot a una serie de variaciones en el ángulo de los tobillos para simular perturbaciones pequeñas, con la excepción de que no volvía al ZMP inicial, para así poder modelar mejor la diferencia entre el ZMP esperado y el medido, estudiándose su variación dinámica también a lo largo del proceso. Por último, se validaron los datos para el nuevo modelo con la nueva arquitectura de control.
+
+En la figura \ref{figura511} se presenta al robot apoyado sobre las dos piernas (doble soporte) en un entorno plano orientado hacia el plano en el que se ha desarrollado dicho modelo, el plano sagital (x-z). Esta metodología también se podría aplicar para cualquier otro plano espacial ya que se obtuvieron resultados similares en el plano frontal (y-z). 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.65]{imagenes/apartado_5/53_postura_inicial_experimental_teo}
 \caption{Plano de desarrollo de los experimentos del robot TEO}
-\label{figura53}
+\label{figura511}
 \end{figure}
 
 
@@ -193,10 +193,12 @@ En la figura \ref{figura53} se presenta al robot apoyado sobre las dos piernas (
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{imagenes/apartado_5/5.1/figura4.pdf}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/figura4.pdf}
 \caption{Evolucion ZMP modelo DLIPM}
 \label{figura55}
 \end{figure}
+
+\subsection{Estudio de la respuesta del sensor inercial IMU}\label{respuestaIMU}
 
 
 

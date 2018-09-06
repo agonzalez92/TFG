@@ -222,7 +222,61 @@ donde R indica la pierna derecha y L la pierna izquierda. A pesar de que en dobl
 
 \subsubsection{DLIPM: mejora del modelo del péndulo invertido simple}
 
-En la respuesta dinámica del modelo de péndulo invertido simple se observaba que había cierto error conforme se aumentaba el ZMP. Ésto se corrigió con una mejora de dicho modelo que mejoraba esta respuesta dinámica y eliminaba ese error, es decir, que ajustaba el ZMP calculado a partir de los datos obtenidos de los sensores F/T de los tobillos, a un ZMP teórico al que debería llegar el robot. Este modelo se denomina DLIPM 
+En la respuesta dinámica del modelo de péndulo invertido simple se observaba que había cierto error conforme se aumentaba el ZMP. Ésto se corrigió en \cite{ref21} con una mejora de dicho modelo en la respuesta dinámica y eliminando ese error, es decir, ajustando el ZMP calculado a partir de los datos obtenidos de los sensores F/T de los tobillos a un ZMP teórico al que debería llegar el robot. Este modelo se denomina DLIPM.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{imagenes/apartado_4/45_modelo_dlipm}
+\caption{Modelo DLIPM}
+\label{figura45}
+\end{figure}
+
+Esta mejora consiste en la adición de un muelle $k_a$ y un amortiguador $B_a$ (figura \ref{figura45}) para compensar la respuesta del estado estacionario ($k_a$) y la respuesta del régimen transitorio para limitar las oscilaciones ($B_a$) del sistema LIPM.
+
+La ecuación del movimiento de dicho modelo estaría dada por:
+
+\begin{equation}
+\tau = -ml\ddot{x}(t) - B_a l\dot{x}(t) - k_a lx(t) + mgx(t)
+\label{ec424}
+\end{equation}
+
+donde $x(t)$ indica el movimiento del CoM, $m$ es la masa del péndulo localizada en el CoM, $l$ la longitud del péndulo, $k_a$ la constante del muelle y $B_a$ la constante del amortiguador. El desplazamiento del CoM es tán pequeño que se puede asumir que $\sin\theta = \theta$, quedando la ecuación 4.24 como:
+
+\begin{equation}
+\tau = -ml\ddot{\theta}(t) - B_a l\dot{\theta}(t) - k_a l\theta(t) + mg\theta(t)
+\label{ec425}
+\end{equation}
+
+Por otra parte, el torque tmbién se puede obtener de la medición del ZMP como:
+
+\begin{equation}
+\tau = - x_{FT} \cdot mg
+\label{ec426}
+\end{equation}
+
+donde $x_{FT}$ es la coordenada x del ZMP medido por los sensores de los tobillos. Combinando \ref{ec425} y \ref{ec426} se obtiene:
+
+\begin{equation}
+- x_{FT} \cdot mg = -ml\ddot{\theta}(t) - B_a l\dot{\theta}(t) - k_a l\theta(t) + mg\theta(t)
+\label{ec427}
+\end{equation}
+
+Aplicando Laplace, la función de transferencia queda:
+
+\begin{equation}
+\frac{\theta(S)}{X(S)}=\frac{\gamma}{S^{2}+\alpha S+\beta }
+\label{ec428}
+\end{equation}
+
+donde $\gamma=g/l^{2}$, $\alpha=B_{a}/ml$ y $\beta=(k_{a} - g)/l$. En el estado estable, cuando el tiempo pasa al infinito, la ganancia %%DC 
+del sistema sólo depende del parámetro $k_a$, que se encarga de eliminar el error estático. Esto se representa en la ecuación \ref{ec429}.
+
+\begin{equation}
+K_{DC}=\frac{\gamma}{\beta}
+\label{ec429}
+\end{equation}
+
+Este modelo se explicará más a fondo en el apartado \ref{DLIPM} del actual proyecto.
 
 \newpage
 
@@ -230,45 +284,45 @@ En la respuesta dinámica del modelo de péndulo invertido simple se observaba q
 
 La siguiente simplificación más utilizada para el control del equilibrio de los robots humanoides bípedos es el modelo cart-table.
 
-Este modelo proporciona información de las aceleraciones e inercias del cuerpo del robot, muy útiles a la hora de realizar tareas de caminata dinámica. Consiste en un carro de masa M corriendo sobre una mesa sin masa (figura \ref{figura45}). Tiene la misma dinámica de movimiento que el modelo de péndulo invertido pero añade una relación directa entre el ZMP y el movimiento.
+Este modelo proporciona información de las aceleraciones e inercias del cuerpo del robot, muy útiles a la hora de realizar tareas de caminata dinámica. Consiste en un carro de masa M corriendo sobre una mesa sin masa (figura \ref{figura46}). Tiene la misma dinámica de movimiento que el modelo de péndulo invertido pero añade una relación directa entre el ZMP y el movimiento.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{imagenes/apartado_4/45_cart_table_model_2}
+\includegraphics[scale=0.5]{imagenes/apartado_4/46_cart_table_model_2}
 \caption{Modelo Cart-Table}
-\label{figura45}
+\label{figura46}
 \end{figure}
 
 Las ecs del modelo cart-table para controlar el ZMP se obtienen sustituyendo \ref{ec419} y \ref{ec420} en \ref{ec415} y \ref{ec416} del modelo 3DLIPM,
 
 \begin{equation}
 \ddot{x}_{CoM}=\frac{g}{z_{CoM}}\left ( x_{CoM} - x_{ZMP} \right )\Rightarrow x_{ZMP} = x-\frac{z_{CoM}}{g}\ddot{x}_{CoM}
-\label{ec424}
+\label{ec425}
 \end{equation}
 
 \begin{equation}
 \ddot{y}_{CoM}=\frac{g}{z_{CoM}}\left ( y_{CoM} - y_{ZMP} \right )\Rightarrow y_{ZMP} = y-\frac{z_{CoM}}{g}\ddot{y}_{CoM}
-\label{ec425}
+\label{ec426}
 \end{equation}
 
 Estas ecuaciones se denominan \textbf{Ecuaciones del ZMP}. 
 
 Como se puede observar el pie de la mesa es demasiado pequeño para que el carro permanezca en el borde, por lo que el carro debe llevar una determinada aceleración para que la mesa se mantenga en posición vertical durante un tiempo, en el que el ZMP exista dentro del pie de dicha mesa.
 
-Por otro lado Shuuji Kajita y Bernard Espiau \cite{ref20} añadieron que si esta aceleración es demasiado grande, el ZMP calculado se sale del polígono de soporte (\ref{figura46}a). Esto es porque \ref{ec424} y \ref{ec425} no tienen en cuenta el polígono de soporte ni la restricción unilateral (por lo que se asume que el pie está pegado al suelo, y esto no puede ser viable ya que el robot necesita levantar el pie para caminar). Por ello, hay que tener en cuenta dicha restricción, y como se puede observar en la \ref{figura46}b, la mesa ya no está en vertical, por lo que hay que tener en cuenta la aceleración en z a parte de la gravedad, quedando la ecuación del ZMP como:
+Por otro lado Shuuji Kajita y Bernard Espiau \cite{ref20} añadieron que si esta aceleración es demasiado grande, el ZMP calculado se sale del polígono de soporte (\ref{figura46}a). Esto es porque \ref{ec425} y \ref{ec426} no tienen en cuenta el polígono de soporte ni la restricción unilateral (por lo que se asume que el pie está pegado al suelo, y esto no puede ser viable ya que el robot necesita levantar el pie para caminar). Por ello, hay que tener en cuenta dicha restricción, y como se puede observar en la \ref{figura46}b, la mesa ya no está en vertical, por lo que hay que tener en cuenta la aceleración en z a parte de la gravedad, quedando la ecuación del ZMP como:
 
 \begin{equation}
 \ddot{x}_{CoM}=\frac{g}{z_{CoM}}\left ( x_{CoM} - x_{ZMP} \right )\Rightarrow x_{ZMP} = x-\frac{z_{CoM}}{g+\ddot{z}_{CoM}}\ddot{x}_{CoM}
-\label{ec426}
+\label{ec427}
 \end{equation}
 
 que da el cáculo del ZMP en el borde del polígono de soporte (pie de la mesa). 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{imagenes/apartado_4/46_cart_table_real}
+\includegraphics[scale=0.6]{imagenes/apartado_4/47_cart_table_real}
 \caption{Cálculo del ZMP. a) Modelo ficticio, b) Modelo real}
-\label{figura46}
+\label{figura47}
 \end{figure}
 
 Esto es importante ya que un ZMP fuera del polígono de soporte implica que el robot podría no mantener el total contacto pie-suelo y la caminata no se produjese según lo planeado. Cuando el ZMP está dentro del polígono de soporte se puede garantizar el contacto total pie-suelo.
@@ -277,22 +331,25 @@ Esto es importante ya que un ZMP fuera del polígono de soporte implica que el r
 
 \subsection{Equivalencia de modelos}
 
-Ambos modelos son diferentes maneras de calcular una misma salida, en este caso el ZMP. Como se puede deducir éstos deben de dar 
+Ambos modelos son diferentes maneras de calcular una misma salida, en este caso el ZMP. Como se puede deducir éstos deben de dar iguales salidas. Pero se observó que ésto no era así, como se puede ver en la figura \ref{figura48}. Por lo que se debían igualar ambos modelos. El procedimiento seguido fue escoger el modelo que más se acercara al ZMP teórico y a partir de ese corregir el otro modelo, por lo que se decidió mejorar el modelo de LIPM y a partir del mismo mejorar la respuesta del cart-table.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_4/48_zmp_lipm_cart_table}
+\caption{Evolución ZMP modelos LIPM y cart-table}
+\label{figura48}
+\end{figure}
 
 Para ambos modelos la variable más importante y que tienen en común es la altura del CoM, desde el punto de medida de las fuerzas y los pares para el caso del modelo LIPM (longitud del péndulo), y la longitud desde el suelo hasta el CoM para el modelo cart-table ($Z_{CoM}$). Otra variable que hay que tener en cuenta cuando el robot realiza un paso es la inclinación, ya que ésta varía.
 
-%%En las formulas tengo que igualar las alturas (las aceleraciones se igualan a los pares)
-
-%%Ambos modelos se utilizan en una fase distinta del robot. El modelo LIPM se utiliza para fases estáticas y el modelo cart-table para fases dinámicas. Por ello se puede decir que ambos no pueden ser equivalentes. Sin embargo deben dar la misma salida de ZMP a la hora de realizar los cálculos. Gracias a ello podemos deducir que hay un instante en el que ambas fases, estática y dinámica, se producen al mismo tiempo para poder argumentar que ambos modelos son equivalentes. Éste se da en el momento en el que el robot comienza a realizar el paso, estando éste siempre en doble apoyo (instante antes de que el pie con el que realiza el paso empieze a abandonar el contacto en todos los puntos de su suela con el suelo).
-
-Esto se puede osbervar en la imagen %poner la imagen del instante t y del t+1
-
-donde:
+Para el modelo cart-table se necesitan aceleraciones en la dirección en la que se desplaza, por lo que cuando el robot está en posición estática y erguido en doble apoyo no existe dicha aceleración. Por ello sólo se pueden considerar modelos equivalentes cuando el robot realiza el paso, ya que al moverse el robot se crean aceleraciones en la misma dirección de desplazamiento. Esto queda reflejado en la siguiente ecuación: 
 
 \begin{equation}
 X_{ZMP_{FT_t}}\neq X_{ZMP_{IMU_t}}\Rightarrow X_{ZMP_{FT_{(t+1)}}}=X_{ZMP_{IMU_{(t+1)}}}
-\label{ec426}
+\label{ec428}
 \end{equation}
+
+Esta equivalencia se expondrá con más detalle en el apartado \ref{respuestaIMU}.
 
 \newpage
 
@@ -306,9 +363,9 @@ Estas estrategias están basadas en la cuantificación del cambio de dirección 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{imagenes/apartado_4/47_balance_strategies}
+\includegraphics[scale=0.8]{imagenes/apartado_4/49_balance_strategies}
 \caption{Estrategias de balance}
-\label{figura47}
+\label{figura49}
 \end{figure}
 
 La primera de ellas es la estrategia de tobillo. Ésta se aplica para pequeñas perturbaciones anterior-posteriores que tienen lugar en el plano sagital. Se usa para controlar y mantener el CoP en el polígono de soporte. Cuando ocurre una alteración del equilibrio de baja magnitud el cuerpo del robot se puede considerar como un péndulo invertido ajustándose dicho equilibrio mediante el par de la articulación del tobillo. 
