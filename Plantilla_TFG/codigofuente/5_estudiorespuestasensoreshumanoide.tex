@@ -31,13 +31,6 @@ Una vez que ha pasado esta fase, y estamos seguros de que ese offset se ha elimi
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=2.2]{imagenes/apartado_5/5.1/51_esquema1}
-\caption{Control de posición básico del ZMP usando el modelo LIPM}
-\label{figura51}
-\end{figure}
-
-\begin{figure}[H]
-\centering
 \includegraphics[scale=0.5]{imagenes/apartado_5/5.1/52_diagrama_flujo1}
 \caption{Diagrama de flujo del programa}
 \label{figura52}
@@ -84,8 +77,16 @@ Los primeros experimentos consistían en ajustar la altura del CoM del modelo LI
 \label{figura54}
 \end{figure}
 
-Las pruebas que se hicieron una vez que se ajustó la altura, se muestran en la figura  \ref{figura54}, en la que se representa el ZMP medido (señales oscilantes) y el ZMP esperado (señales en forma de escalón). Se sometía al robot a diferentes $ZMP_{ref}$ a los que debía llegar, transformando dicho ZMP a ángulo para inclinar al robot, y así poder simular diferentes perturbaciones. Como se puede observar, a mayor ZMP el ángulo de inclinación es mayor y el robot es más inestable debido a que éste se encuentra más cerca del borde del polígono de soporte, y los errores tienen mayor influencia, principalmente los que tienen que ver con la flexibilidad de la estructura del robot y sus tolerancias mecánicas. Estos errores se pueden ver en el régimen permanente de la figura. También se observa una oscilación inicial muy grande, algo que se tiene que evitar sobre todo cuando el ZMP se encuentra en el borde del polígono de apoyo. Es por ello que se hace necesario la mejora del control del ZMP, tanto para eliminar el error de estado estacionario como para la reducción de la oscilación y el sobrepaso transitorios.
+Las pruebas que se hicieron una vez que se ajustó la altura, se muestran en la figura \ref{figura54}, en la que se representa el ZMP medido (señales oscilantes) y el ZMP esperado (señales en forma de escalón). Se sometía al robot a diferentes $ZMP_{ref}$ a los que debía llegar, transformando dicho ZMP a ángulo para inclinar al robot, y así poder simular diferentes perturbaciones. Como se puede observar, a mayor ZMP el ángulo de inclinación es mayor y el robot es más inestable debido a que éste se encuentra más cerca del borde del polígono de soporte, y los errores tienen mayor influencia, principalmente los que tienen que ver con la flexibilidad de la estructura del robot y sus tolerancias mecánicas. Estos errores se pueden ver en el régimen permanente de la figura. También se observa una oscilación inicial muy grande, algo que se tiene que evitar sobre todo cuando el ZMP se encuentra en el borde del polígono de apoyo. 
 
+La metodología utilizada en estos primeros experimentos seguía el siguiente esquema:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=2.2]{imagenes/apartado_5/5.1/51_esquema1}
+\caption{Control de posición básico del ZMP usando el modelo LIPM}
+\label{figura51}
+\end{figure}
 
 
 %aquí introducir la imagen con la evolución de los experimentos
@@ -94,7 +95,7 @@ Las pruebas que se hicieron una vez que se ajustó la altura, se muestran en la 
 
 %%NOTA: En el gráfico de la figura \ref{figura54} se puede observar que a pesar de realizar un control/corrección sobre el ángulo que se comanda al robot a partir de la conversión del $ZMP_{ref}$, el $ZMP_{F-T}$ nunca llega a estabilizarse y esto es debido a que continuamente se está corrigiendo el ángulo de inclinación.
 
-En los siguientes experimentos se intentó hacer un control se cambiaron varias variables para comprobar si el $ZMP_{F-T}$ se podía estabilizar sin necesidad de un control en el ángulo.
+En los siguientes experimentos se intentó hacer un control en el ZMP para mejorar la respuesta del sistema y reducir el error tanto en régimen permanente como en el transitorio. Se fueron cambiando varias variables de ese controlador en ZMP para comprobar si el $ZMP_{F-T}$ se podía estabilizar sin necesidad de un control en el ángulo. La metodología seguida en estos experimentos se muestra en la figura \ref{figura55}.
 
 \begin{table}[H]
 \begin{center}
@@ -155,13 +156,13 @@ Exp. & $k_p$   & $k_d$    & $k_u$ \\ \hline
 
 %aquí introducir las gráficas de zmp_ft y zmp_ref frente al ángulo en grados (deg) 
 
-La conclusiones que se sacan de las gráficas anteriores es que a mayores 
+La conclusiones que se sacan de las gráficas anteriores son que cuando se lograba ajustar la respuesta en régimen permanente y se lograba hacer coincidir el $ZMP_{F-T}$ con el ZMP deseado, el régimen transitorio tenía una oscilación muy grande, y como se ha comentado antes esto se tenía que evitar sobre todo en ZMP situados en el borde del polígono de soporte. Por el contrario si se lograba hacer la oscilación un poco más pequeña el tiempo de estabilización del sistema era mayor, por lo que éste se volvía más lento y no se lograba reducir el error del régimen permanente. Es por ello que se hace necesario la mejora del control del ZMP, tanto para eliminar el error de estado estacionario como para la reducción de la oscilación y el sobrepaso transitorios.
 
 \subsubsection{Modelo Péndulo Invertido Lineal Dinámico (DLIPM)}\label{DLIPM}
 
 Como se ha comentado en el capítulo 4, existen errores provenientes de la información de los sensores F-T de los tobillos del robot debido a los efectos que aparecen en los pares y fuerzas medidos por los sensores cuando éste es sometido a una perturbación de su equilibrio, por lo que se hace necesario separar las inexactitudes de las mediciones y la información relacionada con el comportamiento esperado ante dichas perturbaciones.
 
-Para ello es necesario establecer las variables que intervienen en el proceso (CoM y masa) y definir una estrategia para su control. Para el actual modelo de péndulo invertido lineal aplicado a TEO, la ubicación del CoM y de la masa no son completamente precisas debido a las diferencias entre los diseños CAD y el modelo real del robot, y como ésto no se puede corregir en el robot real, se han utilizado los valores teóricos de dichos parámetros. Para la estrategia de control, teniendo en cuenta el modelo establecido, se puede establecer previamente la ubicación del ZMP para que éste permanezca siempre dentro del polígono de soporte. De esta manera se reducen esfuerzos en el sistema de control, por lo que las ganancias de ajuste serán menores.
+Para ello es necesario establecer las variables que intervienen en el proceso (CoM y masa) y definir una estrategia para su control. 
 
 A partir de los experimentos desarrollados se ha podido establecer un método para desarrollar el nuevo modelo. Se recogen y procesan los datos obtenidos de los sensores F-T de los experimentos de push-recovery del sistema en bucle abierto. Con esta información, se calcula el $X_{ZMP_{F-T}}$ real y se compara con el $X_{ZMP_{exp}}$ esperado. De aquí se puede observar que hay una diferencia, el error anteriormente comentado, por lo que para corregirlo éste se modela, obteniendo una ecuación para describir dicho error. Una vez obtenido el error modelado, éste se incluye en el modelo original como una fuerza ficticia que corrige la diferencia, obteniéndose el nuevo modelo utilizado a lo largo del actual proyecto. A partir del mismo se puede observar como el comportamiento del ZMP medido y el planificado son similares.
 
@@ -207,6 +208,22 @@ En la figura \ref{figura511} se presenta al robot apoyado sobre las dos piernas 
 \end{figure}
 
 \subsection{Estudio de la respuesta del sensor inercial IMU}\label{respuestaIMU}
+
+\subsubsection{Descripción de la metodología experimental}
+
+Para los experimentos del modelo cart-table, se siguió la misma metodología de inicio del robot que para el modelo LIPM:
+
+\begin{itemize}
+\item \textbf{Puesta del robot en posición inicial (Homeposs)}\\
+
+\item \textbf{Corrección offset sensores F-T} 
+
+\item \textbf{Puesta en marcha del sensor inercial IMU}\\ Una vez que se han realizado los dos pasos anteriores, se debe iniciar la IMU para poder obtener datos de aceleraciones del robot para calcular la altura $z_{CoM}$ del modelo cart-table a partir del ZMP del modelo DLIPM. Por último, se baja el robot antes de iniciar el programa.
+
+\item \textbf{Puesta en marcha del programa}\\ Una vez que se ha puesto en marcha el programa, éste realiza la primera fase igual que en los anteriores experimentos. 
+%%\textbf{Corrección offset sensores F-T}\\ Ya realizada la posición de inicio del robot, desde una terminal se deben iniciar los sensores F-T de los tobillos que se van a encargar de dar la información de las fuerzas y los pares al programa para así poder realizar los experimentos, siempre con el robot en suspensión para eliminar los posibles offset que puedan tener los mismos. Es importante que no esté apoyado en el suelo para que cuando se ejecute esta corrección, no se elimine el valor de la fuerza ejercida por la masa del robot. Una vez que se han iniciado los sensores F-T de los tobillos ya se podría bajar el robot para que éstos puedan tener en cuenta el propio peso del robot y las demás fuerzas y pares.
+\end{itemize}
+
 
 
 
