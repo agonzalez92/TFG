@@ -30,46 +30,45 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces ZMP}}{25}{figure.2.17}
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Evoluci\IeC {\'o}n del CoP durante el paso}}{25}{figure.2.18}
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Pivote del Momento Centroidal (CMP)}}{26}{figure.2.19}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces CoM, Pol\IeC {\'\i }gono de soporte y ZMP}}{27}{figure.2.20}
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Representaci\IeC {\'o}n gr\IeC {\'a}fica del paso o caminata}}{28}{figure.2.21}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Representaci\IeC {\'o}n de fuerzas y momentos que act\IeC {\'u}an sobre el pie de apoyo}}{29}{figure.2.22}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Determinaci\IeC {\'o}n del ZMP}}{31}{figure.2.23}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{31}{figure.2.23}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{31}{figure.2.23}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Relaci\IeC {\'o}n entre ZMP, FZMP y CoP}}{31}{figure.2.24}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Din\IeC {\'a}micamente estable}}}{31}{figure.2.24}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Din\IeC {\'a}micamente inestable}}}{31}{figure.2.24}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama articulaciones TEO}}{33}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Esquema comunicaciones TEO}}{34}{figure.3.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAN-bus}}}{34}{figure.3.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YARP}}}{34}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama comunicaciones con PC}}{34}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sensor fuerza-par JR3 85M35A}}{36}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Tarjeta de adquisici\IeC {\'o}n de datos \textsl {JR3}}}{36}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama comunicaciones con PC}}{38}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces IMU}}{39}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Cable \textsl {RS-232}}}{41}{figure.3.8}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Plano Anat\IeC {\'o}mico Sagital}}{43}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Modelo P\IeC {\'e}ndulo Invertido Lineal}}{44}{figure.4.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {1 grado de libertad}}}{44}{figure.4.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2 grados de libertad}}}{44}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Modelo P\IeC {\'e}ndulo Invertido Lineal 3D (3DLIPM)}}{45}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Modelo LIPM con un sensor F/T entre el tobillo y la suela}}{48}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Modelo DLIPM}}{49}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Modelo Cart-Table}}{51}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces C\IeC {\'a}lculo del ZMP. a) Modelo ficticio, b) Modelo real}}{52}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelos LIPM y cart-table}}{53}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Estrategias de balance}}{54}{figure.4.9}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Control de posici\IeC {\'o}n b\IeC {\'a}sico del ZMP usando el modelo LIPM}}{58}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de flujo del programa}}{59}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{60}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{61}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{61}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{62}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{62}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Evoluci\IeC {\'o}n ZMP modelo LIPM para ZMPref = 5mm}}{63}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{65}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{66}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo LIPM}}{67}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolucion ZMP modelo DLIPM}}{67}{figure.5.13}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces CoM, Pol\IeC {\'\i }gono de soporte y ZMP}}{26}{figure.2.20}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Representaci\IeC {\'o}n gr\IeC {\'a}fica del paso o caminata}}{27}{figure.2.21}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Representaci\IeC {\'o}n de fuerzas y momentos que act\IeC {\'u}an sobre el pie de apoyo}}{28}{figure.2.22}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Determinaci\IeC {\'o}n del ZMP}}{30}{figure.2.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{30}{figure.2.23}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{30}{figure.2.23}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Relaci\IeC {\'o}n entre ZMP, FZMP y CoP}}{30}{figure.2.24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Din\IeC {\'a}micamente estable}}}{30}{figure.2.24}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Din\IeC {\'a}micamente inestable}}}{30}{figure.2.24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama articulaciones TEO}}{32}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Esquema comunicaciones TEO}}{33}{figure.3.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAN-bus}}}{33}{figure.3.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {YARP}}}{33}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama comunicaciones con PC}}{33}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sensor fuerza-par JR3 85M35A}}{35}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Tarjeta de adquisici\IeC {\'o}n de datos \textsl {JR3}}}{35}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama comunicaciones con PC}}{37}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Interfaz del programa de adquisici\IeC {\'o}n de datos de los sensores JR3}}{37}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces IMU}}{38}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Cable \textsl {RS-232}}}{40}{figure.3.9}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Planos Anat\IeC {\'o}micos}}{42}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Modelo P\IeC {\'e}ndulo Invertido Lineal}}{43}{figure.4.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {1 grado de libertad}}}{43}{figure.4.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2 grados de libertad}}}{43}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Modelo P\IeC {\'e}ndulo Invertido Lineal 3D (3DLIPM)}}{44}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Modelo LIPM con un sensor F-T entre el tobillo y la suela}}{47}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Modelo DLIPM}}{48}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Modelo Cart-Table}}{50}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces C\IeC {\'a}lculo del ZMP. a) Modelo ficticio, b) Modelo real}}{51}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Estrategias de balance}}{53}{figure.4.8}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Control de posici\IeC {\'o}n b\IeC {\'a}sico del ZMP usando el modelo LIPM}}{57}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de flujo del programa}}{58}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Evolucion ZMP modelo LIPM}}{58}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 1 para ZMPref = 5mm}}{60}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 3 para ZMPref = 5mm }}{61}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 5 para ZMPref = 5mm}}{61}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 10 para ZMPref = 5mm}}{62}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 11 para ZMPref = 5mm}}{62}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{64}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{65}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo DLIPM}}{65}{figure.5.12}

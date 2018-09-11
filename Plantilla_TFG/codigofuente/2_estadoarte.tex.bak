@@ -262,7 +262,7 @@ Existen dos tipos de caminata, llamadas caminata estática y  caminata dinámica
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.6]{imagenes/apartado_2/220_com_zmp_supportpolygon}}
+{\includegraphics[scale=0.45]{imagenes/apartado_2/220_com_zmp_supportpolygon}}
 \caption{CoM, Polígono de soporte y ZMP}
 \label{figura220}
 \end{figure}
@@ -284,7 +284,7 @@ En esta fase la pierna y el pie que estaban antes apoyados ahora están realizan
 
 \begin{figure}[H]
 \centering
-{\includegraphics[scale=0.63]{imagenes/apartado_2/221_ciclo_paso_humano}}
+{\includegraphics[scale=0.6]{imagenes/apartado_2/221_ciclo_paso_humano}}
 \caption{Representación gráfica del paso o caminata}
 \label{figura221}
 \end{figure}

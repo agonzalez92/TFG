@@ -107,6 +107,13 @@ La figura \ref{figura36} muestra el procedimiento de adquisición de datos, y la
 \label{figura36}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{imagenes/apartado_3/37_interfaz_programa_adquisicion_datos}
+\caption{Interfaz del programa de adquisición de datos de los sensores JR3}
+\label{figura37}
+\end{figure}
+
 \newpage
 
 \subsection{Unidad de medida inercial (IMU)}
@@ -127,16 +134,16 @@ Su procesador interno de baja potencia proporciona una señal de orientación si
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{imagenes/apartado_3/37_2_inertial_sensor_xsens}
+\includegraphics[scale=0.8]{imagenes/apartado_3/38_2_inertial_sensor_xsens}
 \caption{IMU}
-\label{figura37}
+\label{figura38}
 \end{figure}
-
-Su tamaño, peso y consumos reducidos, en adición a su robustez de diseño, lo hacen el sensor ideal para poder acoplar en cualquier dispositivo que requiera mediciones de aceleración, giros o campos magnéticos. 
 
 \newpage
 
-Entre sus caracterísicas más destacadas se encuentran la capacidad de calcular en tiempo real el rumbo y datos dinámicos inerciales, orientación 360º referenciada por la gravedad y el campo magnético de la tierra, alta velocidad de actualización (120 Hz), y calibrado individual para la temperatura, la desalineación 3D y la sensibilidad cruzada del sensor. Además, el MTi incorpora una rutina de mapeado del campo magnético para corregir los efectos del hierro.
+Su tamaño, peso y consumos reducidos, en adición a su robustez de diseño, lo hacen el sensor ideal para poder acoplar en cualquier dispositivo que requiera mediciones de aceleración, giros o campos magnéticos. 
+
+Entre sus características más destacadas se encuentran la capacidad de calcular en tiempo real el rumbo y datos dinámicos inerciales, orientación 360º referenciada por la gravedad y el campo magnético de la tierra, alta velocidad de actualización (120 Hz), y calibrado individual para la temperatura, la desalineación 3D y la sensibilidad cruzada del sensor. Además, el MTi incorpora una rutina de mapeado del campo magnético para corregir los efectos del hierro.
 
 \begin{table}[H]
 \centering
@@ -166,15 +173,17 @@ Todo los datos recogidos por el sensor MTi son volcados e interpretados por la c
 %%Este apartado sacado de http://www.sensores-de-medida.es/uploads/0referencia_inercial_mti_ahrs.pdf
 %%http://wiki.icub.org/images/8/82/XsensMtx.pdf
 
-El software para acceder al sensor incercial MTi, que está instalado en la CPU de locomoción de TEO, se ha extraído del robot iCub\footnote{iCub se trata de un robot humanoide para la investigación en cognición corporal que fue desarrollado entre el Instituto Italiano de Tecnología y la Universidad de Génova, dentro del consorcio internacional RobotCub, en el que participan varias universidades europeas. Mide 104cm de altura, pesa 22kg y posee 53 grados de libertad. Posee sensores de cámara, micrófonos, sensores inerciales, sensores fuerza/par, sensores de posición o sensores táctiles.}, cuyo software es de código abierto siguiendo las licencias GPL/FDL y desarrollado sobre YARP, gracias a que éste tenía implementado el acceso a uno de sus sensores incerciales MTx.
+El software para acceder al sensor inercial MTi, que está instalado en la CPU de locomoción de TEO, se ha extraído del robot iCub\footnote{iCub se trata de un robot humanoide para la investigación en cognición corporal que fue desarrollado entre el Instituto Italiano de Tecnología y la Universidad de Génova, dentro del consorcio internacional RobotCub, en el que participan varias universidades europeas. Mide 104cm de altura, pesa 22kg y posee 53 grados de libertad. Posee sensores de cámara, micrófonos, sensores inerciales, sensores fuerza/par, sensores de posición o sensores táctiles.}, cuyo software es de código abierto siguiendo las licencias GPL/FDL y desarrollado sobre YARP, gracias a que éste tenía implementado el acceso a uno de sus sensores inerciales MTx.
 
-El envío de datos se realiza a través de un cable RS-232 (CA-USB2) que incluye un convertidor a USB, como el de la figura \ref{figura38}.
+\newpage
+
+El envío de datos se realiza a través de un cable RS-232 (CA-USB2) que incluye un convertidor a USB, como el de la figura \ref{figura39}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{imagenes/apartado_3/38_cable_rs_232}
+\includegraphics[scale=0.6]{imagenes/apartado_3/39_cable_rs_232}
 \caption{Cable \textsl{RS-232}}
-\label{figura38}
+\label{figura39}
 \end{figure}
 
 \afterpage{\null\newpage}
