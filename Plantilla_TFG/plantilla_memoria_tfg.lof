@@ -64,11 +64,12 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Control de posici\IeC {\'o}n b\IeC {\'a}sico del ZMP usando el modelo LIPM}}{60}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 1 para ZMPref = 5mm}}{61}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 3 para ZMPref = 5mm }}{61}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 5 para ZMPref = 5mm}}{62}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 10 para ZMPref = 5mm}}{62}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 11 para ZMPref = 5mm}}{63}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{64}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{65}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo DLIPM}}{65}{figure.5.12}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Esquema de control de ZMP mediante controlador PD}}{60}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 1 para ZMPref = 5mm}}{61}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 3 para ZMPref = 5mm }}{62}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 5 para ZMPref = 5mm}}{62}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 10 para ZMPref = 5mm}}{63}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Evoluci\IeC {\'o}n ZMP experimento 11 para ZMPref = 5mm}}{63}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{65}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{66}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolucion ZMP modelo DLIPM}}{66}{figure.5.13}

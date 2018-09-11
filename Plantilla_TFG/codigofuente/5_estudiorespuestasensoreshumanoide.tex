@@ -95,7 +95,15 @@ La metodología utilizada en estos primeros experimentos seguía el siguiente es
 
 %%NOTA: En el gráfico de la figura \ref{figura54} se puede observar que a pesar de realizar un control/corrección sobre el ángulo que se comanda al robot a partir de la conversión del $ZMP_{ref}$, el $ZMP_{F-T}$ nunca llega a estabilizarse y esto es debido a que continuamente se está corrigiendo el ángulo de inclinación.
 
-En los siguientes experimentos se intentó hacer un control en el ZMP para mejorar la respuesta del sistema y reducir el error tanto en régimen permanente como en el transitorio. Se fueron cambiando varias variables de ese controlador en ZMP para comprobar si el $ZMP_{F-T}$ se podía estabilizar sin necesidad de un control en el ángulo. La metodología seguida en estos experimentos se muestra en la figura \ref{figura55}.
+En los siguientes experimentos se intentó hacer un control en el ZMP para mejorar la respuesta del sistema y reducir el error tanto en régimen permanente como en el transitorio. Se fueron cambiando varias variables de ese controlador en ZMP para comprobar si el $ZMP_{F-T}$ se podía estabilizar sin necesidad de un control en el ángulo. La metodología seguida en estos experimentos se muestra en la figura \ref{figura551}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{imagenes/apartado_5/5.1/55_esquema_bucle_cerrado}
+\caption{Esquema de control de ZMP mediante controlador PD}
+\label{figura551}
+\end{figure}
+
 
 \begin{table}[H]
 \begin{center}
