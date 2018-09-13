@@ -220,13 +220,13 @@ x_{ZMP_{DS}}=\frac{x_{ZMP}^{R}F_{z}^{R}+x_{ZMP}^{L}F_{z}^{L}}{F_{z}^{R}+F_{z}^{L
 
 donde R indica la pierna derecha y L la pierna izquierda. A pesar de que en doble apoyo el robot tiene dos puntos pivotantes en los tobillos, se puede aplicar el modelo de péndulo invertido simple ya que ambos tobillos tienen el mismo movimiento a lo largo del eje $x$ (plano sagital).
 
-\subsubsection{DLIPM: mejora del modelo del péndulo invertido simple}
+\subsubsection{DLIPM: mejora del modelo del péndulo invertido simple}\label{definicionDLIPM}
 
-En la respuesta dinámica del modelo de péndulo invertido simple se observaba que había cierto error conforme se aumentaba el ZMP. Ésto se corrigió en \cite{ref21} con una mejora de dicho modelo en la respuesta dinámica y eliminando ese error, es decir, ajustando el ZMP calculado a partir de los datos obtenidos de los sensores F-T de los tobillos a un ZMP teórico al que debería llegar el robot. Este modelo se denomina DLIPM.
+En la respuesta dinámica del modelo de péndulo invertido simple se observaba que había cierto error conforme se aumentaba el ZMP. Ésto se corrigió en \cite{ref21} con una mejora de dicho modelo en la respuesta dinámica eliminando ese error, es decir, ajustando el ZMP calculado a partir de los datos obtenidos de los sensores F-T de los tobillos a un ZMP teórico al que debería llegar el robot. Este modelo se denomina DLIPM.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{imagenes/apartado_4/45_modelo_dlipm}
+\includegraphics[scale=0.45]{imagenes/apartado_4/45_modelo_dlipm}
 \caption{Modelo DLIPM}
 \label{figura45}
 \end{figure}
@@ -261,22 +261,7 @@ donde $x_{FT}$ es la coordenada x del ZMP medido por los sensores de los tobillo
 \label{ec427}
 \end{equation}
 
-Aplicando Laplace, la función de transferencia queda:
-
-\begin{equation}
-\frac{\theta(S)}{X(S)}=\frac{\gamma}{S^{2}+\alpha S+\beta }
-\label{ec428}
-\end{equation}
-
-donde $\gamma=g/l^{2}$, $\alpha=B_{a}/ml$ y $\beta=(k_{a} - g)/l$. En el estado estable, cuando el tiempo pasa al infinito, la ganancia %%DC 
-del sistema sólo depende del parámetro $k_a$, que se encarga de eliminar el error estático. Esto se representa en la ecuación \ref{ec429}.
-
-\begin{equation}
-K_{DC}=\frac{\gamma}{\beta}
-\label{ec429}
-\end{equation}
-
-Este modelo se explicará más a fondo en el apartado \ref{DLIPM} del actual proyecto.
+Siendo ésta la ecuación que explica la física del modelo DLIPM que se ha desarrollado en el actual proyecto.
 
 \newpage
 
@@ -297,23 +282,23 @@ Las ecuaciones del modelo cart-table para controlar el ZMP se obtienen sustituye
 
 \begin{equation}
 \ddot{x}_{CoM}=\frac{g}{z_{CoM}}\left ( x_{CoM} - x_{ZMP} \right )\Rightarrow x_{ZMP} = x-\frac{z_{CoM}}{g}\ddot{x}_{CoM}
-\label{ec425}
+\label{ec430}
 \end{equation}
 
 \begin{equation}
 \ddot{y}_{CoM}=\frac{g}{z_{CoM}}\left ( y_{CoM} - y_{ZMP} \right )\Rightarrow y_{ZMP} = y-\frac{z_{CoM}}{g}\ddot{y}_{CoM}
-\label{ec426}
+\label{ec431}
 \end{equation}
 
 Estas ecuaciones se denominan \textbf{Ecuaciones del ZMP}. 
 
 Como se puede observar el pie de la mesa es demasiado pequeño para que el carro permanezca en el borde, por lo que el carro debe llevar una determinada aceleración para que la mesa se mantenga en posición vertical durante un tiempo, en el que el ZMP exista dentro del pie de dicha mesa.
 
-Por otro lado Shuuji Kajita y Bernard Espiau \cite{ref20} añadieron que si esta aceleración es demasiado grande, el ZMP calculado se sale del polígono de soporte (\ref{figura46}a). Esto es porque \ref{ec425} y \ref{ec426} no tienen en cuenta el polígono de soporte ni la restricción unilateral (por lo que se asume que el pie está pegado al suelo, y esto no puede ser viable ya que el robot necesita levantar el pie para caminar). Por ello, hay que tener en cuenta dicha restricción, y como se puede observar en la \ref{figura46}b, la mesa ya no está en vertical, por lo que hay que tener en cuenta la aceleración en z a parte de la gravedad, quedando la ecuación del ZMP como:
+Por otro lado Shuuji Kajita y Bernard Espiau \cite{ref20} añadieron que si esta aceleración es demasiado grande, el ZMP calculado se sale del polígono de soporte (\ref{figura46}a). Esto es porque \ref{ec430} y \ref{ec431} no tienen en cuenta el polígono de soporte ni la restricción unilateral (por lo que se asume que el pie está pegado al suelo, y esto no puede ser viable ya que el robot necesita levantar el pie para caminar). Por ello, hay que tener en cuenta dicha restricción, y como se puede observar en la \ref{figura46}b, la mesa ya no está en vertical, por lo que hay que tener en cuenta la aceleración en z a parte de la gravedad, quedando la ecuación del ZMP como:
 
 \begin{equation}
 \ddot{x}_{CoM}=\frac{g}{z_{CoM}}\left ( x_{CoM} - x_{ZMP} \right )\Rightarrow x_{ZMP} = x-\frac{z_{CoM}}{g+\ddot{z}_{CoM}}\ddot{x}_{CoM}
-\label{ec427}
+\label{ec432}
 \end{equation}
 
 que da el cálculo del ZMP en el borde del polígono de soporte (pie de la mesa). 
@@ -357,14 +342,14 @@ Para cualquier instante t durante el paso o en posición estática, los ZMP de a
 
 \begin{equation}
 X_{ZMP_{FT_t}} = X_{ZMP_{IMU_t}} \Leftrightarrow   X_{ZMP_{FT_{(t+1)}}}=X_{ZMP_{IMU_{(t+1)}}}
-\label{ec428}
+\label{ec433}
 \end{equation}
 
 Por lo tanto:
 
 \begin{equation}
 ZMP_{F-T}=ZMP_{IMU}
-\label{ec429}
+\label{ec434}
 \end{equation}
 
 \begin{equation}
@@ -378,21 +363,21 @@ ZMP_{F-T}=ZMP_{IMU}
 \frac{x_{ZMP}^{R}F_{z}^{R}+x_{ZMP}^{L}F_{z}^{L}}{F_{z}^{R}+F_{z}^{L}}
 \end{matrix}\right|_{DS}=X_{CoM}-\frac{Z_{CoM}}{g+\ddot{z}_{CoM}}\ddot{x}_{CoM}
 \end{matrix}\right\}
-\label{ec430}
+\label{ec435}
 \end{equation}
 
 donde $x_{CoM}=0$ ya que la referencia del sistema de coordenadas del modelo cart-table siempre es la misma, y por tanto $z_{CoM}$ es constante en todo momento. Como se puede observar el modelo LIPM es equivalente al modelo cart-table tanto en doble como en simple apoyo.
 
 \begin{equation}
 x_{ZMP_{F-T}}=-\frac{Z_{CoM}}{g+\ddot{z}_{CoM}}\ddot{x}_{CoM}
-\label{ec431}
+\label{ec436}
 \end{equation}
 
 Despejando la altura del modelo cart-table e igualando al ZMP del modelo LIPM para que ambos dieran la misma salida de ZMP, ésta quedaría:
 
 \begin{equation}
 Z_{CoM}=-\frac{x_{ZMP_{F-T}}(g+\ddot{z}_{CoM})}{\ddot{x}_{CoM}}
-\label{ec432}
+\label{ec437}
 \end{equation}
 
 

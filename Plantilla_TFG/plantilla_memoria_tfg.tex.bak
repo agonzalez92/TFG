@@ -6,9 +6,6 @@
 
 \include{codigofuente/portada}
 
-\afterpage{\null\newpage}
-\newpage
-
 \pagestyle{fancy}
 \fancyhead{} % Clear all header fields
 \setlength\headheight{21.2pt}
@@ -19,12 +16,9 @@
 \renewcommand{\figurename}{\textbf{Figura}} % para poner la palabra en mayúscula
 \renewcommand{\listtablename}{Índice de tablas} 
 
-
-\afterpage{\null\newpage}
-\newpage
-
 \tableofcontents
 
+\afterpage{\null\newpage}
 \newpage
 
 \listoffigures
