@@ -34,7 +34,7 @@
 \contentsline {subsubsection}{\numberline {5.1.3}Modelado de la respuesta del ZMP}{60}{subsubsection.5.1.3}
 \contentsline {subsubsection}{\numberline {5.1.4}Control de ZMP}{63}{subsubsection.5.1.4}
 \contentsline {subsubsection}{\numberline {5.1.5}Validaci\IeC {\'o}n de datos experimental}{63}{subsubsection.5.1.5}
-\contentsline {subsection}{\numberline {5.2}Estudio de la respuesta del sensor inercial IMU}{63}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Descripci\IeC {\'o}n de la metodolog\IeC {\'\i }a experimental}{63}{subsubsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2}Estudio de la respuesta del sensor inercial IMU}{64}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Descripci\IeC {\'o}n de la metodolog\IeC {\'\i }a experimental}{64}{subsubsection.5.2.1}
 \contentsline {section}{\numberline {6}Conclusiones y trabajos futuros}{66}{section.6}
 \contentsline {section}{Referencias}{67}{section*.4}

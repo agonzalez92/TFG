@@ -208,18 +208,6 @@ Como se ha explicado en el apartado \ref{definicionDLIPM}, se ha aplicado una me
 
 Aplicando Laplace a la ecuación de la física del movimiento del nuevo modelo, la función de transferencia quedaría:
 
-\begin{comment}
-\begin{equation}
-\begin{split}
--ml{\theta}(S)S^{2} - B_a l{\theta}(S)S - k_a l\theta(S) + mg\theta(S)=- X(S) \cdot mg\\
-{\theta}(S)[-ml^{2}S^{2} - B_a lS + (-k_a l + mg)]=- X(S) \cdot mg \\
-\frac{{\theta}(S)}{X(S)}=\frac{-mg}{-ml^{2}S^{2} - S B_a l + (-k_a l + mg)} \\
-\frac{{\theta}(S)}{X(S)}=\frac{\frac{-g}{l^{2}}}{S^{2} - S (\frac{B_a}{ml}) + (\frac{k_a}{ml} - \frac{g}{l})}
-\end{split}
-\label{ec51}
-\end{equation}
-\end{comment}
-
 \begin{equation*}
 -ml{\theta}(S)S^{2} - B_a l{\theta}(S)S - k_a l\theta(S) + mg\theta(S)=- X(S) \cdot mg
 \end{equation*}
@@ -233,22 +221,15 @@ Aplicando Laplace a la ecuación de la física del movimiento del nuevo modelo, 
 \end{equation*}
 
 \begin{equation}
-\frac{{\theta}(S)}{X(S)}=\frac{\frac{-g}{l^{2}}}{S^{2} - S (\frac{B_a}{ml}) + (\frac{k_a}{ml} - \frac{g}{l})}
+\frac{{\theta}(S)}{X(S)}=\frac{\frac{g}{l^{2}}}{S^{2} - S (\frac{B_a}{ml}) + (\frac{k_a}{ml} - \frac{g}{l})}
+\label{ec51}
 \end{equation}
 
-donde $\gamma=g/l^{2}$, $\alpha=B_{a}/ml$ y $\beta=(k_{a}/ml) - (g/l)$, quedaría simpificada:
+donde $\gamma=g/l^{2}$, $\alpha=B_{a}/ml$ y $\beta=(k_{a}/ml) - (g/l)$, quedando simplificada:
 
 \begin{equation}
 \frac{\theta(S)}{X(S)}=\frac{\gamma}{S^{2}+\alpha S+\beta }
 \label{ec52}
-\end{equation}
-
-. En el estado estable, cuando el tiempo pasa al infinito, la ganancia %%DC 
-, que se encarga de eliminar el error del régimen permanente del sistema, sólo depende del parámetro $k_a$, como se indica en la ecuación \ref{ec53}.
-
-\begin{equation}
-K_{DC}=\frac{\gamma}{\beta}=\frac{k_{a} - g}{l}
-\label{ec53}
 \end{equation}
 
 \item \textbf{Caracterización del error en régimen permanente}
@@ -258,18 +239,45 @@ se representa dicha desviación a partir de los datos de la figura \ref{figura55
 
 \begin{equation}
 X_{ZMP_{F-T}} = a \cdot X_{ZMP_{ref}} + b \cdot X_{ZMP_{ref}} + c
-\label{ec51}
+\label{ec53}
 \end{equation}
 
 donde $a=0.834$, $b=1.024$ y $c=-0.0004$.
 
-Una vez que el error estático se ha reducido, se debe mejorar la respuesta del régimen transitorio para reducir tanto el tiempo de estabilización como el nivel de las oscilaciones iniciales.
+
+
+También sabemos que en régimen permanente, cuando el tiempo tiende a infinito, la ganancia DC del sistema de la ecuación \ref{ec52} queda:
+
+\begin{equation}
+\frac{\theta(S)}{X_{ZMP_{F-T}}(S)}|_{S=\infty}=\frac{\frac{g}{l^2}}{\frac{k_a}{ml} - \frac{g}{l}}\Rightarrow K_{DC}=\frac{\gamma}{\beta}
+\label{ec54}
+\end{equation}
+
+\begin{equation}
+X_{ZMP_{F-T}}=\theta_{ref}(\frac{-g^{2}m+k_{a}g}{m})l
+\label{ec55}
+\end{equation}
+
+Combinando \ref{ec52} y \ref{ec53}, obtenemos $k_a$:
+
+\begin{equation}
+k_a=mg(\frac{a \cdot X_{ZMP_{ref}} + b \cdot X_{ZMP_{ref}} + c}{\theta_{ref}\cdot l}+1)
+\label{ec56}
+\end{equation}
+
+donde,
+
+\begin{equation}
+\theta_{ref}=\frac{-180}{\pi}\cdot arcsin(\frac{X_{ZMP_{ref}}}{l})
+\label{ec57}
+\end{equation}
+
+Una vez que el error estático se ha reducido gracias al parámetro $k_a$, se debe mejorar la respuesta del régimen transitorio para reducir tanto el tiempo de estabilización como el nivel de las oscilaciones iniciales.
 
 \item \textbf{Caracterización de la respuesta transitoria del ZMP}
 
-Se ha demostrado que el la respuesta del robot humanoide como un péndulo invertido simple es un sistema subamortiguado. En dicho sistema se puede reducir las oscilaciones y modificar su respuesta global seleccionando adecuadamente tanto la ganancia como los parámetros dinámicos. En la figura \ref{figura58}, que muestra la diferencia entre las respuestas de las funciones de transferencia de los modelos LIPM y DLIPM ante una perturbación, se puede visualizar como dichos parámetros dinámicos pueden coger valores más altos en el modelo DLIPM, ya que posee un mayor margen de ajuste. Por ejemplo, en la ecuación \ref{ec428}, los parámetros dinámicos, que pueden obtenerse a partir de $\alpha$ que está relacionado con $B_a$, se pueden configurar de tal manera que se reduzca la sobreoscilación.
+Se ha demostrado que la respuesta del robot humanoide como péndulo invertido simple es un sistema subamortiguado. En dicho sistema se puede reducir las oscilaciones y modificar su respuesta global seleccionando adecuadamente tanto la ganancia como los parámetros dinámicos. En la figura \ref{figura58}, que muestra la diferencia entre las respuestas de las funciones de transferencia de los modelos LIPM y DLIPM ante una perturbación, se puede visualizar como dichos parámetros dinámicos pueden coger valores más altos en el modelo DLIPM, ya que posee un mayor margen de ajuste. 
 
-%%aquí va la figura 17 del paper, que es la figura 58 del tfg. Borrar este comentario cuando la incluya
 \begin{figure}[H]
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_comparativa_paso}
@@ -277,19 +285,19 @@ Se ha demostrado que el la respuesta del robot humanoide como un péndulo invert
 \label{figura58}
 \end{figure}
 
+En este proyecto se han escogido unos valores para los parámetros dinámicos de tal manera que han permitido reducir la sobreoscilación. Estos parámetros se obtuvieron de la ecuación \ref{ec52}, ya que $\gamma$ está relacionada con $B_a$, que es el parámetro del modelo DLIPM mediante el cual se puede mejorar la respuesta del sistema en régimen transitorio. Esta relación entre $B_a$ y los parámetros dinámicos se demuestra como:
 
+%%incluir las ecuaciones de Ba, chi y Wn.
 
-
-\textbf{PREGUNTAR A SANTI SI AÑADO LA GRÁFICA 18 DEL PAPER AQUÍ}
+%%aquí va la figura 18 del paper, que es la figura 58 del tfg. Borrar este comentario cuando la incluya
 
 \end{itemize}
 
 
 
-
 \subsubsection{Control de ZMP}
 
-
+En control, la respuesta ideal se da cuando el controlador está linealizado alrededor de un punto de trabajo, lo que le permite no tener casi ningún error en ese punto pero fuera de él aumenta el error conforme se aleja de dicho punto. Como el objetivo de este trabajo es abarcar varios puntos de trabajo, éste modelo de controlador no es válido, por lo que se ha propuesto un modelo no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. 
 
 \subsubsection{Validación de datos experimental}
 
