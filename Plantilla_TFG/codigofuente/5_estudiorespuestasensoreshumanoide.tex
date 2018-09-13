@@ -291,18 +291,27 @@ En este proyecto se han escogido unos valores para los parámetros dinámicos de
 \end{itemize}
 
 
+\subsubsection{Control de ZMP}
 
-\subsubsection{Control de ZMP y validación de datos experimentales}
+Como el objetivo de este trabajo es abarcar varios puntos de trabajo, se ha propuesto un modelo de controlador no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. Un controlador por ganancia programable es un sistema en el los parámetros de dicho controlador pueden variar en función de las condiciones de operación o los parámetros de la planta \cite{ref22}. Este controlador utiliza tablas para especificar los valores de la ganancia en función de los parámetros programados.
 
-Como el objetivo de este trabajo es abarcar varios puntos de trabajo, se ha propuesto un modelo de controlador no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. Un controlador por ganancia programable es un sistema en el los parámetros de dicho controlador pueden variar automáticamente en función de las condiciones de operación o los parámetros de la planta \cite{ref22}. 
+Las siguientes pruebas se han llevado a cabo siguiendo el esquema de la figura \ref{figura510}, similar a la arquitectura de control utilizada en \cite{ref21}. Para el actual proyecto, dependiendo de la entrada, se pueden seleccionar los valores $k_a$ y $B_a$ adecuados gracias al módulo que permite seleccionar estos parámetros según su planificación. Una vez seleccionados, se calculan los coeficientes de la planta del modelo DLIPM, modificando así su dinámica. Por último, una vez que se ha calculado la planta del modelo DLIPM, éste comanda un ángulo a los tobillos del robot, siendo más progresiva su implementación que en el modelo LIPM.
 
-Las siguientes pruebas se han llevado a cabo siguiendo el esquema de la figura %figura 19 del paper.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.55]{imagenes/apartado_5/510_esquema_DLIPM}
+\caption{Arquitectura de control del modelo DLIPM}
+\label{figura510}
+\end{figure}
 
-%%añadir el esquema del controlador de la figura 19 del paper
+\subsubsection{Validación de datos experimentales}
 
-Se realizaron diversos experimentos con el nuevo modelo DLIPM, que consistían en la variación del ZMP deseado para visualizar la respuesta del nuevo sistema de control. Se siguió la misma metodología que para el modelo LIPM. Se comandaba un $ZMP_{ref}$ que se transofrmaba en ángulo, para que el robot se inclinara. Este ángulo se calculaba en función del espacio de estados del modelo DLIPM personalizado con los parámetros dinámicos anteriormente descritos.
+Se realizaron diversos experimentos con el nuevo modelo DLIPM, que consistían en la variación del ZMP deseado para visualizar la respuesta del nuevo sistema de control. Se siguió la misma metodología que para el modelo LIPM.
 
-La tabla \ref{tabla52} muestra una comparación de la ubicación del ZMP deseado y medido entre el modelo LIPM y el modelo DLIPM. Como se puede observar se ha reducido el error estático en todos los puntos de trabajo
+Para la respuesta en régimen permanente de los experimentos se ha desarrollado la tabla \ref{tabla52}, en la que se muestra una comparación de la ubicación del ZMP deseado y medido entre el modelo LIPM y el modelo DLIPM. Como se puede observar se ha reducido el error estático en todos los puntos de trabajo. Ésta mejora puede observarse de manera gráfica en la figura %%poner la figura 20 del paper
+
+En cuanto al régimen transitorio, la respuesta se muestra en la figura %%aquí la figura 21 del paper
+Se puede observar, comparando ésta con la figura \ref{figura55}, que la respuesta ha mejorado tanto en régimen permanente como en transitorio, reduciendo las oscilaciones, en número pero no tanto en amplitud, y el tiempo de estabilización del robot.
 
 
 
@@ -310,7 +319,7 @@ La tabla \ref{tabla52} muestra una comparación de la ubicación del ZMP deseado
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/figura4.pdf}
 \caption{Evolucion ZMP modelo DLIPM}
-\label{figura55}
+\label{figura511}
 \end{figure}
 
 \subsection{Estudio de la respuesta del sensor inercial IMU}\label{respuestaIMU}
@@ -319,18 +328,35 @@ La tabla \ref{tabla52} muestra una comparación de la ubicación del ZMP deseado
 
 Para los experimentos del modelo cart-table, se siguió la misma metodología de inicio del robot que para el modelo LIPM:
 
+NOTA: Al igual que para las pruebas anteriores, es necesario que en los primeros dos pasos el robot tiene esté en suspensión.
+
 \begin{enumerate}
-\item \textbf{Puesta del robot en posición inicial (Homeposs)}\\
+\item \textbf{Puesta del robot en posición inicial (Homeposs)}
 
 \item \textbf{Corrección offset sensores F-T} 
 
 \item \textbf{Puesta en marcha del sensor inercial IMU}\\ Una vez que se han realizado los dos pasos anteriores, se debe iniciar la IMU para poder obtener datos de aceleraciones del robot para calcular la altura $z_{CoM}$ del modelo cart-table a partir del ZMP del modelo DLIPM. Por último, se baja el robot antes de iniciar el programa.
 
-\item \textbf{Puesta en marcha del programa}\\ Una vez que se ha puesto en marcha el programa, éste realiza la primera fase igual que en los anteriores experimentos. 
+\item \textbf{Puesta en marcha del programa}\\ Para los experimentos de la IMU se ha desarrollado un programa que iniciase en paralelo el programa del modelo DLIPM y a la vez el del modelo cart-table, tanto para inclinar el robot como para calcular los parámetros necesarios. Como se ha comentado en la sección \ref{equivalencia_modelos}, ambos modelos son equivalentes, por lo que el parámetro de la altura en el modelo cart-table se calculaba a partir del modelo DLIPM, de ahí que los programas se ejecutasen en paralelo, porque se necesitaban los datos de ambos modelos. Una vez que la altura se calculaba, se realizaba el cómputo del ZMP a partir de los datos obtenidos de la IMU. %%Una vez que se ha puesto en marcha el sensor inercial, éste realiza la primera fase igual que en los anteriores experimentos. 
 %%\textbf{Corrección offset sensores F-T}\\ Ya realizada la posición de inicio del robot, desde una terminal se deben iniciar los sensores F-T de los tobillos que se van a encargar de dar la información de las fuerzas y los pares al programa para así poder realizar los experimentos, siempre con el robot en suspensión para eliminar los posibles offset que puedan tener los mismos. Es importante que no esté apoyado en el suelo para que cuando se ejecute esta corrección, no se elimine el valor de la fuerza ejercida por la masa del robot. Una vez que se han iniciado los sensores F-T de los tobillos ya se podría bajar el robot para que éstos puedan tener en cuenta el propio peso del robot y las demás fuerzas y pares.
 \end{enumerate}
 
+\subsubsection{Respuesta del modelo cart-table a partir del modelo DLIPM}
 
+En %%poner el tfm de juanlo 
+el modelo cart-table presentaba errores en régimen permanente, como se puede observar en %%aqui añadir la figura del cart-table sin corregir.
+
+Se decidió que, a partir del ZMP calculado en el modelo DLIPM se computara la altura del modelo cart-table, como se indica en la ecuación \ref{ec435}, y a partir de dicha altura, calcular el ZMP del modelo cart-table.
+
+La corrección del error en régimen permanente puede observarse en la figura %%aquí poner la figura de los experimentos de la carpeta imu2 dentro de la carpeta de juanmi.
+en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{imagenes/apartado_5/test2_imu}
+\caption{Representación ZMP modelo cart-table corregido}
+\label{figura513}
+\end{figure}
 
 
 \afterpage{\null\newpage}
