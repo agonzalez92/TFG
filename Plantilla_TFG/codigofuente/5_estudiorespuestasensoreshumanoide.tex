@@ -54,9 +54,11 @@ Una vez que ha pasado esta fase, y estamos seguros de que ese offset se ha elimi
 
 \subsubsection{Respuesta del sistema LIPM}
 
-Para poder establecer el nuevo modelo lo primero que hay que hacer es fijar las variables que intervienen en el modelo. La masa del robot TEO es de 62,6 kg y la altura desde el suelo al CoM es 0,893 m (la longitud del péndulo). El siguiente paso que se realizó fue someter al robot a una serie de variaciones en el ángulo de los tobillos para simular perturbaciones pequeñas, con la excepción de que no volvía al ZMP inicial, para así poder modelar mejor la diferencia entre el ZMP esperado y el medido, estudiándose también su variación dinámica a lo largo del proceso. 
+Para poder llevar a cabo las pruebas el primer paso a realizar es fijar las variables del sistema como son, la masa del robot TEO, 62,6 kg, y la altura del modelo simplificado del mismo, es decir, la altura del péndulo invertido, medida desde el suelo al CoM, 0,893 m.
 
-En el presente proyecto se ha llevado a cabo una batería de 30 experimentos. El plano sagital (x-z) en el que se desarrollaron está representado en la figura \ref{figura53}. Esta metodología también se podría aplicar para cualquier otro plano espacial ya que se obtuvieron resultados similares en el plano frontal (y-z).
+El siguiente paso fue realizar las pruebas sometiendo al robot a una serie de variaciones en el ángulo de los tobillos para simular perturbaciones pequeñas, con la excepción de que no volvía al ZMP inicial, para así poder modelar mejor la diferencia entre el ZMP esperado y el medido, estudiándose también su variación dinámica a lo largo del proceso. 
+
+En el presente proyecto se ha llevado a cabo una batería de 30 experimentos en el plano sagital (x-z), representado en la figura \ref{figura53}. Esta metodología también se podría aplicar para cualquier otro plano espacial ya que se obtuvieron resultados similares en el plano frontal (y-z).
 
 \begin{figure}[H]
 \centering
@@ -65,23 +67,23 @@ En el presente proyecto se ha llevado a cabo una batería de 30 experimentos. El
 \label{figura53}
 \end{figure}
 
-La metodología utilizada en los primeros experimentos seguía el siguiente esquema:
+La arquitectura de control utilizada en los primeros experimentos seguía el siguiente esquema:
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=2.2]{imagenes/apartado_5/54_esquema_bucle_abierto}
-\caption{Control de posición básico del ZMP usando el modelo LIPM}
+\caption{Arquitectura de control de posición básica de ZMP para el modelo LIPM}
 \label{figura54}
 \end{figure}
 
 
-En ellos se ajustó la altura del CoM del modelo LIPM para reducir lo máximo posible la diferencia entre el ZMP calculado de los F-T y el ZMP deseado. Esta evolución se puede observar de la figura \ref{figura55}, en la que se mejoró la respuesta del sistema pero en la que todavía se mostraba un error en régimen permanente. Como se puede observar, a mayor ZMP el ángulo de inclinación es mayor y el robot es más inestable debido a que éste se encuentra más cerca del borde del polígono de soporte, y los errores tienen mayor influencia, principalmente los que tienen que ver con la flexibilidad de la estructura del robot y sus tolerancias mecánicas. Estos errores se pueden ver en el régimen permanente de la figura \ref{figura55} b). También se observa una oscilación inicial muy grande, algo que se tiene que evitar sobre todo cuando el ZMP se encuentra en el borde del polígono de apoyo. 
+En ellos se ajustó la altura del CoM del modelo para reducir lo máximo posible la diferencia entre el ZMP calculado de los F-T y el ZMP deseado. Esta evolución se puede observar de la figura \ref{figura55}, en la que se mejoró la respuesta del sistema pero en la que todavía se mostraba un error en régimen permanente. Como se puede observar, a mayor ZMP el ángulo de inclinación es mayor y el robot es más inestable debido a que éste se encuentra más cerca del borde del polígono de soporte, y los errores tienen mayor influencia, principalmente los que tienen que ver con la flexibilidad de la estructura del robot y sus tolerancias mecánicas. Estos errores se pueden ver en el régimen permanente de la figura \ref{figura55} b). También se observa una oscilación inicial muy grande, algo que se tiene que evitar sobre todo cuando el ZMP se encuentra en el borde del polígono de apoyo. 
 
 \begin{figure}[H]
 \centering
-\subfigure{\includegraphics[scale=0.2]{imagenes/apartado_5/55_1_altura_no_ajustada}}
+\subfigure[]{\includegraphics[scale=0.5]{imagenes/apartado_5/55_1_altura_no_ajustada}}
 \quad
-\subfigure{\includegraphics[scale=0.2]{imagenes/apartado_5/55_2_altura_ajustada.pdf}}
+\subfigure[]{\includegraphics[scale=0.4]{imagenes/apartado_5/55_2_altura_ajustada.pdf}}
 \caption{Evolucion ZMP modelo LIPM}
 \label{figura55}
 \end{figure}
@@ -154,45 +156,6 @@ Exp. & $k_p$   & $k_d$    & $k_u$ \\ \hline
 \caption{Evolución ZMP para ZMPref = 5mm}
 \label{figura57}
 \end{figure}
-
-%% el comment siguiente son las figuras justo encima de este comentario, pero situadas individualmente
-
-\begin{comment}
-\begin{figure}[H]
-\centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/55}
-\caption{Evolución ZMP experimento 1 para ZMPref = 5mm}
-\label{figura55}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/56}
-\caption{Evolución ZMP experimento 3 para ZMPref = 5mm }
-\label{figura56}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/57}
-\caption{Evolución ZMP experimento 5 para ZMPref = 5mm}
-\label{figura57}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/58}
-\caption{Evolución ZMP experimento 10 para ZMPref = 5mm}
-\label{figura58}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/5.1/59}
-\caption{Evolución ZMP experimento 11 para ZMPref = 5mm}
-\label{figura59}
-\end{figure}
-\end{comment}
  
 
 En las pruebas representadas en la figura \ref{figura57}, cuando se lograba ajustar la respuesta en régimen permanente, reduciendo el error entre el $ZMP_{F-T}$ y el ZMP deseado, el régimen transitorio tenía una oscilación muy grande, y como se ha comentado antes esto se tiene que evitar sobre todo en ZMP situados en el borde del polígono de soporte. Por el contrario si se lograba hacer la oscilación inicial un poco más pequeña el tiempo de estabilización del sistema era mayor, por lo que éste se volvía más lento y no se lograba reducir el error del régimen permanente. Es por ello que se hace necesario la mejora del modelo LIPM, tanto para eliminar el error de régimen permanente como para reducir la oscilación y el sobrepaso del régimen transitorio.
@@ -241,8 +204,6 @@ X_{ZMP_{F-T}} = a \cdot X_{ZMP_{ref}} + b \cdot X_{ZMP_{ref}} + c
 
 donde $a=0.834$, $b=1.024$ y $c=-0.0004$.
 
-
-
 También sabemos que en régimen permanente, cuando el tiempo tiende a infinito, la ganancia DC del sistema de la ecuación \ref{ec52} queda:
 
 \begin{equation}
@@ -273,20 +234,27 @@ Una vez que el error estático se ha reducido gracias al parámetro $k_a$, se de
 
 \item \textbf{Caracterización de la respuesta transitoria del ZMP}
 
-Se ha demostrado que la respuesta del robot humanoide como péndulo invertido simple es un sistema subamortiguado. En dicho sistema se puede reducir las oscilaciones y modificar su respuesta global seleccionando adecuadamente tanto la ganancia como los parámetros dinámicos. En la figura \ref{figura58}, que muestra la diferencia entre las respuestas de las funciones de transferencia de los modelos LIPM y DLIPM ante una perturbación, se puede visualizar como dichos parámetros dinámicos pueden coger valores más altos en el modelo DLIPM, ya que posee un mayor margen de ajuste. 
+Se ha demostrado que la respuesta del robot humanoide como péndulo invertido simple es un sistema subamortiguado. En dicho sistema se puede reducir las oscilaciones y modificar su respuesta global seleccionando adecuadamente tanto la ganancia como los parámetros dinámicos. En la figura \ref{figura58}, que muestra la diferencia entre las respuestas de las funciones de transferencia de los modelos LIPM y DLIPM ante una perturbación, se puede visualizar cómo dichos parámetros dinámicos pueden coger valores más altos en el modelo DLIPM, ya que posee un mayor margen de ajuste. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_comparativa_paso}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/58_comparativa_paso}
 \caption{Comparativa de la respuesta angular entre LIPM y DLIPM}
 \label{figura58}
 \end{figure}
 
-En este proyecto se han escogido unos valores para los parámetros dinámicos de tal manera que han permitido reducir la sobreoscilación. Estos parámetros se obtuvieron de la ecuación \ref{ec52}, ya que $\gamma$ está relacionada con $B_a$, que es el parámetro del modelo DLIPM mediante el cual se puede mejorar la respuesta del sistema en régimen transitorio. Esta relación entre $B_a$ y los parámetros dinámicos se demuestra como:
+En el presente proyecto se han escogido unos valores para los parámetros dinámicos de tal manera que han permitido reducir la sobreoscilación. Estos parámetros se obtuvieron de la ecuación \ref{ec52}, ya que $\gamma$ está relacionada con $B_a$, que es el parámetro del modelo DLIPM mediante el cual se puede mejorar la respuesta del sistema en régimen transitorio. Esta relación entre $B_a$ y los parámetros dinámicos se demuestra como:
 
 %%incluir las ecuaciones de Ba, chi y Wn.
 
 %%aquí va la figura 18 del paper, que es la figura 58 del tfg. Borrar este comentario cuando la incluya
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_step_response}
+\caption{Respuesta angular del modelo DLIPM}
+\label{figura59}
+\end{figure}
+
 
 \end{itemize}
 
@@ -317,7 +285,7 @@ Se puede observar, comparando ésta con la figura \ref{figura55}, que la respues
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/figura4.pdf}
+\includegraphics[scale=0.6]{imagenes/apartado_5/511_evolucion_zmp_dlipm.pdf}
 \caption{Evolucion ZMP modelo DLIPM}
 \label{figura511}
 \end{figure}

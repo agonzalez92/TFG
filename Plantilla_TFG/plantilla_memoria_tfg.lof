@@ -63,16 +63,19 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{55}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de flujo del programa}}{57}{figure.5.2}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{58}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Control de posici\IeC {\'o}n b\IeC {\'a}sico del ZMP usando el modelo LIPM}}{58}{figure.5.4}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Arquitectura de control de posici\IeC {\'o}n b\IeC {\'a}sica de ZMP para el modelo LIPM}}{58}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Arquitectura de control de ZMP mediante controlador PD}}{59}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP para ZMPref = 5mm}}{60}{figure.5.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Experimento 1}}}{60}{figure.5.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Experimento 3}}}{60}{figure.5.7}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Experimento 5}}}{60}{figure.5.7}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Experimento 10}}}{60}{figure.5.7}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Experimento 11}}}{60}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparativa de la respuesta angular entre LIPM y DLIPM}}{62}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Arquitectura de control del modelo DLIPM}}{63}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Evolucion ZMP modelo DLIPM}}{64}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Representaci\IeC {\'o}n ZMP modelo cart-table corregido}}{66}{figure.5.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{figure.5.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Arquitectura de control de ZMP mediante controlador PD}}{60}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Evoluci\IeC {\'o}n ZMP para ZMPref = 5mm}}{61}{figure.5.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Experimento 1}}}{61}{figure.5.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Experimento 3}}}{61}{figure.5.7}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Experimento 5}}}{61}{figure.5.7}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Experimento 10}}}{61}{figure.5.7}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Experimento 11}}}{61}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparativa de la respuesta angular entre LIPM y DLIPM}}{63}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Respuesta angular del modelo DLIPM}}{64}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Arquitectura de control del modelo DLIPM}}{65}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Evolucion ZMP modelo DLIPM}}{66}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Representaci\IeC {\'o}n ZMP modelo cart-table corregido}}{67}{figure.5.12}
