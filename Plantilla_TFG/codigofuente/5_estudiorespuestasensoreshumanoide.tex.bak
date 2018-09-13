@@ -193,16 +193,11 @@ Exp. & $k_p$   & $k_d$    & $k_u$ \\ \hline
 \label{figura59}
 \end{figure}
 \end{comment}
-
-%aquí introducir las gráficas de zmp_ft y zmp_ref frente al ángulo en grados (deg) 
+ 
 
 En las pruebas representadas en la figura \ref{figura57}, cuando se lograba ajustar la respuesta en régimen permanente, reduciendo el error entre el $ZMP_{F-T}$ y el ZMP deseado, el régimen transitorio tenía una oscilación muy grande, y como se ha comentado antes esto se tiene que evitar sobre todo en ZMP situados en el borde del polígono de soporte. Por el contrario si se lograba hacer la oscilación inicial un poco más pequeña el tiempo de estabilización del sistema era mayor, por lo que éste se volvía más lento y no se lograba reducir el error del régimen permanente. Es por ello que se hace necesario la mejora del modelo LIPM, tanto para eliminar el error de régimen permanente como para reducir la oscilación y el sobrepaso del régimen transitorio.
 
-\subsubsection{Modelado de la respuesta del ZMP}
-
-\begin{itemize}
-
-\item \textbf{Modelo de Péndulo Lineal Invertido Dinámico}
+\subsubsection{Respuesta del modelo mejorado DLIPM}
 
 Como se ha explicado en el apartado \ref{definicionDLIPM}, se ha aplicado una mejora al modelo LIPM que permitía mejorar de manera dinámica la respuesta del sistema.
 
@@ -231,6 +226,8 @@ donde $\gamma=g/l^{2}$, $\alpha=B_{a}/ml$ y $\beta=(k_{a}/ml) - (g/l)$, quedando
 \frac{\theta(S)}{X(S)}=\frac{\gamma}{S^{2}+\alpha S+\beta }
 \label{ec52}
 \end{equation}
+
+\begin{itemize}
 
 \item \textbf{Caracterización del error en régimen permanente}
 
@@ -297,11 +294,15 @@ En este proyecto se han escogido unos valores para los parámetros dinámicos de
 
 \subsubsection{Control de ZMP}
 
-En control, la respuesta ideal se da cuando el controlador está linealizado alrededor de un punto de trabajo, lo que le permite no tener casi ningún error en ese punto pero fuera de él aumenta el error conforme se aleja de dicho punto. Como el objetivo de este trabajo es abarcar varios puntos de trabajo, éste modelo de controlador no es válido, por lo que se ha propuesto un modelo no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. 
+Como el objetivo de este trabajo es abarcar varios puntos de trabajo, se ha propuesto un modelo de controlador no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. Un controlador por ganancia programable es un sistema en el los parámetros de dicho controlador pueden variar automáticamente en función de las condiciones de operación o los parámetros de la planta \cite{ref22}. 
+
+%%añadir el esquema del controlador de la figura 19 del paper
 
 \subsubsection{Validación de datos experimental}
 
-Se realizaron diversos experimentos con el nuevo modelo DLIPM, que consistían en la variación del ZMP deseado para visualizar la respuesta del nuevo sistema de control. Se siguió la misma metodología que para el modelo LIPM. Se comandaba un $ZMP_{ref}$ que se transofrmaba en ángulo, para que el robot se inclinara. 
+Se realizaron diversos experimentos con el nuevo modelo DLIPM, que consistían en la variación del ZMP deseado para visualizar la respuesta del nuevo sistema de control. Se siguió la misma metodología que para el modelo LIPM. Se comandaba un $ZMP_{ref}$ que se transofrmaba en ángulo, para que el robot se inclinara. Este ángulo se calculaba en función del espacio de estados del modelo DLIPM personalizado con los parámetros dinámicos anteriormente descritos.
+
+La tabla \ref{tabla52} muestra una comparación de la ubicación del ZMP deseado y medido entre el modelo LIPM y el modelo DLIPM. Como se puede observar se ha reducido el error estático en todos los puntos de trabajo
 
 
 
