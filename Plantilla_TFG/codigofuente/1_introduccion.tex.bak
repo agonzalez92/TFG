@@ -81,6 +81,33 @@ Fuera del ámbito industrial, la Unión Europea ha propuesto una serie de leyes 
 
 \end{enumerate}
 
+\subsection{Planificación}
+
+Para poder llevar a cabo presente proyecto se ha pasado por diferentes fases que se explican a continuación:
+
+\begin{enumerate}
+
+\item \textbf{Estudio inicial de modelos trabajados y desarrollo interfaz gráfica python}
+
+En esta fase inicial se realizó el estudio de los modelos empleados y se diseñó una interfaz gráfica en python tanto de las fuerzas de los sensores de los tobillos como de las aceleraciones de la imu, detallados en el anexo %%poner el número del anexo en el que inluiré el enlace a dichos archivos .py
+
+\item \textbf{Comprobación experimental inicial}
+
+A continuación se realizaron una serie de experimentos iniciales para poder comprobar el ajuste de ambos modelos al punto de equilibrio deseado.
+
+\item \textbf{Estudio y experimentación modelo LIPM, y comienzo de redacción de la memoria}
+
+Una vez que se escogió el modelo LIPM como modelo a mejorar, se realizó una batería de experimentos para ajustar su respuesta.
+
+\item \textbf{Experimentación modelo DLIPM}
+
+
+
+\item \textbf{Estudio y experimentación modelo cart-table}
+
+
+\end{enumerate}
+
 
 \subsection{Entorno socio-económico}
 

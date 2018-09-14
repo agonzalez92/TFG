@@ -5,6 +5,6 @@ En el presente documento se va realizar el estudio de la estabilidad de robots h
 
 Los datos para realizar dicho estudio se obtenían de los sensores de fuerza-par situados en los tobillos, para el modelo de péndulo invertido, y la Unidad de Medida Inercial (IMU) situada en el centro del robot, para el modelo Cart-table, mediante datos de aceleraciones lineales. Para realizar los experimentos los programas utilizados fueron QtCreator, que es un IDE (entorno de desarrollo integrado) multiplataforma para programar en C++, y Python, que es un lenguaje de programación interpretado cuyo objetivo es simplificar el código del programa.
 
-Dicho proyecto consiste en someter al robot a diferentes perturbaciones para ajustar su posición de equilibrio haciendo uso de los modelos anteriormente descritos, utilizando para ello un filtro paso bajo para reducir el ruido de las medidas, y un controlador PID, que compara el estado actual con el deseado y ofrece una salida para el ZMP o punto de equilibrio del robot que se ajuste al que debería tener en la realidad.
+Dicho proyecto consiste en someter al robot a diferentes inclinaciones para ajustar su posición de equilibrio haciendo uso de los modelos anteriormente descritos, utilizando para ello unas mejoras que permiten ajustar la respuesta tanto en régimen permanente como en régimen transitorio de ambos modelos y el robot ajuste al que debería tener en la realidad.
 
 \end{abstract}

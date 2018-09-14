@@ -13,14 +13,6 @@ Para estudiar la respuesta de los sensores F-T ante perturbaciones y aplicar dic
 \label{figura51}
 \end{figure}
 
-\begin{comment}
-Como se ha comentado en el capítulo 4, existen errores provenientes de la información de los sensores F-T de los tobillos del robot debido a los efectos que aparecen en los pares y fuerzas medidos por los sensores cuando éste es sometido a una perturbación de su equilibrio, por lo que se hace necesario separar las inexactitudes de las mediciones y la información relacionada con el comportamiento esperado ante dichas perturbaciones.
-
-Para ello es necesario primero establecer las variables que intervienen en el proceso (CoM y masa) y segundo, definir una estrategia para su control. 
-
-A partir de los experimentos desarrollados se ha podido establecer un método para desarrollar el nuevo modelo. Se recogen y procesan los datos obtenidos de los sensores F-T de los experimentos del sistema en bucle abierto. Con esta información, se calcula el $X_{ZMP_{F-T}}$ real y se compara con el $X_{ZMP_{exp}}$ esperado. De aquí se puede observar que hay una diferencia, el error anteriormente comentado, por lo que para corregirlo éste se modela, obteniendo una ecuación para describir dicho error. Una vez obtenido el error modelado, éste se incluye en el modelo original como una fuerza ficticia que corrige la diferencia, obteniéndose el nuevo modelo utilizado a lo largo del actual proyecto. A partir del mismo se puede observar como el comportamiento del ZMP medido y el planificado son similares. Dicho proceso se puede observar en los siguientes apartados.
-\end{comment}
-
 \subsubsection{Descripción de la metodología experimental}
 
 Los experimentos han seguido una serie de pasos para que las lecturas fueran correctas. Éstos se dividen en:
@@ -29,18 +21,13 @@ NOTA: Los primeros 2 pasos deben realizarse con el robot en suspensión, es deci
 
 \begin{enumerate}
 
-%%\item \textbf{Encendido del robot}\\ Encender la fuente de alimentación del robot y el robot junto a sus CPU's, tanto Manipulation como Locomotion.
-
-%%\item \textbf{Iniciar CPU's en el ordenador}\\ Desde el ordenador, deberemos iniciar las CPU's de Manipulation primero y la de Locomotion después, ya que dentro de manipulation se encuentra el YarpServer necesario para la conexión de todos los elementos del robot con el ordenador.
-
 \item \textbf{Puesta del robot en posición inicial (Homeposs)}\\ Una vez se ha encendido el robot y las CPU's se va a proceder a la puesta a cero de la posición del mismo, ya que puede haber modificaciones en su posición de anteriores experimentos o simplemente para asegurarse que los experimentos salen correctamente y siempre empiezan desde la misma posición de inicio. Esto debe realizarse con el robot en suspensión para evitar posibles colisiones de los pies con el suelo.
 
 \item \textbf{Corrección offset sensores F-T}\\ Siguiendo con el robot en suspensión y una vez realizada la posición de inicio, desde una terminal se deben iniciar los sensores F-T de los tobillos que se van a encargar de dar la información de las fuerzas y los pares al programa para así poder realizar los experimentos y eliminar los posibles offset que puedan tener los mismos. Es importante que no esté apoyado en el suelo para que cuando se ejecute esta corrección, no se elimine el valor de la fuerza ejercida por la masa del robot. Una vez que se han iniciado los sensores F-T de los tobillos ya se podría bajar el robot para que éstos puedan tener en cuenta su propio peso y las demás fuerzas y pares. 
-%%empiecen a tener el cuenta el peso del propio robot mediante la fuerza de reacción que se genera entre el mismo y el suelo, ya que con él en suspensión los sensores miden pero esas lecturas son de la gravedad.
 
 \item \textbf{Puesta en funcionamiento del programa}\\ Cuando se inicia el programa, existe una primera fase en la que el robot no realiza ningún movimiento. Esto se debe a que se está configurando de tal manera que se elimine el offset que pueda haber al inicio debido a la posición de homeposs del robot, ya que ésta no es perfecta y, debido a la flexibilidad de la estructura y otros errores acumulados, puede no estar totalmente erguido y que las fuerzas en el plano axial no sean cero. 
 
-Una vez que ha pasado esta fase, y estamos seguros de que ese offset se ha eliminado en la medida de lo posible, se envía al robot un $ZMP_{ref}$ \footnote{ZMP de referencia al que el robot debería llegar atendiendo a la física y cálculos teóricos del modelo LIPM} y TEO comanda un ángulo, que ha calculado a partir de la conversión del $ZMP_{ref}$, activando los motores de sus tobillos (inclinando el robot dicho ángulo) y calculando el $ZMP_{F-T}$ del modelo de péndulo invertido lineal hasta que este $ZMP_{F-T}$ se estabiliza, para hacer coincidir tanto la parte transitoria como la parte de régimen permanente del $ZMP_{F-T}$ con el del $ZMP_{ref}$.
+Una vez que ha pasado esta fase, y estamos seguros de que ese offset se ha eliminado en la medida de lo posible, se envía al robot un $ZMP_{ref}$ \footnote{ZMP de referencia al que el robot debería llegar atendiendo a la física y cálculos teóricos del modelo LIPM} y TEO comanda un ángulo, que ha calculado a partir de la conversión del $ZMP_{ref}$, activando los motores de sus tobillos (inclinando el robot para simular el empuje) y calculando el $ZMP_{F-T}$ del modelo de péndulo invertido lineal hasta que este $ZMP_{F-T}$ se estabiliza, para hacer coincidir tanto la parte transitoria como la parte de régimen permanente del $ZMP_{F-T}$ con el del $ZMP_{ref}$.
 
 \end{enumerate}
 
@@ -54,9 +41,9 @@ Una vez que ha pasado esta fase, y estamos seguros de que ese offset se ha elimi
 
 \subsubsection{Respuesta del sistema LIPM}
 
-Para poder llevar a cabo las pruebas el primer paso a realizar es fijar las variables del sistema como son, la masa del robot TEO, 62,6 kg, y la altura del modelo simplificado del mismo, es decir, la altura del péndulo invertido, medida desde el suelo al CoM, 0,893 m.
+Para poder llevar a cabo las pruebas el primer paso a realizar fue fijar las variables del sistema como son, la masa del robot TEO, 62,6 kg, y la altura del modelo simplificado del mismo, es decir, la altura del péndulo invertido, medida desde el suelo al CoM, 0,893 m.
 
-El siguiente paso fue realizar las pruebas sometiendo al robot a una serie de variaciones en el ángulo de los tobillos para simular perturbaciones pequeñas, con la excepción de que no volvía al ZMP inicial, para así poder modelar mejor la diferencia entre el ZMP esperado y el medido, estudiándose también su variación dinámica a lo largo del proceso. 
+El siguiente paso fue realizar las pruebas sometiendo al robot a una serie de variaciones en el ángulo de los tobillos para simular perturbaciones pequeñas (empujes), con la excepción de que no volvía al ZMP inicial, para así poder modelar mejor la diferencia entre el ZMP esperado y el medido, estudiándose también su variación dinámica a lo largo del proceso. 
 
 En el presente proyecto se ha llevado a cabo una batería de 30 experimentos en el plano sagital (x-z), representado en la figura \ref{figura53}. Esta metodología también se podría aplicar para cualquier otro plano espacial ya que se obtuvieron resultados similares en el plano frontal (y-z).
 
@@ -81,9 +68,9 @@ En ellos se ajustó la altura del CoM del modelo para reducir lo máximo posible
 
 \begin{figure}[H]
 \centering
-\subfigure[]{\includegraphics[scale=0.5]{imagenes/apartado_5/55_1_altura_no_ajustada}}
+\subfigure[altura no ajustada]{\includegraphics[scale=0.5]{imagenes/apartado_5/55_1_altura_no_ajustada}}
 \quad
-\subfigure[]{\includegraphics[scale=0.4]{imagenes/apartado_5/55_2_altura_ajustada.pdf}}
+\subfigure[altura ajustada]{\includegraphics[scale=0.4]{imagenes/apartado_5/55_2_altura_ajustada.pdf}}
 \caption{Evolucion ZMP modelo LIPM}
 \label{figura55}
 \end{figure}
@@ -105,7 +92,7 @@ En ellos se ajustó la altura del CoM del modelo para reducir lo máximo posible
 
 %%NOTA: En el gráfico de la figura \ref{figura54} se puede observar que a pesar de realizar un control/corrección sobre el ángulo que se comanda al robot a partir de la conversión del $ZMP_{ref}$, el $ZMP_{F-T}$ nunca llega a estabilizarse y esto es debido a que continuamente se está corrigiendo el ángulo de inclinación.
 
-En los siguientes experimentos, representados en la tabla \ref{tabla51}, se programó un controlador en ZMP para mejorar la respuesta del sistema y reducir el error tanto en régimen permanente como en el transitorio. Se fueron ajustando las variables de dicho controlador para comprobar si el $ZMP_{F-T}$ se podía estabilizar. La arquitectura de control de los experimentos se muestra en la figura \ref{figura56}.
+En los siguientes experimentos, cuya arquitectura de control se muestra en la figura \ref{figura56}, se programó un controlador en ZMP para mejorar la respuesta del sistema y reducir el error tanto en régimen permanente como en el transitorio. Se fueron ajustando diferentes variables de dicho controlador, mostrados en la tabla \ref{tabla51}, para comprobar si el $ZMP_{F-T}$ mejoraba su respuesta tanto en estado estático como en el estado transitorio. 
 
 \begin{figure}[H]
 \centering
@@ -162,7 +149,7 @@ En las pruebas representadas en la figura \ref{figura57}, cuando se lograba ajus
 
 \subsubsection{Respuesta del modelo mejorado DLIPM}
 
-Como se ha explicado en el apartado \ref{definicionDLIPM}, se ha aplicado una mejora al modelo LIPM que permitía mejorar de manera dinámica la respuesta del sistema.
+Como se ha explicado en el apartado \ref{definicionDLIPM}, se ha aplicado una mejora al modelo LIPM que permitía ajustar de manera dinámica la respuesta del sistema.
 
 Aplicando Laplace a la ecuación de la física del movimiento del nuevo modelo, la función de transferencia quedaría:
 
@@ -261,7 +248,7 @@ En el presente proyecto se han escogido unos valores para los parámetros dinám
 
 \subsubsection{Control de ZMP}
 
-Como el objetivo de este trabajo es abarcar varios puntos de trabajo, se ha propuesto un modelo de controlador no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. Un controlador por ganancia programable es un sistema en el los parámetros de dicho controlador pueden variar en función de las condiciones de operación o los parámetros de la planta \cite{ref22}. Este controlador utiliza tablas para especificar los valores de la ganancia en función de los parámetros programados.
+Como el objetivo de este trabajo es abarcar varios puntos de trabajo, se ha propuesto un modelo de controlador no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. Un controlador por ganancia programable es un sistema en el que los parámetros de dicho controlador pueden variar en función de las condiciones de operación o los parámetros de la planta \cite{ref22}. Este controlador utiliza tablas para especificar los valores de la ganancia en función de los parámetros programados.
 
 Las siguientes pruebas se han llevado a cabo siguiendo el esquema de la figura \ref{figura510}, similar a la arquitectura de control utilizada en \cite{ref21}. Para el actual proyecto, dependiendo de la entrada, se pueden seleccionar los valores $k_a$ y $B_a$ adecuados gracias al módulo que permite seleccionar estos parámetros según su planificación. Una vez seleccionados, se calculan los coeficientes de la planta del modelo DLIPM, modificando así su dinámica. Por último, una vez que se ha calculado la planta del modelo DLIPM, éste comanda un ángulo a los tobillos del robot, siendo más progresiva su implementación que en el modelo LIPM.
 
@@ -278,6 +265,14 @@ Se realizaron diversos experimentos con el nuevo modelo DLIPM, que consistían e
 
 Para la respuesta en régimen permanente de los experimentos se ha desarrollado la tabla \ref{tabla52}, en la que se muestra una comparación de la ubicación del ZMP deseado y medido entre el modelo LIPM y el modelo DLIPM. Como se puede observar se ha reducido el error estático en todos los puntos de trabajo. Ésta mejora puede observarse de manera gráfica en la figura %%poner la figura 20 del paper
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/511_compErrorModels}
+\caption{Evolucion ZMP modelo DLIPM}
+\label{figura511}
+\end{figure}
+
+
 En cuanto al régimen transitorio, la respuesta se muestra en la figura %%aquí la figura 21 del paper
 Se puede observar, comparando ésta con la figura \ref{figura55}, que la respuesta ha mejorado tanto en régimen permanente como en transitorio, reduciendo las oscilaciones, en número pero no tanto en amplitud, y el tiempo de estabilización del robot.
 
@@ -285,9 +280,9 @@ Se puede observar, comparando ésta con la figura \ref{figura55}, que la respues
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{imagenes/apartado_5/511_evolucion_zmp_dlipm.pdf}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf}
 \caption{Evolucion ZMP modelo DLIPM}
-\label{figura511}
+\label{figura512}
 \end{figure}
 
 \subsection{Estudio de la respuesta del sensor inercial IMU}\label{respuestaIMU}
@@ -309,19 +304,25 @@ NOTA: Al igual que para las pruebas anteriores, es necesario que en los primeros
 %%\textbf{Corrección offset sensores F-T}\\ Ya realizada la posición de inicio del robot, desde una terminal se deben iniciar los sensores F-T de los tobillos que se van a encargar de dar la información de las fuerzas y los pares al programa para así poder realizar los experimentos, siempre con el robot en suspensión para eliminar los posibles offset que puedan tener los mismos. Es importante que no esté apoyado en el suelo para que cuando se ejecute esta corrección, no se elimine el valor de la fuerza ejercida por la masa del robot. Una vez que se han iniciado los sensores F-T de los tobillos ya se podría bajar el robot para que éstos puedan tener en cuenta el propio peso del robot y las demás fuerzas y pares.
 \end{enumerate}
 
-\subsubsection{Respuesta del modelo cart-table a partir del modelo DLIPM}
+\subsubsection{Respuesta del modelo cart-table}
 
-En %%poner el tfm de juanlo 
-el modelo cart-table presentaba errores en régimen permanente, como se puede observar en %%aqui añadir la figura del cart-table sin corregir.
+Como se ha comentado en el apartado \ref{equivalencia_modelos}, tanto el modelo de péndulo invertido simple como el cart-table son distintas formas de computar el ZMP. En \cite{ref22} el modelo cart-table presentaba errores en régimen permanente, como se puede observar en \ref{figura512}.
 
-Se decidió que, a partir del ZMP calculado en el modelo DLIPM se computara la altura del modelo cart-table, como se indica en la ecuación \ref{ec435}, y a partir de dicha altura, calcular el ZMP del modelo cart-table.
-
-La corrección del error en régimen permanente puede observarse en la figura %%aquí poner la figura de los experimentos de la carpeta imu2 dentro de la carpeta de juanmi.
-en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{imagenes/apartado_5/test2_imu}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/test6_imu2}
+\caption{Evolucion ZMP modelo cart-table}
+\label{figura512}
+\end{figure}
+
+Se hizo el estudio de ambos modelos para averiguar los parámetros más importantes de ambos modelos. Se observó que la altura del CoM necesitaba ser modificada en el modelo cart-table para que ambos modelos dieran el mismo ZMP.
+
+Una vez que se computó la altura del modelo cart-table, se volvieron a hacer las pruebas, mejorando su respuesta en régimen permanente. La corrección de dicho error en régimen permanente puede observarse en la figura \ref{figura513} en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/test2_imu}
 \caption{Representación ZMP modelo cart-table corregido}
 \label{figura513}
 \end{figure}
