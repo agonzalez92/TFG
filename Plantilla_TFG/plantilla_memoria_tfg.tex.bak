@@ -40,6 +40,7 @@
 \include{codigofuente/4_estudioestabilidad}
 \include{codigofuente/5_estudiorespuestasensoreshumanoide}
 \include{codigofuente/6_conclusiones}
+\include{codigofuente/7_presupuesto}
 \include{codigofuente/bibliografia}
 
 \printglossary

@@ -25,14 +25,15 @@ A su vez, la IFR proporciona la siguiente definición:
 
 ``Robot que opera de forma parcial o totalmente autónoma al servicio del bienestar de los seres humanos y de equipamientos, excluyendo operaciones manufactureras'' \cite{ref5}.
 
+\newpage
 
 \subsubsection{Tipos de robots}
 
-Resulta complicado establecer una clasificación exacta de los robots debido a la gran cantidad de ellos que existe, por lo que se pueden clasificar de forma más general según su arquitectura. 
+Resulta complicado establecer una clasificación exacta de los robots debido a la gran cantidad de ellos que existe, por lo que se pueden clasificar de forma más general según su arquitectura \cite{ref6}. 
 
 \begin{enumerate}
 
-\item \textbf{Poliarticulados}\\ A este grupo pertenecen los robots cuya característica común es el sedentarismo, aunque pueden ser guiados excepcionalmente para efectuar desplazamientos limitados, y cuya estructura se basa en el movimiento de sus elementos terminales para operar en entornos de trabajo fijos, con uno o más sistemas de coordenadas y con un número determinado de grados de libertad. En este grupo se encuentran principalmente los llamados Robots Industriales,como se muestra en la figura \eqref{figura1}, diseñados para operar en entornos repetitivos y sin interacción humano-robot. También pertenecen los manipuladores y los Robots cartesianos, empleados para abarcar amplias zonas de trabajo, actuar sobre diferentes objetos o reducir el espacio ocupado en el suelo.
+\item \textbf{Poliarticulados}\\ A este grupo pertenecen los robots cuya característica común es el sedentarismo, aunque pueden ser guiados de forma limitada para poder desplazarse, y cuya estructura se basa en el movimiento de sus elementos terminales para operar en entornos de trabajo fijos, con uno o más sistemas de coordenadas y con un número determinado de grados de libertad. En este grupo se encuentran principalmente los llamados Robots Industriales,como se muestra en la figura \eqref{figura1}, diseñados para operar en entornos repetitivos y sin interacción humano-robot. También pertenecen los manipuladores y los Robots cartesianos, empleados para abarcar amplias zonas de trabajo, actuar sobre diferentes objetos o reducir el espacio ocupado en el suelo.
 
 \begin{figure}[H]
 \centering
@@ -80,7 +81,7 @@ Por el contrario, el grupo de los no caminadores es muy escaso y está poco evol
 \label{figura24}
 \end{figure} 
 
-\item \textbf{Híbridos}\\ A este grupo pertenecen aquellos Robots que posean en su estructura una combinación de las anteriores ya expuestas, bien sea por conjunción o por yuxtaposición \cite{ref6}. 
+\item \textbf{Híbridos}\\ A este grupo pertenecen aquellos Robots que posean en su estructura una combinación de las anteriores ya expuestas, bien sea por conjunción o por yuxtaposición. 
 
 Por ejemplo, un dispositivo con ruedas y con brazos, siendo características de los Robots móviles y de los androides al mismo tiempo.
 
@@ -128,7 +129,7 @@ A partir del siglo XX el número de robots humanoides fue aumentando y evolucion
 \label{figura28}
 \end{figure}
 
-Durante las décadas de los 60's a los 90's aparecieron numerosos robots bípedos. El profesor Kato del equipo robótico de la Universidad de Waseda en Japón desarrolló varias familias de robots bípedos.La primera fue llamada Waseda Legged (WL), que se caracterizaba por ser robots compuestos de sólo dos piernas.  En 1969, con la aparición del músculo artificial de goma, desarrollaron la serie WAP (Waseda's Anthropomorphic Pneumatically-activated pedipulators), activados mediante el control de dichos músculos. No fue hasta el modelo WAP-3 que consiguieron que el robot bípedo se desplazara en 3 dimensiones, ya que los dos primeros modelos sólo se movían en un plano.
+Durante las décadas de los 60's a los 90's aparecieron numerosos robots bípedos. El profesor Kato del equipo robótico de la Universidad de Waseda en Japón desarrolló varias familias de robots bípedos. La primera fue llamada Waseda Legged (WL), que se caracterizaba por ser robots compuestos de sólo dos piernas. En 1969, con la aparición del músculo artificial de goma, desarrollaron la serie WAP (Waseda's Anthropomorphic Pneumatically-activated pedipulators), activados mediante el control de dichos músculos. No fue hasta el modelo WAP-3 que consiguieron que el robot bípedo se desplazara en 3 dimensiones, ya que los dos primeros modelos sólo se movían en un plano.
 
 \begin{figure}[H]
 \centering
@@ -209,7 +210,7 @@ Para hablar de locomoción bípeda o caminata, primero hay que hacer una introdu
 \begin{figure}[H]
 \centering
 {\includegraphics[scale=0.5]{imagenes/apartado_2/215_center_of_mass}}
-\caption{Centro de Masas del robot humanoide TEO(en color rojo)}
+\caption{Centro de Masas del robot humanoide TEO (en color rojo)}
 \label{figura215}
 \end{figure}
 
@@ -222,7 +223,7 @@ Para hablar de locomoción bípeda o caminata, primero hay que hacer una introdu
 \label{figura216}
 \end{figure}
 
-\item \emph{Punto de Momento Cero} (ZMP): Según Vukobratović \cite{ref19}, es el punto en el cual la suma de momentos es igual a 0.
+\item \emph{Punto de Momento Cero} (ZMP): Según Vukobratović \cite{ref19}, es el punto $R$ en el cual la suma de momentos es igual a 0.
 
 \begin{figure}[H]
 \centering
@@ -231,7 +232,7 @@ Para hablar de locomoción bípeda o caminata, primero hay que hacer una introdu
 \label{figura217}
 \end{figure}
 
-\item \emph{Centro de Presión} (CoP): Punto en el polígono de soporte donde actúa la suma total de las fuerzas de contacto $R$, causando una fuerza pero no un momento.
+\item \emph{Centro de Presión} (CoP): Punto en el polígono de soporte donde actúa la suma total de las fuerzas de contacto, causando una fuerza pero no un momento \cite{ref24}. 
 %%Definición sacada de ZERO MOMENT POINT MaartenDekker_OPEN2009_Zero_Moment_Point_Method_for_Stable_Biped_Walking
 
 \begin{figure}[H]
@@ -241,7 +242,9 @@ Para hablar de locomoción bípeda o caminata, primero hay que hacer una introdu
 \label{figura218}
 \end{figure}
 
-\item \emph{Pivote del Momento Centroidal} (CMP): Punto donde la fuerza de reacción del suelo debería actuar para mantener constante la componente horizontal del momento angular de todo el cuerpo. El CMP es igual al ZMP en el caso en que el momento del CoM es cero. Sin embargo, cuando aparece un momento significativo sobre el CoM, aunque por definición el ZMP no puede abandonar el polígono de soporte en el suelo, el CMP puede hacerlo, como se puede observar en la imagen \ref{figura219}.
+\item \emph{Pivote del Momento Centroidal} (CMP): Punto donde la fuerza de reacción del suelo actúa manteniendo constante la componente horizontal del momento angular de todo el cuerpo. El CMP es igual al ZMP en el caso en que el momento del CoM es cero. Sin embargo, cuando aparece un momento significativo sobre el CoM, aunque por definición el ZMP no puede abandonar el polígono de soporte en el suelo, el CMP puede hacerlo, como se puede observar en la imagen \ref{figura219} \cite{ref25}.
+
+%%definición sacada de Ground Reference Points in Legged Locomotion. Definitions, Biological Trajectories and Control Implications.pdf
 
 \begin{figure}[H]
 \centering

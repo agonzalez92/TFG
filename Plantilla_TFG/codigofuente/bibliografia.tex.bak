@@ -51,5 +51,9 @@
 
 \bibitem{ref23} M. D. Pinel, "Balance control of humanoid robot TEO using force/torque sensors", Trabajo fin de máster, Dpto. de Ingeniería de Sistemas y Automática, Universidad Carlos III de Madrid, Madrid, España, 2016.
 
+\bibitem{ref24} M. H. P. Dekker, "Zero-Moment Point method for stable biped walking", University of Technology, Eindhoven, Informe Técnico 2009.072, Julio 2009.
+
+\bibitem{ref25} M. B. Popovic, A. Goswani y H. Herr, "Ground Reference Points in Legged Locomotion: Definitions, Biological Trajectories and Control Implications", \textit{The International Journal of Robotics Research}, 
+
 
 \end{thebibliography} 

@@ -29,21 +29,21 @@ De aquí surgió la idea del actual proyecto, en el que se pretende mejorar la r
 
 \subsection{Objetivos}
 
-Este proyecto trata sobre el estudio de estabilidad del robot humanoide TEO haciendo uso de la información recibida de los diferentes sensores que posee, tanto los de fuerza-par como el inercial.
+El actual proyecto trata sobre el estudio de estabilidad del robot humanoide TEO haciendo uso de la información recibida de los diferentes sensores que posee, tanto los de fuerza-par como el inercial.
 
 Los objetivos del presente trabajo son:
 
 - Realizar un estudio de estabilidad a través de los diferentes modelos existentes, como son el modelo de péndulo invertido y el cart-table.
 
-- Desarrollar un control que reduzca el error del modelo de péndulo invertido y así conseguir que el ZMP práctico y el ZMP teórico coincidan.
+- Desarrollar una mejora que reduzca el error del modelo de péndulo invertido y así conseguir que el ZMP práctico y el ZMP teórico coincidan.
 
-- Desarrollar un modelo predictivo que actúe ante perturbaciones externas mediante el uso del sensor inercial del robot TEO.
+- Ajustar el modelo cart-table.
 
 \subsection{Marco regulador}
 
 %https://blogthinkbig.com/las-6-leyes-de-la-robotica-de-la-union-europea
 
-Debido al aumento tanto de la tecnología como de la inteligencia artificial en nuestras vidas, las grandes organizaciones gubernamentales se han visto obligadas a redactar una serie de leyes que regulen la convivencia de los robots y los humanos. Se puede considerar como precursor de las normativas a Isaac Asimov, quien estableció las tres leyes principales que todo robot debe cumplir \cite{ref1}
+Debido al aumento tanto de la tecnología como de la inteligencia artificial en nuestras vidas, las grandes organizaciones gubernamentales se han visto obligadas a redactar una serie de leyes que regulen la convivencia de los robots y los humanos. Se puede considerar como precursor de las normativas a Isaac Asimov, quien estableció las tres leyes principales que todo robot debe cumplir \cite{ref1}:
 
 \begin{enumerate}
 \item Un robot no hará daño a un ser humano, ni permitirá con su inacción que sufra daño.
@@ -81,73 +81,46 @@ Fuera del ámbito industrial, la Unión Europea ha propuesto una serie de leyes 
 
 \end{enumerate}
 
+\newpage
+
 \subsection{Planificación}
 
-Para poder llevar a cabo presente proyecto se ha pasado por diferentes fases que se explican a continuación:
+Para poder llevar a cabo presente proyecto se ha pasado por diferentes fases, representadas en el siguiente diagrama de gantt \ref{figura2}:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{imagenes/apartado_1/12_planificacion_v1}
+\caption{Planificación del proyecto}
+\label{figura2}
+\end{figure}
 
 \begin{enumerate}
 
-\item \textbf{Estudio inicial de modelos trabajados y desarrollo interfaz gráfica python}
+\item \textbf{Estudio inicial de modelos trabajados}
 
-En esta fase inicial se realizó el estudio de los modelos empleados y se diseñó una interfaz gráfica en python tanto de las fuerzas de los sensores de los tobillos como de las aceleraciones de la imu, detallados en el anexo %%poner el número del anexo en el que inluiré el enlace a dichos archivos .py
+En esta fase inicial se realizó un estudio para una toma de contacto con los modelos empleados.
 
 \item \textbf{Comprobación experimental inicial}
 
 A continuación se realizaron una serie de experimentos iniciales para poder comprobar el ajuste de ambos modelos al punto de equilibrio deseado.
 
-\item \textbf{Estudio y experimentación modelo LIPM, y comienzo de redacción de la memoria}
+\item \textbf{Desarrollo de interfaz gráfica en python}
 
-Una vez que se escogió el modelo LIPM como modelo a mejorar, se realizó una batería de experimentos para ajustar su respuesta.
+Se diseñó una interfaz gráfica en python tanto de las fuerzas de los sensores de los tobillos como de las aceleraciones de la imu, detallados en el anexo %%poner el número del anexo en el que inluiré el enlace a dichos archivos .py
+
+\item \textbf{Estudio y experimentación modelo LIPM}
+
+Una vez que se escogió el modelo LIPM como modelo a mejorar, se realizó un estudio y una batería de experimentos para ajustar su respuesta.
 
 \item \textbf{Experimentación modelo DLIPM}
 
-
+Una vez desarrollado el nuevo modelo Dynamic LIPM, se llevaron a cabo una serie de experimentos para comprobar su validez.
 
 \item \textbf{Estudio y experimentación modelo cart-table}
 
+Por último, se estudió y experimentó con el modelo car-table para mejorar su respuesta ante pequeñas perturbaciones.
 
 \end{enumerate}
-
-
-\subsection{Entorno socio-económico}
-
-En este apartado se pretende mostrar un presupuesto general de dicho proyecto. Para llevarlo a cabo se han tenido en cuenta tanto los materiales utilizados como la mano de obra por parte de los participantes.
-
-\begin{table}[H]
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\rowcolor[gray]{0.7}
-\multicolumn{5}{|c|}{\textbf{COSTE MATERIAL}} \\ 
-\hline
-\rowcolor[gray]{0.9}
-\textbf{Ítem} & \textbf{Descripción} & \textbf{\begin{tabular}[c]{@{}c@{}}Coste/ud\\ (\textup{\euro}/ud)\end{tabular}} & \textbf{Ud} & \textbf{\begin{tabular}[c]{@{}c@{}}Coste\\ (\textup{\euro})\end{tabular}} \\ 
-\hline
-1 & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Ordenador Acer Aspire E1-571\\ \\ - Procesador Intel Core i3-2328M \\ (2,2GHz, 3MB L3 cache)\\ - Memoria RAM 6 DDR3\\ - Disco duro 500GB\\ - Monitor, Conexión ethernet y otros\end{tabular}} & 899 & 1 & 899 \\ 
-\hline
-2 & \begin{tabular}[c]{@{}c@{}}Sistema Operativo Linux \\ (Licencia gratuita)\end{tabular} & - & - & - \\ 
-\hline
-\multicolumn{1}{|c|}{3} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Programas (Licencia gratuita)\\ \\ - Python\\ - Qt Creator\end{tabular}} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{-} \\ 
-\hline
-\multicolumn{1}{l}{} &  & \multicolumn{2}{c|}{\cellcolor[gray]{0.9}\textbf{TOTAL}} & \textbf{899\textup{\euro}} \\ \cline{3-5}
-\hline
-\rowcolor[gray]{0.7} 
-\multicolumn{5}{|c|}{\textbf{COSTE LABORAL}} \\ 
-\hline
-\rowcolor[gray]{0.9} 
-\multicolumn{1}{|c|}{\textbf{Ítem}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Coste/h\\ (\textup{\euro}/h)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Horas}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Coste\\ (\textup{\euro})\end{tabular}}} \\ 
-\hline
-\multicolumn{1}{|c|}{1} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}\textbf{Tiempo dedicado proyectante}\\ \\ \\ - Desarrollo de algoritmos\\ (pruebas, programación,...)\\ - Memoria\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\textbf{15}\\ \\ \\ 15\\ \\ 15\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}\textbf{370}\\ \\ \\ 250\\ \\ 120\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}5550\\ \\ \\ 3750\\ \\ 1800\end{tabular}} \\ 
-\hline
-\multicolumn{1}{|c|}{2} & \multicolumn{1}{l|}{\textbf{Tiempo tutorización}} & \multicolumn{1}{c|}{30} & \multicolumn{1}{c|}{80} & \multicolumn{1}{c|}{2400} \\ 
-\hline
-\multicolumn{1}{l}{} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{\cellcolor[gray]{0.9}\textbf{TOTAL}} & \multicolumn{1}{c|}{\textbf{7950\textup{\euro}}} \\ 
-\cline{3-5}
-\end{tabular}
-\end{center}
-\caption{Presupuesto}
-\label{tabla11}
-\end{table}
 
 \afterpage{\null\newpage}
 \newpage
