@@ -10,7 +10,6 @@ Según la definición de la Organización Internacional de Estándares (ISO) se 
 
 ``Mecanismo accionado programable en dos o más ejes con un gradio de autonomía, moviéndose dentro de su entorno, para realizar las tareas previstas'' \cite{ref4}. 
 
-
 A la hora de hablar del concepto de robótica en general, hay que distinguir entre robótica INDUSTRIAL y robótica de SERVICIO. Esta distinción es fundamental a la hora de su desarrollo, fabricación y comercialización.
 
 Según la norma ISO 8373, la definición de robótica INDUSTRIAL es la siguiente:
@@ -68,7 +67,7 @@ Resulta complicado establecer una clasificación exacta de los robots debido a l
 
 El grupo de los caminadores es el que más desarrollado está, ya que pueden tener aplicaciones en muchos campos como puede ser el desarrollo de vehículos todoterreno, controlados o autónomos, capaces de avanzar por terrenos con mucho desnivel y accidentados.
 
-Por el contrario, el grupo de los no caminadores es muy escaso y está poco evolucionado. Se han realizado diversos experimentos en Japón con robots de este tipo constituídos por segmentos cilíndricos biselados acoplados axialmente entre sí, capaces de realizar movimientos relativos de rotación.
+Por el contrario, el grupo de los no caminadores es muy escaso y está poco evolucionado. Se han realizado diversos experimentos en Japón con robots de este tipo constituidos por segmentos cilíndricos biselados acoplados axialmente entre sí, capaces de realizar movimientos relativos de rotación.
 
 \begin{figure}[H]
 \centering
@@ -83,7 +82,7 @@ Por el contrario, el grupo de los no caminadores es muy escaso y está poco evol
 
 \item \textbf{Híbridos}\\ A este grupo pertenecen aquellos Robots que posean en su estructura una combinación de las anteriores ya expuestas, bien sea por conjunción o por yuxtaposición. 
 
-Por ejemplo, un dispositivo con ruedas y con brazos, siendo características de los Robots móviles y de los androides al mismo tiempo.
+Por ejemplo, un dispositivo con ruedas y con brazos, siendo características de los Robots móviles y de los androides al mismo tiempo \footnote{Imágenes sacadas de \cite{ref36}, \cite{ref37} y wikipedia}.
 
 \begin{figure}[H]
 \centering
@@ -96,11 +95,11 @@ Por ejemplo, un dispositivo con ruedas y con brazos, siendo características de 
 
 \newpage
 
-\subsection{Evolución de los Robots Humanoides}
+\subsection{Evolución de los Robots Humanoides}\label{historia_robots_humanoides}
 
 El desarrollo de los robots humanoides ha sido largo y complejo.
 
-Hubo que esperar al año 1495 para tener los primeros registros del que posiblemente sea el primer robot humanoide, diseñado y construído por Leonardo da Vinci. Se trataba de un robot mecánico, un guerrero vestido con una armadura, que podía realizar movimientos similares a los de los seres humanos como sentarse, mover los brazos y girar la cabeza y el cuello \cite{ref7}.
+Hubo que esperar al año 1495 para tener los primeros registros del que posiblemente sea el primer robot humanoide, diseñado y construido por Leonardo da Vinci. Se trataba de un robot mecánico, un guerrero vestido con una armadura, que podía realizar movimientos similares a los de los seres humanos como sentarse, mover los brazos y girar la cabeza y el cuello \cite{ref7}.
 
 \begin{figure}[H]
 \centering
@@ -180,7 +179,7 @@ En Japón la compañía HONDA llevaba desarrollando robots bípedos desde 1986. 
 \label{figura212}
 \end{figure}
 
-Dos años más tarde, bajo el Ministerio de Económicas, Comercio e Industria de Japón, se desarrolló el Proyecto Humanoide Robot (HRP), con el HRP-2 a la cabeza de la tecnología en esos años.
+Dos años más tarde, bajo el Ministerio de Económicas, Comercio e Industria de Japón, se desarrolló el Proyecto Humanoide Robot (HRP), con el HRP-2 a la cabeza de la tecnología en esos años \cite{ref22}.
 
 \begin{figure}[H]
 \centering
@@ -189,7 +188,7 @@ Dos años más tarde, bajo el Ministerio de Económicas, Comercio e Industria de
 \label{figura213}
 \end{figure}
 
-En la actualidad, los robots humanoides están muy avanzados, pudiendo incluso correr y mantener el equilibrio. Un ejemplo de ello lo tenemos en ATLAS, desarrollado en 2013 por Boston Dynamics, capaz de caminar por terrenos irregulares sin perder el equilibrio, cargar objetos pesados, e incluso recientemente, dar saltos.
+En la actualidad, los robots humanoides están muy avanzados, pudiendo incluso correr y mantener el equilibrio. Un ejemplo de ello lo tenemos en ATLAS, desarrollado en 2013 por Boston Dynamics, capaz de caminar por terrenos irregulares sin perder el equilibrio, cargar objetos pesados, e incluso recientemente, dar saltos \cite{ref29}\footnote{Imágenes del apartado \ref{historia_robots_humanoides} están sacadas de \cite{ref34}, \cite{35} y wikipedia}.
 
 \begin{figure}[H]
 \centering
@@ -205,7 +204,7 @@ En la actualidad, los robots humanoides están muy avanzados, pudiendo incluso c
 Para hablar de locomoción bípeda o caminata, primero hay que hacer una introducción de una serie de conceptos para poder entender mejor este movimiento.
 
 \begin{itemize}
-\item \emph{Centro de Masas} (CoM): es el punto en el que se concentra toda la masa del sistema y sobre el que actúa la resultante de todas las fuerzas que afectan al sistema \cite{ref9}.
+\item \emph{Centro de Masas} (CoM): es el punto en el que se concentra toda la masa del sistema y sobre el que actúa la resultante de todas las fuerzas que afectan al sistema \cite{ref9}. Según los modelos CAD del robot TEO, el CoM se encuentra a una altura de 0,893 m.
 
 \begin{figure}[H]
 \centering
@@ -233,7 +232,6 @@ Para hablar de locomoción bípeda o caminata, primero hay que hacer una introdu
 \end{figure}
 
 \item \emph{Centro de Presión} (CoP): Punto en el polígono de soporte donde actúa la suma total de las fuerzas de contacto, causando una fuerza pero no un momento \cite{ref24}. 
-%%Definición sacada de ZERO MOMENT POINT MaartenDekker_OPEN2009_Zero_Moment_Point_Method_for_Stable_Biped_Walking
 
 \begin{figure}[H]
 \centering
@@ -243,8 +241,6 @@ Para hablar de locomoción bípeda o caminata, primero hay que hacer una introdu
 \end{figure}
 
 \item \emph{Pivote del Momento Centroidal} (CMP): Punto donde la fuerza de reacción del suelo actúa manteniendo constante la componente horizontal del momento angular de todo el cuerpo. El CMP es igual al ZMP en el caso en que el momento del CoM es cero. Sin embargo, cuando aparece un momento significativo sobre el CoM, aunque por definición el ZMP no puede abandonar el polígono de soporte en el suelo, el CMP puede hacerlo, como se puede observar en la figura \ref{figura219} \cite{ref25}.
-
-%%definición sacada de Ground Reference Points in Legged Locomotion. Definitions, Biological Trajectories and Control Implications.pdf
 
 \begin{figure}[H]
 \centering
@@ -284,6 +280,8 @@ En esta fase la pierna y el pie que están completamente apoyados en el suelo, s
 En esta fase la pierna y el pie que estaban antes apoyados ahora están realizando un paso (avanzando por el aire), hasta volver al apoyo de nuevo. 
 
 \end{itemize}
+
+%%imagen sacada de https://warwick.ac.uk/fac/sci/eng/meng/nongps/rnd/gait/
 
 \begin{figure}[H]
 \centering
@@ -367,7 +365,7 @@ Cuando el mecanismo está en movimiento, una manera de determinar el ZMP es midi
 
 \textbf{RELACIÓN ENTRE ZMP, FZMP Y COP}
 
-Únicamente si la fuerza resultante $R$ está equilibrada con todas las fuerzas activas del sistema bípedo, el CoP y el ZMP coinciden, entonces podríamos decir que se encuentra en equilibrio dinámico, $P \equiv CoP \equiv ZMP$, como se muestra en la figura \ref{figura224}a. 
+Únicamente si la fuerza resultante $R$ está equilibrada con todas las fuerzas activas del sistema bípedo, el CoP y el ZMP coinciden, entonces podríamos decir que se encuentra en equilibrio dinámico, $P \equiv CoP \equiv ZMP$, como se muestra en la figura \ref{figura224}a \cite{ref24}. 
 
 \begin{figure}[H]
 \centering

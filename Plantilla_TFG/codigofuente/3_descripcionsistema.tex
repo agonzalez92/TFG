@@ -15,7 +15,7 @@ El desarrollo del actual proyecto se produjo sobre el robot humanoide de tamaño
 
 Está compuesto por varios motores paso a paso que se encargan de mover las articulaciones, 4 sensores de fuerza-par (2 en las muñecas y otros 2 en los tobillos) y un sensor inercial (IMU) que se encargan de recoger toda la información proveniente del entorno, un sistema de visión, realizada a través de una cámara ASUS, y 4 microprocesadores, que se encargan de controlar las principales funciones.
 
-Estos microprocesadores son: visión artificial, que se encarga de computar las imágenes que recibe el robot a través de la cámara; locomoción, encargado de controlar las piernas y la posición del torso, y de obtener la información de los sensores de fuerza-par situados en los tobillos para mantener el robot en equilibrio en todo momento y mantenga una posición erguida, se encuentre en posición estática o caminando.
+Estos microprocesadores son: visión artificial, que se encarga de computar las imágenes que recibe el robot a través de la cámara; locomotion, encargado de controlar las piernas y la posición del torso, y de obtener la información de los sensores de fuerza-par para mantener el robot en equilibrio en todo momento y mantenga una posición erguida, se encuentre en posición estática o caminando; manipulation, encargado de manejar los brazos y la cabeza; y el procesador principal, que gestiona los anteriores microprocesadores. 
 
 Para la adquisición de datos, como se ha comentado anteriormente, el robot posee una IMU localizada en el tronco, capaz de medir aceleraciones, campos magnéticos y ángulos,  y 4 sensores de fuerza-par situados en muñecas y tobillos, capaces de medir fuerzas y torques.
 
@@ -95,7 +95,7 @@ El programa \textsl{jr3pci4channelYarp}(disponible en https://github.com/robotic
 
 El tiempo de ciclo del programa es de aproximadamente $20\mu s$ por cada sensor, por lo que los cuatro sensores que leen el tiempo de ciclo es de aproximadamente $80\mu s$.
 
-El conjunto de datos leídos de la tarjeta de adquisición se obtiene en unidades de SI, y se manda a través de puertos YARP mediante un objeto YARP Bottle. Los datos, cuando llegan al cliente, se retrasan entre $10$ y $50\mu s$, dependiendo del ciclo de procesamiento del lector, debido a que hasta que el cliente no finaliza el procesamiento anterior no llegan las actualizaciones de los datos, todo ello para que no se pierdan actualizaciones por parte del cliente \cite{ref14}%%%%%%[yarp].
+El conjunto de datos leídos de la tarjeta de adquisición se obtiene en unidades de SI, y se manda a través de puertos YARP mediante un objeto YARP Bottle. Los datos, cuando llegan al cliente, se retrasan entre $10$ y $50\mu s$, dependiendo del ciclo de procesamiento del lector, debido a que hasta que el cliente no finaliza el procesamiento anterior no llegan las actualizaciones de los datos, todo ello para que no se pierdan actualizaciones por parte del cliente \cite{ref14}.
 
 La figura \ref{figura36} muestra el procedimiento de adquisición de datos, y la figura \ref{figura37} muestra una captura de pantalla del programa en ejecución.
 
@@ -120,17 +120,17 @@ La figura \ref{figura36} muestra el procedimiento de adquisición de datos, y la
 
 Para el sistema de percepción como se ha comentado antes se utiliza una IMU, capaz de medir aceleraciones lineales, campos magnéticos y velocidades angulares, gracias a la combinación de acelerómetros, giróscopos y magnetómetros, y en algunos casos incluso barómetros, para obtener información de la temperatura, presión y altitud.
 
-- \emph{Acelerómetro}: Dispositivo que mide el cambio de aceleración o vibración debido a los movimientos de la estructura a la que está acoplado. %%sacado de diversas paginas, poner la primera que aparece al poner acelerometro
+- \emph{Acelerómetro}: Dispositivo que mide el cambio de aceleración o vibración debido a los movimientos de la estructura a la que está acoplado \cite{ref30}. %%sacado de https://es.omega.com/prodinfo/acelerometro.html
 
-- \emph{Giróscopo}: Dispositivo mecánico que sirve para medir cambios de orientación en el espacio tridimensional. %%Sacado de wikipedia
+- \emph{Giróscopo}: Dispositivo mecánico que sirve para medir, mantener o cambiar la orientación en el espacio tridimensional \cite{ref31}. 
 
-- \emph{Magnetómetro}: Dispositivo que sirve para cuantificar la fuerza o la dirección del campo magnético de un punto en el espacio.
+- \emph{Magnetómetro}: Dispositivo que sirve para cuantificar la fuerza o la dirección del campo magnético de un punto en el espacio \cite{ref22}.
 
 \subsubsection{Xsens MTi-28A53G35}
 
 La unidad montada en el tronco de TEO pertenece al modelo MTi-28A53G35 proporcionado por la compañía Xsens. Se trata de un AHRS (Attitude and Heading Reference System) y a la vez de una IMU de tamaño y peso reducidos con 3 grados de libertad, compuesto por acelerómetros, giróscopos y megnetómetros 3D.
 
-Su procesador interno de baja potencia proporciona una señal de orientación sin derivación(gracias a que utiliza la gravedad y el campo magnético de la tierra como vectores de referencia), aceleración calibrada, giros y datos de campo magnético terrestre, todo ello en 3D.
+Su procesador interno de baja potencia proporciona una señal de orientación sin derivación(gracias a que utiliza la gravedad y el campo magnético de la tierra como vectores de referencia), aceleración calibrada, giros y datos de campo magnético terrestre, todo ello en 3D \cite{ref13}.
 
 \begin{figure}[H]
 \centering
@@ -173,7 +173,7 @@ Todo los datos recogidos por el sensor MTi son volcados e interpretados por la c
 %%Este apartado sacado de http://www.sensores-de-medida.es/uploads/0referencia_inercial_mti_ahrs.pdf
 %%http://wiki.icub.org/images/8/82/XsensMtx.pdf
 
-El software para acceder al sensor inercial MTi, que está instalado en la CPU de locomoción de TEO, se ha extraído del robot iCub\footnote{iCub se trata de un robot humanoide para la investigación en cognición corporal que fue desarrollado entre el Instituto Italiano de Tecnología y la Universidad de Génova, dentro del consorcio internacional RobotCub, en el que participan varias universidades europeas. Mide 104cm de altura, pesa 22kg y posee 53 grados de libertad. Posee sensores de cámara, micrófonos, sensores inerciales, sensores fuerza/par, sensores de posición o sensores táctiles.}, cuyo software es de código abierto siguiendo las licencias GPL/FDL y desarrollado sobre YARP, gracias a que éste tenía implementado el acceso a uno de sus sensores inerciales MTx.
+El software para acceder al sensor inercial MTi, que está instalado en la CPU de locomoción de TEO, se ha extraído del robot iCub\footnote{iCub se trata de un robot humanoide para la investigación en cognición corporal que fue desarrollado entre el Instituto Italiano de Tecnología y la Universidad de Génova, dentro del consorcio internacional RobotCub, en el que participan varias universidades europeas. Mide 104cm de altura, pesa 22kg y posee 53 grados de libertad. Posee sensores de cámara, micrófonos, sensores inerciales, sensores fuerza/par, sensores de posición o sensores táctiles.}, cuyo software es de código abierto siguiendo las licencias GPL/FDL y desarrollado sobre YARP, gracias a que éste tenía implementado el acceso a uno de sus sensores inerciales MTx \cite{ref32}.
 
 \newpage
 

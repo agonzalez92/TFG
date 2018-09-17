@@ -31,11 +31,11 @@
 \contentsline {subsection}{\numberline {5.1}Estudio de la respuesta de los sensores F-T}{55}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Descripci\IeC {\'o}n de la metodolog\IeC {\'\i }a experimental}{56}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Respuesta del sistema LIPM}{57}{subsubsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.3}Respuesta del modelo mejorado DLIPM}{61}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3}Respuesta del modelo mejorado DLIPM}{60}{subsubsection.5.1.3}
 \contentsline {subsubsection}{\numberline {5.1.4}Control de ZMP}{65}{subsubsection.5.1.4}
 \contentsline {subsubsection}{\numberline {5.1.5}Validaci\IeC {\'o}n de datos experimentales}{66}{subsubsection.5.1.5}
-\contentsline {subsection}{\numberline {5.2}Estudio de la respuesta del sensor inercial IMU}{68}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Descripci\IeC {\'o}n de la metodolog\IeC {\'\i }a experimental}{68}{subsubsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2}Estudio de la respuesta del sensor inercial IMU}{67}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Descripci\IeC {\'o}n de la metodolog\IeC {\'\i }a experimental}{67}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Respuesta del modelo cart-table}{68}{subsubsection.5.2.2}
 \contentsline {section}{\numberline {6}Conclusiones y trabajos futuros}{71}{section.6}
 \contentsline {section}{\numberline {7}Presupuesto}{72}{section.7}
