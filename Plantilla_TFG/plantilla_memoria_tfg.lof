@@ -56,7 +56,7 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {1 grado de libertad}}}{43}{figure.4.2}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2 grados de libertad}}}{43}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Modelo P\IeC {\'e}ndulo Invertido Lineal 3D (3DLIPM)}}{44}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Modelo LIPM con un sensor F-T entre el tobillo y la suela}}{47}{figure.4.4}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Modelo LIPM con un sensor F-T entre el tobillo y la suela \cite {ref26}}}{47}{figure.4.4}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Modelo DLIPM}}{48}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Modelo Cart-Table}}{49}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces C\IeC {\'a}lculo del ZMP. a) Modelo ficticio, b) Modelo real}}{50}{figure.4.7}
@@ -76,9 +76,10 @@
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Experimento 10}}}{61}{figure.5.7}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Experimento 11}}}{61}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Comparativa de la respuesta angular entre LIPM y DLIPM}}{63}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Respuesta angular del modelo DLIPM}}{64}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Arquitectura de control del modelo DLIPM}}{65}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Evolucion ZMP modelo DLIPM}}{65}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo DLIPM}}{66}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolucion ZMP modelo cart-table}}{67}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Representaci\IeC {\'o}n ZMP modelo cart-table corregido}}{68}{figure.5.14}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Respuesta del sistema en funci\IeC {\'o}n del factor de amortiguamiento}}{64}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Respuesta angular del modelo DLIPM}}{65}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Arquitectura de control del modelo DLIPM}}{66}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Evolucion ZMP modelo DLIPM}}{67}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Evolucion ZMP modelo DLIPM}}{67}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolucion ZMP modelo cart-table}}{69}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Representaci\IeC {\'o}n ZMP modelo cart-table corregido}}{69}{figure.5.15}

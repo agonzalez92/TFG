@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.15)  15 SEP 2018 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.15)  17 SEP 2018 13:49
 entering extended mode
 **./plantilla_memoria_tfg.tex
 (plantilla_memoria_tfg.tex
@@ -977,11 +977,8 @@ LaTeX Info: Redefining \% on input line 30.
 (codigofuente/abstract.aux) (codigofuente/1_introduccion.aux)
 (codigofuente/2_estadoarte.aux) (codigofuente/3_descripcionsistema.aux)
 (codigofuente/4_estudioestabilidad.aux)
-(codigofuente/5_estudiorespuestasensoreshumanoide.aux
-
-LaTeX Warning: Label `figura512' multiply defined.
-
-) (codigofuente/6_conclusiones.aux) (codigofuente/7_presupuesto.aux)
+(codigofuente/5_estudiorespuestasensoreshumanoide.aux)
+(codigofuente/6_conclusiones.aux) (codigofuente/7_presupuesto.aux)
 (codigofuente/bibliografia.aux))
 \openout1 = `plantilla_memoria_tfg.aux'.
 
@@ -1189,7 +1186,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 ...\numberline {7}Presupuesto}{71}{section.7}
+l.41 ...\numberline {7}Presupuesto}{72}{section.7}
                                                    [1
 
  <./imagenes/Interior_Logo.png>])
@@ -1514,7 +1511,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
-<imagenes/apartado_1/11_robot_humanoide.png, id=391, 167.12437pt x 227.34938pt>
+<imagenes/apartado_1/11_robot_humanoide.png, id=395, 167.12437pt x 227.34938pt>
 
 File: imagenes/apartado_1/11_robot_humanoide.png Graphic file (type png)
 <use imagenes/apartado_1/11_robot_humanoide.png>
@@ -1672,16 +1669,16 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 86.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 86.
-<imagenes/apartado_1/12_planificacion_v1.png, id=421, 861.9703pt x 191.21437pt>
+<imagenes/apartado_1/12_planificacion_v1.png, id=425, 768.62157pt x 162.6075pt>
 
 File: imagenes/apartado_1/12_planificacion_v1.png Graphic file (type png)
 <use imagenes/apartado_1/12_planificacion_v1.png>
 Package pdftex.def Info: imagenes/apartado_1/12_planificacion_v1.png  used on i
 nput line 92. on input line 92.
-Package pdftex.def Info: Requested size: 430.9841pt x 95.60695pt on input line 
-92.
+Package pdftex.def Info: Requested size: 426.80113pt x 113.81454pt on input lin
+e 92.
 
-Overfull \hbox (12.73042pt too wide) in paragraph at lines 92--93
+Overfull \hbox (8.54745pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
@@ -1833,7 +1830,7 @@ Underfull \hbox (badness 1337) in paragraph at lines 36--37
 es el
  []
 
-<imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg, id=451, 1505.
+<imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg, id=454, 1505.
 625pt x 1505.625pt>
 File: imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg Graphic f
 ile (type jpg)
@@ -1842,7 +1839,7 @@ Package pdftex.def Info: imagenes/apartado_2/21_poliarticulado1_Robot_Industria
 l_ABB.jpg  used on input line 40. on input line 40.
 Package pdftex.def Info: Requested size: 180.6672pt x 180.6672pt on input line 
 40.
-<imagenes/apartado_2/22_movil2.jpg, id=452, 1445.4pt x 1084.05pt>
+<imagenes/apartado_2/22_movil2.jpg, id=455, 1445.4pt x 1084.05pt>
 File: imagenes/apartado_2/22_movil2.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/22_movil2.jpg>
 Package pdftex.def Info: imagenes/apartado_2/22_movil2.jpg  used on input line 
@@ -1886,14 +1883,14 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.53 
       <./imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg>]
-<imagenes/apartado_2/23_1_androide1_asimo.jpg, id=460, 321.2pt x 405.515pt>
+<imagenes/apartado_2/23_1_androide1_asimo.jpg, id=463, 321.2pt x 405.515pt>
 File: imagenes/apartado_2/23_1_androide1_asimo.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/23_1_androide1_asimo.jpg>
 Package pdftex.def Info: imagenes/apartado_2/23_1_androide1_asimo.jpg  used on 
 input line 59. on input line 59.
 Package pdftex.def Info: Requested size: 128.47772pt x 162.20311pt on input lin
 e 59.
-<imagenes/apartado_2/23_2_androide2_teo1.jpg, id=461, 2376.88pt x 3212.0pt>
+<imagenes/apartado_2/23_2_androide2_teo1.jpg, id=464, 2376.88pt x 3212.0pt>
 File: imagenes/apartado_2/23_2_androide2_teo1.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/23_2_androide2_teo1.jpg>
 Package pdftex.def Info: imagenes/apartado_2/23_2_androide2_teo1.jpg  used on i
@@ -1947,7 +1944,7 @@ l.71 P
       or el contrario, el grupo de los no caminadores es muy escaso y está ...
  <./imagenes/apartado_2/22_movil2.jpg> <./imagenes/apartado_2/23_1_androide1_as
 imo.jpg> <./imagenes/apartado_2/23_2_androide2_teo1.jpg>]
-<imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg, id=470, 1033.8625pt x 689.576
+<imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg, id=473, 1033.8625pt x 689.576
 25pt>
 File: imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg>
@@ -1955,14 +1952,14 @@ Package pdftex.def Info: imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg  used
 on input line 76. on input line 76.
 Package pdftex.def Info: Requested size: 206.76883pt x 137.9128pt on input line
  76.
-<imagenes/apartado_2/24_2_zoomorfico2.jpg, id=471, 1606.0pt x 1204.5pt>
+<imagenes/apartado_2/24_2_zoomorfico2.jpg, id=474, 1606.0pt x 1204.5pt>
 File: imagenes/apartado_2/24_2_zoomorfico2.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/24_2_zoomorfico2.jpg>
 Package pdftex.def Info: imagenes/apartado_2/24_2_zoomorfico2.jpg  used on inpu
 t line 79. on input line 79.
 Package pdftex.def Info: Requested size: 160.6094pt x 120.45705pt on input line
  79.
-<imagenes/apartado_2/25_hibrido_handle_bd.jpg, id=472, 966.61125pt x 1304.875pt
+<imagenes/apartado_2/25_hibrido_handle_bd.jpg, id=475, 966.61125pt x 1304.875pt
 >
 File: imagenes/apartado_2/25_hibrido_handle_bd.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/25_hibrido_handle_bd.jpg>
@@ -2027,7 +2024,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 99.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 99.
-<imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg, id=482, 1375.1375pt x 1375.1
+<imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg, id=485, 1375.1375pt x 1375.1
 375pt>
 File: imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg>
@@ -2035,7 +2032,7 @@ Package pdftex.def Info: imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg  used
  on input line 107. on input line 107.
 Package pdftex.def Info: Requested size: 137.5218pt x 137.5218pt on input line 
 107.
-<imagenes/apartado_2/27_trompetista_mecanico.jpg, id=483, 642.4pt x 440.64626pt
+<imagenes/apartado_2/27_trompetista_mecanico.jpg, id=486, 642.4pt x 440.64626pt
 >
 File: imagenes/apartado_2/27_trompetista_mecanico.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/27_trompetista_mecanico.jpg>
@@ -2080,21 +2077,21 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.122 
        <./imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg>]
-<imagenes/apartado_2/28_elektro_robot.jpg, id=489, 608.2725pt x 774.895pt>
+<imagenes/apartado_2/28_elektro_robot.jpg, id=492, 608.2725pt x 774.895pt>
 File: imagenes/apartado_2/28_elektro_robot.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/28_elektro_robot.jpg>
 Package pdftex.def Info: imagenes/apartado_2/28_elektro_robot.jpg  used on inpu
 t line 127. on input line 127.
 Package pdftex.def Info: Requested size: 121.65234pt x 154.97626pt on input lin
 e 127.
-<imagenes/apartado_2/29_1_WL_1_1967.jpg, id=490, 230.90265pt x 236.68425pt>
+<imagenes/apartado_2/29_1_WL_1_1967.jpg, id=493, 230.90265pt x 236.68425pt>
 File: imagenes/apartado_2/29_1_WL_1_1967.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/29_1_WL_1_1967.jpg>
 Package pdftex.def Info: imagenes/apartado_2/29_1_WL_1_1967.jpg  used on input 
 line 137. on input line 137.
 Package pdftex.def Info: Requested size: 115.45103pt x 118.34183pt on input lin
 e 137.
-<imagenes/apartado_2/29_2_WL_3_1969.jpg, id=491, 228.3732pt x 233.07076pt>
+<imagenes/apartado_2/29_2_WL_3_1969.jpg, id=494, 228.3732pt x 233.07076pt>
 File: imagenes/apartado_2/29_2_WL_3_1969.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/29_2_WL_3_1969.jpg>
 Package pdftex.def Info: imagenes/apartado_2/29_2_WL_3_1969.jpg  used on input 
@@ -2145,35 +2142,35 @@ l.144
 l.144 
        <./imagenes/apartado_2/27_trompetista_mecanico.jpg> <./imagenes/apartado
 _2/28_elektro_robot.jpg>]
-<imagenes/apartado_2/210_1_WAP_1_1969.jpg, id=496, 171.64125pt x 230.90265pt>
+<imagenes/apartado_2/210_1_WAP_1_1969.jpg, id=499, 171.64125pt x 230.90265pt>
 File: imagenes/apartado_2/210_1_WAP_1_1969.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/210_1_WAP_1_1969.jpg>
 Package pdftex.def Info: imagenes/apartado_2/210_1_WAP_1_1969.jpg  used on inpu
 t line 148. on input line 148.
 Package pdftex.def Info: Requested size: 102.98552pt x 138.54265pt on input lin
 e 148.
-<imagenes/apartado_2/210_2_WAP_2_1970.jpg, id=497, 170.19585pt x 153.2124pt>
+<imagenes/apartado_2/210_2_WAP_2_1970.jpg, id=500, 170.19585pt x 153.2124pt>
 File: imagenes/apartado_2/210_2_WAP_2_1970.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/210_2_WAP_2_1970.jpg>
 Package pdftex.def Info: imagenes/apartado_2/210_2_WAP_2_1970.jpg  used on inpu
 t line 151. on input line 151.
 Package pdftex.def Info: Requested size: 136.15685pt x 122.57007pt on input lin
 e 151.
-<imagenes/apartado_2/210_3_WAP_3_1971.jpg, id=498, 169.1118pt x 228.01186pt>
+<imagenes/apartado_2/210_3_WAP_3_1971.jpg, id=501, 169.1118pt x 228.01186pt>
 File: imagenes/apartado_2/210_3_WAP_3_1971.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/210_3_WAP_3_1971.jpg>
 Package pdftex.def Info: imagenes/apartado_2/210_3_WAP_3_1971.jpg  used on inpu
 t line 154. on input line 154.
 Package pdftex.def Info: Requested size: 101.46785pt x 136.80817pt on input lin
 e 154.
-<imagenes/apartado_2/211_1_WABOT_1_1973.jpg, id=499, 162.6075pt x 244.63396pt>
+<imagenes/apartado_2/211_1_WABOT_1_1973.jpg, id=502, 162.6075pt x 244.63396pt>
 File: imagenes/apartado_2/211_1_WABOT_1_1973.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/211_1_WABOT_1_1973.jpg>
 Package pdftex.def Info: imagenes/apartado_2/211_1_WABOT_1_1973.jpg  used on in
 put line 164. on input line 164.
 Package pdftex.def Info: Requested size: 97.56525pt x 146.7815pt on input line 
 164.
-<imagenes/apartado_2/211_2_WABOT_2_1984.jpg, id=500, 162.6075pt x 226.2051pt>
+<imagenes/apartado_2/211_2_WABOT_2_1984.jpg, id=503, 162.6075pt x 226.2051pt>
 File: imagenes/apartado_2/211_2_WABOT_2_1984.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/211_2_WABOT_2_1984.jpg>
 Package pdftex.def Info: imagenes/apartado_2/211_2_WABOT_2_1984.jpg  used on in
@@ -2225,7 +2222,7 @@ l.171
        <./imagenes/apartado_2/29_1_WL_1_1967.jpg> <./imagenes/apartado_2/29_2_W
 L_3_1969.jpg> <./imagenes/apartado_2/210_1_WAP_1_1969.jpg> <./imagenes/apartado
 _2/210_2_WAP_2_1970.jpg> <./imagenes/apartado_2/210_3_WAP_3_1971.jpg>]
-<imagenes/apartado_2/212_evolucion_Honda_robots.jpg, id=511, 419.166pt x 170.55
+<imagenes/apartado_2/212_evolucion_Honda_robots.jpg, id=514, 419.166pt x 170.55
 72pt>
 File: imagenes/apartado_2/212_evolucion_Honda_robots.jpg Graphic file (type jpg
 )
@@ -2234,7 +2231,7 @@ Package pdftex.def Info: imagenes/apartado_2/212_evolucion_Honda_robots.jpg  us
 ed on input line 178. on input line 178.
 Package pdftex.def Info: Requested size: 293.4142pt x 119.38922pt on input line
  178.
-<imagenes/apartado_2/213_HRP_2.png, id=512, 622.325pt x 933.4875pt>
+<imagenes/apartado_2/213_HRP_2.png, id=515, 622.325pt x 933.4875pt>
 File: imagenes/apartado_2/213_HRP_2.png Graphic file (type png)
 <use imagenes/apartado_2/213_HRP_2.png>
 Package pdftex.def Info: imagenes/apartado_2/213_HRP_2.png  used on input line 
@@ -2285,7 +2282,7 @@ l.191
 l.191 
        <./imagenes/apartado_2/211_1_WABOT_1_1973.jpg> <./imagenes/apartado_2/21
 1_2_WABOT_2_1984.jpg> <./imagenes/apartado_2/212_evolucion_Honda_robots.jpg>]
-<imagenes/apartado_2/214_atlas_boston_dynamics.jpg, id=520, 870.25125pt x 1304.
+<imagenes/apartado_2/214_atlas_boston_dynamics.jpg, id=523, 870.25125pt x 1304.
 875pt>
 File: imagenes/apartado_2/214_atlas_boston_dynamics.jpg Graphic file (type jpg)
 
@@ -2351,7 +2348,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 203.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 203.
-<imagenes/apartado_2/215_center_of_mass.png, id=527, 228.10219pt x 392.96812pt>
+<imagenes/apartado_2/215_center_of_mass.png, id=530, 228.10219pt x 392.96812pt>
 
 File: imagenes/apartado_2/215_center_of_mass.png Graphic file (type png)
 <use imagenes/apartado_2/215_center_of_mass.png>
@@ -2359,7 +2356,7 @@ Package pdftex.def Info: imagenes/apartado_2/215_center_of_mass.png  used on in
 put line 212. on input line 212.
 Package pdftex.def Info: Requested size: 114.0508pt x 196.48357pt on input line
  212.
-<imagenes/apartado_2/216_supportpolygon.png, id=528, 450.18187pt x 213.79875pt>
+<imagenes/apartado_2/216_supportpolygon.png, id=531, 450.18187pt x 213.79875pt>
 
 File: imagenes/apartado_2/216_supportpolygon.png Graphic file (type png)
 <use imagenes/apartado_2/216_supportpolygon.png>
@@ -2367,7 +2364,7 @@ Package pdftex.def Info: imagenes/apartado_2/216_supportpolygon.png  used on in
 put line 221. on input line 221.
 Package pdftex.def Info: Requested size: 270.1112pt x 128.28023pt on input line
  221.
-<imagenes/apartado_2/217_zmp.png, id=530, 402.50375pt x 285.065pt>
+<imagenes/apartado_2/217_zmp.png, id=533, 402.50375pt x 285.065pt>
 File: imagenes/apartado_2/217_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/217_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/217_zmp.png  used on input line 23
@@ -2418,14 +2415,14 @@ l.234
 l.234 
        <./imagenes/apartado_2/215_center_of_mass.png> <./imagenes/apartado_2/21
 6_supportpolygon.png>]
-<imagenes/apartado_2/218_cop.jpg, id=542, 180.675pt x 88.83188pt>
+<imagenes/apartado_2/218_cop.jpg, id=545, 180.675pt x 88.83188pt>
 File: imagenes/apartado_2/218_cop.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/218_cop.jpg>
 Package pdftex.def Info: imagenes/apartado_2/218_cop.jpg  used on input line 24
 0. on input line 240.
 Package pdftex.def Info: Requested size: 234.87746pt x 115.48141pt on input lin
 e 240.
-<imagenes/apartado_2/219_centroidal_moment_pivot.png, id=545, 725.71124pt x 419
+<imagenes/apartado_2/219_centroidal_moment_pivot.png, id=548, 725.71124pt x 419
 .5675pt>
 File: imagenes/apartado_2/219_centroidal_moment_pivot.png Graphic file (type pn
 g)
@@ -2477,7 +2474,7 @@ l.255
                                                   \fi \fi 
 l.255 
        <./imagenes/apartado_2/217_zmp.png> <./imagenes/apartado_2/218_cop.jpg>]
-<imagenes/apartado_2/220_com_zmp_supportpolygon.png, id=554, 438.63875pt x 313.
+<imagenes/apartado_2/220_com_zmp_supportpolygon.png, id=557, 438.63875pt x 313.
 17pt>
 File: imagenes/apartado_2/220_com_zmp_supportpolygon.png Graphic file (type png
 )
@@ -2530,7 +2527,7 @@ l.274
 l.274 
        <./imagenes/apartado_2/219_centroidal_moment_pivot.png> <./imagenes/apar
 tado_2/220_com_zmp_supportpolygon.png>]
-<imagenes/apartado_2/221_ciclo_paso_humano.png, id=562, 687.31781pt x 207.77625
+<imagenes/apartado_2/221_ciclo_paso_humano.png, id=565, 687.31781pt x 207.77625
 pt>
 File: imagenes/apartado_2/221_ciclo_paso_humano.png Graphic file (type png)
 <use imagenes/apartado_2/221_ciclo_paso_humano.png>
@@ -2587,7 +2584,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 297.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 297.
-<imagenes/apartado_2/222_fuerzas_momentos.png, id=568, 271.76532pt x 222.07968p
+<imagenes/apartado_2/222_fuerzas_momentos.png, id=571, 271.76532pt x 222.07968p
 t>
 File: imagenes/apartado_2/222_fuerzas_momentos.png Graphic file (type png)
 <use imagenes/apartado_2/222_fuerzas_momentos.png>
@@ -2632,14 +2629,14 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.337 \begin{equation}
                        <./imagenes/apartado_2/222_fuerzas_momentos.png>]
-<imagenes/apartado_2/223_1_zmp.png, id=584, 315.42844pt x 188.95593pt>
+<imagenes/apartado_2/223_1_zmp.png, id=587, 315.42844pt x 188.95593pt>
 File: imagenes/apartado_2/223_1_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/223_1_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/223_1_zmp.png  used on input line 
 358. on input line 358.
 Package pdftex.def Info: Requested size: 157.71382pt x 94.47772pt on input line
  358.
-<imagenes/apartado_2/223_2_zmp.png, id=585, 293.59688pt x 193.47281pt>
+<imagenes/apartado_2/223_2_zmp.png, id=588, 293.59688pt x 193.47281pt>
 File: imagenes/apartado_2/223_2_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/223_2_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/223_2_zmp.png  used on input line 
@@ -2678,14 +2675,14 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 365.
 
 [29]
-<imagenes/apartado_2/224_1_cop_zmp.png, id=594, 271.0125pt x 236.38312pt>
+<imagenes/apartado_2/224_1_cop_zmp.png, id=597, 271.0125pt x 236.38312pt>
 File: imagenes/apartado_2/224_1_cop_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/224_1_cop_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/224_1_cop_zmp.png  used on input l
 ine 375. on input line 375.
 Package pdftex.def Info: Requested size: 135.5059pt x 118.19127pt on input line
  375.
-<imagenes/apartado_2/224_2_cop_zmp.png, id=595, 255.20343pt x 269.50688pt>
+<imagenes/apartado_2/224_2_cop_zmp.png, id=598, 255.20343pt x 269.50688pt>
 File: imagenes/apartado_2/224_2_cop_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/224_2_cop_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/224_2_cop_zmp.png  used on input l
@@ -2795,7 +2792,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-<imagenes/apartado_3/31_teo_joints.png, id=612, 533.192pt x 778.91pt>
+<imagenes/apartado_3/31_teo_joints.png, id=615, 533.192pt x 778.91pt>
 File: imagenes/apartado_3/31_teo_joints.png Graphic file (type png)
 <use imagenes/apartado_3/31_teo_joints.png>
 Package pdftex.def Info: imagenes/apartado_3/31_teo_joints.png  used on input l
@@ -2842,21 +2839,21 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.21 
       <./imagenes/apartado_3/31_teo_joints.png>]
-<imagenes/apartado_3/32_1_can_bus.png, id=619, 647.58472pt x 969.10086pt>
+<imagenes/apartado_3/32_1_can_bus.png, id=622, 647.58472pt x 969.10086pt>
 File: imagenes/apartado_3/32_1_can_bus.png Graphic file (type png)
 <use imagenes/apartado_3/32_1_can_bus.png>
 Package pdftex.def Info: imagenes/apartado_3/32_1_can_bus.png  used on input li
 ne 27. on input line 27.
 Package pdftex.def Info: Requested size: 148.94135pt x 222.8885pt on input line
  27.
-<imagenes/apartado_3/32_2_yarp.png, id=620, 967.90178pt x 702.6967pt>
+<imagenes/apartado_3/32_2_yarp.png, id=623, 967.90178pt x 702.6967pt>
 File: imagenes/apartado_3/32_2_yarp.png Graphic file (type png)
 <use imagenes/apartado_3/32_2_yarp.png>
 Package pdftex.def Info: imagenes/apartado_3/32_2_yarp.png  used on input line 
 30. on input line 30.
 Package pdftex.def Info: Requested size: 222.61273pt x 161.61684pt on input lin
 e 30.
-<imagenes/apartado_3/33_diagrama_comunicaciones.png, id=621, 255.20343pt x 236.
+<imagenes/apartado_3/33_diagrama_comunicaciones.png, id=624, 255.20343pt x 236.
 38312pt>
 File: imagenes/apartado_3/33_diagrama_comunicaciones.png Graphic file (type png
 )
@@ -2933,7 +2930,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 46.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
-<imagenes/apartado_3/34_jr3_sensor.png, id=634, 246.1697pt x 201.00093pt>
+<imagenes/apartado_3/34_jr3_sensor.png, id=637, 246.1697pt x 201.00093pt>
 File: imagenes/apartado_3/34_jr3_sensor.png Graphic file (type png)
 <use imagenes/apartado_3/34_jr3_sensor.png>
 Package pdftex.def Info: imagenes/apartado_3/34_jr3_sensor.png  used on input l
@@ -2989,7 +2986,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 77.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 77.
-<imagenes/apartado_3/35_tarjeta_adquisicion_datos.png, id=640, 227.34938pt x 37
+<imagenes/apartado_3/35_tarjeta_adquisicion_datos.png, id=643, 227.34938pt x 37
 1.13657pt>
 File: imagenes/apartado_3/35_tarjeta_adquisicion_datos.png Graphic file (type p
 ng)
@@ -3054,7 +3051,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 92.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 92.
-<imagenes/apartado_3/36_programa_adquisicion_datos.png, id=650, 493.845pt x 384
+<imagenes/apartado_3/36_programa_adquisicion_datos.png, id=653, 493.845pt x 384
 .6872pt>
 File: imagenes/apartado_3/36_programa_adquisicion_datos.png Graphic file (type 
 png)
@@ -3094,7 +3091,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 109.
  [36]
-<imagenes/apartado_3/37_interfaz_programa_adquisicion_datos.png, id=657, 532.99
+<imagenes/apartado_3/37_interfaz_programa_adquisicion_datos.png, id=660, 532.99
 126pt x 304.13625pt>
 File: imagenes/apartado_3/37_interfaz_programa_adquisicion_datos.png Graphic fi
 le (type png)
@@ -3171,7 +3168,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 129.
-<imagenes/apartado_3/38_2_inertial_sensor_xsens.png, id=663, 225.84375pt x 155.
+<imagenes/apartado_3/38_2_inertial_sensor_xsens.png, id=666, 225.84375pt x 155.
 83218pt>
 File: imagenes/apartado_3/38_2_inertial_sensor_xsens.png Graphic file (type png
 )
@@ -3254,7 +3251,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.178 \newpage
               ]
-<imagenes/apartado_3/39_cable_rs_232.png, id=678, 357.58594pt x 242.40562pt>
+<imagenes/apartado_3/39_cable_rs_232.png, id=681, 357.58594pt x 242.40562pt>
 File: imagenes/apartado_3/39_cable_rs_232.png Graphic file (type png)
 <use imagenes/apartado_3/39_cable_rs_232.png>
 Package pdftex.def Info: imagenes/apartado_3/39_cable_rs_232.png  used on input
@@ -3357,7 +3354,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
-<imagenes/apartado_4/41_plano_anatomico_sagital3.png, id=689, 441.65pt x 418.56
+<imagenes/apartado_4/41_plano_anatomico_sagital3.png, id=692, 441.65pt x 418.56
 375pt>
 File: imagenes/apartado_4/41_plano_anatomico_sagital3.png Graphic file (type pn
 g)
@@ -3366,7 +3363,7 @@ Package pdftex.def Info: imagenes/apartado_4/41_plano_anatomico_sagital3.png  u
 sed on input line 17. on input line 17.
 Package pdftex.def Info: Requested size: 264.99203pt x 251.14018pt on input lin
 e 17.
-<imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png, id=690, 300.
+<imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png, id=693, 300.
 3722pt x 329.73187pt>
 File: imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png Graphic 
 file (type png)
@@ -3375,7 +3372,7 @@ Package pdftex.def Info: imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Mode
 l_LIPM.png  used on input line 25. on input line 25.
 Package pdftex.def Info: Requested size: 195.2396pt x 214.32317pt on input line
  25.
-<imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png, id=691, 300.
+<imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png, id=694, 300.
 3722pt x 329.73187pt>
 File: imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png Graphic 
 file (type png)
@@ -3428,7 +3425,7 @@ l.32
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 40.
 
 
-<imagenes/apartado_4/43_3D_linear_inverted_pendulum_model.png, id=699, 407.2715
+<imagenes/apartado_4/43_3D_linear_inverted_pendulum_model.png, id=702, 407.2715
 6pt x 304.13625pt>
 File: imagenes/apartado_4/43_3D_linear_inverted_pendulum_model.png Graphic file
  (type png)
@@ -3556,7 +3553,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 186.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 186.
-<imagenes/apartado_4/44_LIPM_TEO.png, id=744, 235.63031pt x 265.74281pt>
+<imagenes/apartado_4/44_LIPM_TEO.png, id=747, 235.63031pt x 265.74281pt>
 File: imagenes/apartado_4/44_LIPM_TEO.png Graphic file (type png)
 <use imagenes/apartado_4/44_LIPM_TEO.png>
 Package pdftex.def Info: imagenes/apartado_4/44_LIPM_TEO.png  used on input lin
@@ -3606,7 +3603,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 223.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 223.
-<imagenes/apartado_4/45_modelo_dlipm.png, id=755, 326.21875pt x 399.4925pt>
+<imagenes/apartado_4/45_modelo_dlipm.png, id=759, 326.21875pt x 399.4925pt>
 File: imagenes/apartado_4/45_modelo_dlipm.png Graphic file (type png)
 <use imagenes/apartado_4/45_modelo_dlipm.png>
 Package pdftex.def Info: imagenes/apartado_4/45_modelo_dlipm.png  used on input
@@ -3699,7 +3696,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 268.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 268.
-<imagenes/apartado_4/46_cart_table_model_2.png, id=777, 698.61pt x 341.02406pt>
+<imagenes/apartado_4/46_cart_table_model_2.png, id=781, 698.61pt x 341.02406pt>
 
 File: imagenes/apartado_4/46_cart_table_model_2.png Graphic file (type png)
 <use imagenes/apartado_4/46_cart_table_model_2.png>
@@ -3750,7 +3747,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.298 
        <./imagenes/apartado_4/46_cart_table_model_2.png>]
-<imagenes/apartado_4/47_cart_table_real.png, id=795, 463.7325pt x 248.93pt>
+<imagenes/apartado_4/47_cart_table_real.png, id=799, 463.7325pt x 248.93pt>
 File: imagenes/apartado_4/47_cart_table_real.png Graphic file (type png)
 <use imagenes/apartado_4/47_cart_table_real.png>
 Package pdftex.def Info: imagenes/apartado_4/47_cart_table_real.png  used on in
@@ -3849,7 +3846,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 387.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 387.
-<imagenes/apartado_4/49_balance_strategies.png, id=814, 365.86688pt x 197.98969
+<imagenes/apartado_4/49_balance_strategies.png, id=818, 365.86688pt x 197.98969
 pt>
 File: imagenes/apartado_4/49_balance_strategies.png Graphic file (type png)
 <use imagenes/apartado_4/49_balance_strategies.png>
@@ -3985,7 +3982,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
-<imagenes/apartado_5/51_diagrama_desarrollo_nuevo_modelo.png, id=832, 433.62pt 
+<imagenes/apartado_5/51_diagrama_desarrollo_nuevo_modelo.png, id=836, 433.62pt 
 x 623.32875pt>
 File: imagenes/apartado_5/51_diagrama_desarrollo_nuevo_modelo.png Graphic file 
 (type png)
@@ -4047,7 +4044,7 @@ has been already used, duplicate ignored
 l.20 N
       OTA: Los primeros 2 pasos deben realizarse con el robot en suspensión...
  <./imagenes/apartado_5/51_diagrama_desarrollo_nuevo_modelo.png>]
-<imagenes/apartado_5/52_diagrama_flujo1.png, id=839, 121.45375pt x 422.57875pt>
+<imagenes/apartado_5/52_diagrama_flujo1.png, id=843, 121.45375pt x 422.57875pt>
 
 File: imagenes/apartado_5/52_diagrama_flujo1.png Graphic file (type png)
 <use imagenes/apartado_5/52_diagrama_flujo1.png>
@@ -4098,7 +4095,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 42.
-<imagenes/apartado_5/53_postura_inicial_experimental_teo.png, id=849, 139.27031
+<imagenes/apartado_5/53_postura_inicial_experimental_teo.png, id=853, 139.27031
 pt x 301.125pt>
 File: imagenes/apartado_5/53_postura_inicial_experimental_teo.png Graphic file 
 (type png)
@@ -4144,7 +4141,7 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.56 
       <./imagenes/apartado_5/52_diagrama_flujo1.png>]
-<imagenes/apartado_5/54_esquema_bucle_abierto.png, id=855, 180.4341pt x 66.7293
+<imagenes/apartado_5/54_esquema_bucle_abierto.png, id=859, 180.4341pt x 66.7293
 pt>
 File: imagenes/apartado_5/54_esquema_bucle_abierto.png Graphic file (type png)
 <use imagenes/apartado_5/54_esquema_bucle_abierto.png>
@@ -4165,7 +4162,7 @@ tura_no_ajustada-eps-converted-to.pdf imagenes/apartado_5/55_1_altura_no_ajusta
 da.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<imagenes/apartado_5/55_1_altura_no_ajustada-eps-converted-to.pdf, id=858, page
+<imagenes/apartado_5/55_1_altura_no_ajustada-eps-converted-to.pdf, id=862, page
 box=cropbox, 578.16pt x 433.62pt>
 File: imagenes/apartado_5/55_1_altura_no_ajustada-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -4174,7 +4171,7 @@ Package pdftex.def Info: imagenes/apartado_5/55_1_altura_no_ajustada-eps-conver
 ted-to.pdf  used on input line 71. on input line 71.
 Package pdftex.def Info: Requested size: 289.07928pt x 216.80946pt on input lin
 e 71.
-<imagenes/apartado_5/55_2_altura_ajustada.pdf, id=859, pagebox=cropbox, 657.456
+<imagenes/apartado_5/55_2_altura_ajustada.pdf, id=863, pagebox=cropbox, 657.456
 25pt x 419.5675pt>
 File: imagenes/apartado_5/55_2_altura_ajustada.pdf Graphic file (type pdf)
 <use imagenes/apartado_5/55_2_altura_ajustada.pdf>
@@ -4226,7 +4223,7 @@ l.77
 l.77 
       <./imagenes/apartado_5/53_postura_inicial_experimental_teo.png> <./imagen
 es/apartado_5/54_esquema_bucle_abierto.png (PNG copy)>]
-<imagenes/apartado_5/56_esquema_bucle_cerrado.png, id=867, 588.69937pt x 250.68
+<imagenes/apartado_5/56_esquema_bucle_cerrado.png, id=871, 588.69937pt x 250.68
 657pt>
 File: imagenes/apartado_5/56_esquema_bucle_cerrado.png Graphic file (type png)
 <use imagenes/apartado_5/56_esquema_bucle_cerrado.png>
@@ -4272,35 +4269,35 @@ Package babel Info: Redefining spanish shorthand "?
 l.103 
        <./imagenes/apartado_5/55_1_altura_no_ajustada-eps-converted-to.pdf> <./
 imagenes/apartado_5/55_2_altura_ajustada.pdf>]
-<imagenes/apartado_5/57_1_exp1.png, id=884, 979.40906pt x 486.31688pt>
+<imagenes/apartado_5/57_1_exp1.png, id=888, 979.40906pt x 486.31688pt>
 File: imagenes/apartado_5/57_1_exp1.png Graphic file (type png)
 <use imagenes/apartado_5/57_1_exp1.png>
 Package pdftex.def Info: imagenes/apartado_5/57_1_exp1.png  used on input line 
 130. on input line 130.
 Package pdftex.def Info: Requested size: 195.87834pt x 97.26164pt on input line
  130.
-<imagenes/apartado_5/57_2_exp3.png, id=885, 979.40906pt x 486.31688pt>
+<imagenes/apartado_5/57_2_exp3.png, id=889, 979.40906pt x 486.31688pt>
 File: imagenes/apartado_5/57_2_exp3.png Graphic file (type png)
 <use imagenes/apartado_5/57_2_exp3.png>
 Package pdftex.def Info: imagenes/apartado_5/57_2_exp3.png  used on input line 
 133. on input line 133.
 Package pdftex.def Info: Requested size: 195.87834pt x 97.26164pt on input line
  133.
-<imagenes/apartado_5/57_3_exp5.png, id=886, 979.40906pt x 486.31688pt>
+<imagenes/apartado_5/57_3_exp5.png, id=890, 979.40906pt x 486.31688pt>
 File: imagenes/apartado_5/57_3_exp5.png Graphic file (type png)
 <use imagenes/apartado_5/57_3_exp5.png>
 Package pdftex.def Info: imagenes/apartado_5/57_3_exp5.png  used on input line 
 136. on input line 136.
 Package pdftex.def Info: Requested size: 195.87834pt x 97.26164pt on input line
  136.
-<imagenes/apartado_5/57_4_exp10.png, id=887, 979.40906pt x 486.31688pt>
+<imagenes/apartado_5/57_4_exp10.png, id=891, 979.40906pt x 486.31688pt>
 File: imagenes/apartado_5/57_4_exp10.png Graphic file (type png)
 <use imagenes/apartado_5/57_4_exp10.png>
 Package pdftex.def Info: imagenes/apartado_5/57_4_exp10.png  used on input line
  139. on input line 139.
 Package pdftex.def Info: Requested size: 195.87834pt x 97.26164pt on input line
  139.
-<imagenes/apartado_5/57_5_exp11.png, id=888, 979.40906pt x 486.31688pt>
+<imagenes/apartado_5/57_5_exp11.png, id=892, 979.40906pt x 486.31688pt>
 File: imagenes/apartado_5/57_5_exp11.png Graphic file (type png)
 <use imagenes/apartado_5/57_5_exp11.png>
 Package pdftex.def Info: imagenes/apartado_5/57_5_exp11.png  used on input line
@@ -4441,7 +4438,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 224--225
  se
  []
 
-<imagenes/apartado_5/58_comparativa_paso.png, id=920, 4929.41624pt x 2984.14874
+<imagenes/apartado_5/58_comparativa_paso.png, id=924, 4929.41624pt x 2984.14874
 pt>
 File: imagenes/apartado_5/58_comparativa_paso.png Graphic file (type png)
 <use imagenes/apartado_5/58_comparativa_paso.png>
@@ -4486,221 +4483,268 @@ Package babel Info: Redefining spanish shorthand "?
                                                   \fi \fi 
 l.234 
        <./imagenes/apartado_5/58_comparativa_paso.png>]
+<imagenes/apartado_5/59_zeta_response_system.png, id=933, 2007.5pt x 1282.7925p
+t>
+File: imagenes/apartado_5/59_zeta_response_system.png Graphic file (type png)
+<use imagenes/apartado_5/59_zeta_response_system.png>
+Package pdftex.def Info: imagenes/apartado_5/59_zeta_response_system.png  used 
+on input line 247. on input line 247.
+Package pdftex.def Info: Requested size: 369.88072pt x 227.60428pt on input lin
+e 247.
+File: imagenes/Interior_Logo.png Graphic file (type png)
+<use imagenes/Interior_Logo.png>
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 273. on
+ input line 273.
+Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
+ 273.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 273.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 273.
+ [64pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.273 \end{equation}
+                     <./imagenes/apartado_5/59_zeta_response_system.png>]
 
 pdfTeX warning: pdflatex (file ./imagenes/apartado_5/59_step_response.pdf): PDF
  inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<imagenes/apartado_5/59_step_response.pdf, id=928, pagebox=cropbox, 825.0825pt 
+<imagenes/apartado_5/59_step_response.pdf, id=948, pagebox=cropbox, 825.0825pt 
 x 482.80376pt>
 File: imagenes/apartado_5/59_step_response.pdf Graphic file (type pdf)
 <use imagenes/apartado_5/59_step_response.pdf>
 Package pdftex.def Info: imagenes/apartado_5/59_step_response.pdf  used on inpu
-t line 240. on input line 240.
+t line 279. on input line 279.
 Package pdftex.def Info: Requested size: 369.88623pt x 227.61766pt on input lin
-e 240.
+e 279.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 249.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 249.
-<imagenes/apartado_5/510_esquema_DLIPM.png, id=932, 687.31781pt x 338.76563pt>
-File: imagenes/apartado_5/510_esquema_DLIPM.png Graphic file (type png)
-<use imagenes/apartado_5/510_esquema_DLIPM.png>
-Package pdftex.def Info: imagenes/apartado_5/510_esquema_DLIPM.png  used on inp
-ut line 257. on input line 257.
-Package pdftex.def Info: Requested size: 378.02596pt x 186.32166pt on input lin
-e 257.
+(babel)             in language  on input line 287.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 261. on
- input line 261.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 292. on
+ input line 292.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 261.
+ 292.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 261.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 261.
-[64pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.261 
-       <./imagenes/apartado_5/59_step_response.pdf>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 262.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 262.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 262.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 262.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 262.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 262.
-
-
-LaTeX Warning: Reference `tabla52' on page 65 undefined on input line 266.
-
-<imagenes/apartado_5/511_compErrorModels.png, id=951, 3850.385pt x 2886.785pt>
-File: imagenes/apartado_5/511_compErrorModels.png Graphic file (type png)
-<use imagenes/apartado_5/511_compErrorModels.png>
-Package pdftex.def Info: imagenes/apartado_5/511_compErrorModels.png  used on i
-nput line 270. on input line 270.
-Package pdftex.def Info: Requested size: 369.84427pt x 227.59981pt on input lin
-e 270.
-File: imagenes/Interior_Logo.png Graphic file (type png)
-<use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 278. on
- input line 278.
-Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 278.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 278.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 292.
 [65pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.278 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5.11}) has been already used, duplicate ignored
+l.292 
+       <./imagenes/apartado_5/59_step_response.pdf>]
+<imagenes/apartado_5/510_esquema_DLIPM.png, id=971, 687.31781pt x 338.76563pt>
+File: imagenes/apartado_5/510_esquema_DLIPM.png Graphic file (type png)
+<use imagenes/apartado_5/510_esquema_DLIPM.png>
+Package pdftex.def Info: imagenes/apartado_5/510_esquema_DLIPM.png  used on inp
+ut line 295. on input line 295.
+Package pdftex.def Info: Requested size: 378.02596pt x 186.32166pt on input lin
+e 295.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 300.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 300.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 300.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 300.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 300.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 300.
+
+
+LaTeX Warning: Reference `tabla52' on page 66 undefined on input line 304.
+
+<imagenes/apartado_5/511_compErrorModels.png, id=972, 3850.385pt x 2886.785pt>
+File: imagenes/apartado_5/511_compErrorModels.png Graphic file (type png)
+<use imagenes/apartado_5/511_compErrorModels.png>
+Package pdftex.def Info: imagenes/apartado_5/511_compErrorModels.png  used on i
+nput line 308. on input line 308.
+Package pdftex.def Info: Requested size: 369.84427pt x 227.59981pt on input lin
+e 308.
+File: imagenes/Interior_Logo.png Graphic file (type png)
+<use imagenes/Interior_Logo.png>
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 312. on
+ input line 312.
+Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
+ 312.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 312.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 312.
+[66pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.278 
-       <./imagenes/apartado_5/510_esquema_DLIPM.png> <./imagenes/apartado_5/511
-_compErrorModels.png>]
-<imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf, id=958, pagebox=cropbox, 578.
+l.312 
+       <./imagenes/apartado_5/510_esquema_DLIPM.png>]
+<imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf, id=980, pagebox=cropbox, 578.
 16pt x 433.62pt>
 File: imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf Graphic file (type pdf)
 <use imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf>
 Package pdftex.def Info: imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf  used 
-on input line 283. on input line 283.
+on input line 321. on input line 321.
 Package pdftex.def Info: Requested size: 369.87997pt x 227.62082pt on input lin
-e 283.
+e 321.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 288.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 288.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 288.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 288.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 288.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 288.
+(babel)             in language  on input line 326.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 328.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 328.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 328.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 328.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 328.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 328.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 305. on
- input line 305.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 332. on
+ input line 332.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 305.
+ 332.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 305.
+(babel)             in language  on input line 332.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 305.
- [66pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+(babel)             in language  on input line 332.
+ [67pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.305 \end{enumerate}
-                      <./imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf>]
+l.332 N
+       OTA: Al igual que para las pruebas anteriores, es necesario que en lo...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.332 N
+       OTA: Al igual que para las pruebas anteriores, es necesario que en lo...
+ <./imagenes/apartado_5/511_compErrorModels.png> <./imagenes/apartado_5/512_evo
+lucion_zmp_dlipm.pdf>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 345.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 345.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 345.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 345.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 345.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 345.
 Package epstopdf Info: Source file: <imagenes/apartado_5/test6_imu2.eps>
 (epstopdf)                    date: 2018-09-14 09:21:30
 (epstopdf)                    size: 181982 bytes
@@ -4710,17 +4754,48 @@ ed-to.pdf>
 (epstopdf)                    size: 28949 bytes
 (epstopdf)             Command: <epstopdf --outfile=imagenes/apartado_5/test6_i
 mu2-eps-converted-to.pdf imagenes/apartado_5/test6_imu2.eps>
-(epstopdf)             \includegraphics on input line 314.
+(epstopdf)             \includegraphics on input line 352.
 Package epstopdf Info: Output file is already uptodate.
-<imagenes/apartado_5/test6_imu2-eps-converted-to.pdf, id=977, pagebox=cropbox, 
+<imagenes/apartado_5/test6_imu2-eps-converted-to.pdf, id=994, pagebox=cropbox, 
 578.16pt x 433.62pt>
 File: imagenes/apartado_5/test6_imu2-eps-converted-to.pdf Graphic file (type pd
 f)
 <use imagenes/apartado_5/test6_imu2-eps-converted-to.pdf>
 Package pdftex.def Info: imagenes/apartado_5/test6_imu2-eps-converted-to.pdf  u
-sed on input line 314. on input line 314.
+sed on input line 352. on input line 352.
 Package pdftex.def Info: Requested size: 369.87997pt x 227.62082pt on input lin
-e 314.
+e 352.
+File: imagenes/Interior_Logo.png Graphic file (type png)
+<use imagenes/Interior_Logo.png>
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 356. on
+ input line 356.
+Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
+ 356.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 356.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 356.
+ [68]
 Package epstopdf Info: Source file: <imagenes/apartado_5/test2_imu.eps>
 (epstopdf)                    date: 2018-09-13 17:27:22
 (epstopdf)                    size: 56619 bytes
@@ -4730,123 +4805,92 @@ d-to.pdf>
 (epstopdf)                    size: 11562 bytes
 (epstopdf)             Command: <epstopdf --outfile=imagenes/apartado_5/test2_i
 mu-eps-converted-to.pdf imagenes/apartado_5/test2_imu.eps>
-(epstopdf)             \includegraphics on input line 325.
+(epstopdf)             \includegraphics on input line 363.
 Package epstopdf Info: Output file is already uptodate.
-<imagenes/apartado_5/test2_imu-eps-converted-to.pdf, id=979, pagebox=cropbox, 9
-79.66pt x 486.81876pt>
+<imagenes/apartado_5/test2_imu-eps-converted-to.pdf, id=1004, pagebox=cropbox, 
+979.66pt x 486.81876pt>
 File: imagenes/apartado_5/test2_imu-eps-converted-to.pdf Graphic file (type pdf
 )
 <use imagenes/apartado_5/test2_imu-eps-converted-to.pdf>
 Package pdftex.def Info: imagenes/apartado_5/test2_imu-eps-converted-to.pdf  us
-ed on input line 325. on input line 325.
+ed on input line 363. on input line 363.
 Package pdftex.def Info: Requested size: 369.88293pt x 227.62375pt on input lin
-e 325.
+e 363.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 329. on
- input line 329.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 370. on
+ input line 370.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 329.
+ 370.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 329.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 329.
-
-[67pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.329 
-       <./imagenes/apartado_5/test6_imu2-eps-converted-to.pdf>]
-File: imagenes/Interior_Logo.png Graphic file (type png)
-<use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 332. on
- input line 332.
-Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 332.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 332.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 332.
- [68pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+(babel)             in language  on input line 370.
+ [69pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.332 \newpage
-               <./imagenes/apartado_5/test2_imu-eps-converted-to.pdf>]
+l.370 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{figure.5.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.370 \newpage
+               <./imagenes/apartado_5/test6_imu2-eps-converted-to.pdf> <./image
+nes/apartado_5/test2_imu-eps-converted-to.pdf>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 332. on
- input line 332.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 370. on
+ input line 370.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 332.
+ 370.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 332.
+(babel)             in language  on input line 370.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 332.
- [69])
+(babel)             in language  on input line 370.
+ [70])
 \openout2 = `codigofuente/6_conclusiones.aux'.
 
 
@@ -4894,7 +4938,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 42.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 42.
- [70
+ [71
 
 
 ]
@@ -4943,7 +4987,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
- [71
+ [72
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.7.1}) h
@@ -4983,7 +5027,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
- [72])
+ [73])
 \openout2 = `codigofuente/bibliografia.aux'.
 
  (codigofuente/bibliografia.tex
@@ -5125,7 +5169,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 23.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 23.
-[73
+[74
 
 
 ]
@@ -5200,7 +5244,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
-[74]
+[75]
 Underfull \hbox (badness 1742) in paragraph at lines 50--51
 []\OT1/cmr/m/n/12 J. Lorente, .[]uilibrium control for humanoid robot TEO by in
 ertial
@@ -5243,7 +5287,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 44.
- [75]
+ [76]
 No file plantilla_memoria_tfg.gls.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
 File: imagenes/Interior_Logo.png Graphic file (type png)
@@ -5276,7 +5320,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 48.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 48.
-[76
+[77
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
@@ -5298,16 +5342,13 @@ Package rerunfilecheck Info: File `plantilla_memoria_tfg.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 17203 strings out of 493308
- 281812 string characters out of 3138755
- 430560 words of memory out of 3000000
- 19943 multiletter control sequences out of 15000+200000
+ 17224 strings out of 493308
+ 282192 string characters out of 3138755
+ 430900 words of memory out of 3000000
+ 19954 multiletter control sequences out of 15000+200000
  16523 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,18n,64p,2035b,731s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5331,9 +5372,9 @@ sy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/eurosym/feybr10.pfb>
-Output written on plantilla_memoria_tfg.pdf (77 pages, 12665007 bytes).
+Output written on plantilla_memoria_tfg.pdf (78 pages, 12864119 bytes).
 PDF statistics:
- 1215 PDF objects out of 1440 (max. 8388607)
- 311 named destinations out of 1000 (max. 500000)
- 704 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1240 PDF objects out of 1440 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
+ 709 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -230,18 +230,56 @@ Se ha demostrado que la respuesta del robot humanoide como péndulo invertido si
 \label{figura58}
 \end{figure}
 
-En el presente proyecto se han escogido unos valores para los parámetros dinámicos de tal manera que han permitido reducir la sobreoscilación. Estos parámetros se obtuvieron de la ecuación \ref{ec52}, ya que $\gamma$ está relacionada con $B_a$, que es el parámetro del modelo DLIPM mediante el cual se puede mejorar la respuesta del sistema en régimen transitorio. Esta relación entre $B_a$ y los parámetros dinámicos se demuestra como:
+En el presente proyecto se han escogido unos valores para los parámetros dinámicos de tal manera que han permitido reducir la sobreoscilación. Estos parámetros se obtuvieron de la ecuación \ref{ec52}, ya que $\gamma$ está relacionada con $B_a$, que es el parámetro del modelo DLIPM mediante el cual se puede mejorar la respuesta del sistema en régimen transitorio.
 
-%%incluir las ecuaciones de Ba, chi y Wn.
+Para un sistema de segundo orden, como es el caso del modelo DLIPM, la función de transferencia en lazo cerrado se escribe como:
 
-%%aquí va la figura 18 del paper, que es la figura 58 del tfg. Borrar este comentario cuando la incluya
+\begin{equation}
+G(S)=\frac{\theta(S)}{X(S)}=\frac{K{w_{n}}^{2}}{S^{2} + 2\zeta w_{n}S + {w_{n}}^{2}}
+\label{ec58}
+\end{equation}
+
+donde $w_{n}$ es la frecuencia natural no amortiguada, y $\zeta$, el factor de amortiguamiento relativo del sistema. Para los diferentes valores de $\zeta$, el sistema actuará de diferentes maneras, como se puede observar en la figura \ref{figura59}:
+
+%%imagen sacada de https://electronics.stackexchange.com/questions/135963/why-dont-over-damped-and-critically-damped-circuits-oscillate
+\begin{figure}[H]
+\centering
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_zeta_response_system}
+\caption{Respuesta del sistema en función del factor de amortiguamiento}
+\label{figura59}
+\end{figure}
+
+
+\begin{enumerate}
+
+\item \textbf{Críticamente amortiguado} $\zeta = 1$
+
+\item \textbf{Sobreamortiguado} $\zeta > 1$
+
+\item \textbf{Subamortiguado} $0 < \zeta < 1$
+
+\end{enumerate}
+
+Igualando \ref{ec51} con \ref{ec58} se obtiene:
+
+\begin{equation}
+w_{n}=\sqrt{-\frac{g}{l}+\frac{k_a}{m}}
+\label{ec59}
+\end{equation}
+
+\begin{equation}
+2\zeta w_{n} = \frac{B_a}{m}
+\label{ec510}
+\end{equation}
+
+En \ref{ec510} como se puede observar hay 2 incógnitas para despejar, por lo que para obtener un resultado debemos fijar una de ellas y despejar la otra. Como se ha comentado antes, el sistema de péndulo invertido es un sistema subamortiguado por lo que se decidió fijar $\zeta$, y despejando de \ref{ec510}, obtenemos $B_a$. Para el actual proyecto, los parámetros dinámicos que se diseñaron fueron $\zeta = 0.8$ y $w_n = 0.4376$.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_step_response}
 \caption{Respuesta angular del modelo DLIPM}
-\label{figura59}
+\label{figura510}
 \end{figure}
-
 
 \end{itemize}
 
@@ -250,13 +288,13 @@ En el presente proyecto se han escogido unos valores para los parámetros dinám
 
 Como el objetivo de este trabajo es abarcar varios puntos de trabajo, se ha propuesto un modelo de controlador no lineal, basado en una ganancia programada, que mediante la selección adecuada de los parámetros dinámicos, permite manejar múltiples puntos de trabajo. Un controlador por ganancia programable es un sistema en el que los parámetros de dicho controlador pueden variar en función de las condiciones de operación o los parámetros de la planta \cite{ref22}. Este controlador utiliza tablas para especificar los valores de la ganancia en función de los parámetros programados.
 
-Las siguientes pruebas se han llevado a cabo siguiendo el esquema de la figura \ref{figura510}, similar a la arquitectura de control utilizada en \cite{ref21}. Para el actual proyecto, dependiendo de la entrada, se pueden seleccionar los valores $k_a$ y $B_a$ adecuados gracias al módulo que permite seleccionar estos parámetros según su planificación. Una vez seleccionados, se calculan los coeficientes de la planta del modelo DLIPM, modificando así su dinámica. Por último, una vez que se ha calculado la planta del modelo DLIPM, éste comanda un ángulo a los tobillos del robot, siendo más progresiva su implementación que en el modelo LIPM.
+Las siguientes pruebas se han llevado a cabo siguiendo el esquema de la figura \ref{figura511}, similar a la arquitectura de control utilizada en \cite{ref21}. Para el actual proyecto, dependiendo de la entrada, se pueden seleccionar los valores $k_a$ y $B_a$ adecuados gracias al módulo que permite seleccionar estos parámetros según su planificación. Una vez seleccionados, se calculan los coeficientes de la planta del modelo DLIPM, modificando así su dinámica. Por último, una vez que se ha calculado la planta del modelo DLIPM, éste comanda un ángulo a los tobillos del robot, siendo más progresiva su implementación que en el modelo LIPM.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.55]{imagenes/apartado_5/510_esquema_DLIPM}
 \caption{Arquitectura de control del modelo DLIPM}
-\label{figura510}
+\label{figura511}
 \end{figure}
 
 \subsubsection{Validación de datos experimentales}
@@ -269,7 +307,7 @@ Para la respuesta en régimen permanente de los experimentos se ha desarrollado 
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/511_compErrorModels}
 \caption{Evolucion ZMP modelo DLIPM}
-\label{figura511}
+\label{figura512}
 \end{figure}
 
 
@@ -282,7 +320,7 @@ Se puede observar, comparando ésta con la figura \ref{figura55}, que la respues
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf}
 \caption{Evolucion ZMP modelo DLIPM}
-\label{figura512}
+\label{figura513}
 \end{figure}
 
 \subsection{Estudio de la respuesta del sensor inercial IMU}\label{respuestaIMU}
@@ -306,25 +344,25 @@ NOTA: Al igual que para las pruebas anteriores, es necesario que en los primeros
 
 \subsubsection{Respuesta del modelo cart-table}
 
-Como se ha comentado en el apartado \ref{equivalencia_modelos}, tanto el modelo de péndulo invertido simple como el cart-table son distintas formas de computar el ZMP. En \cite{ref22} el modelo cart-table presentaba errores en régimen permanente, como se puede observar en \ref{figura512}.
+Como se ha comentado en el apartado \ref{equivalencia_modelos}, tanto el modelo de péndulo invertido simple como el cart-table son distintas formas de computar el ZMP. En \cite{ref22} el modelo cart-table presentaba errores en régimen permanente, como se puede observar en \ref{figura514}.
 
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/test6_imu2}
 \caption{Evolucion ZMP modelo cart-table}
-\label{figura512}
+\label{figura514}
 \end{figure}
 
 Se hizo el estudio de ambos modelos para averiguar los parámetros más importantes de ambos modelos. Se observó que la altura del CoM necesitaba ser modificada en el modelo cart-table para que ambos modelos dieran el mismo ZMP.
 
-Una vez que se computó la altura del modelo cart-table, se volvieron a hacer las pruebas, mejorando su respuesta en régimen permanente. La corrección de dicho error en régimen permanente puede observarse en la figura \ref{figura513} en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
+Una vez que se computó la altura del modelo cart-table, se volvieron a hacer las pruebas, mejorando su respuesta en régimen permanente. La corrección de dicho error en régimen permanente puede observarse en la figura \ref{figura515} en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/test2_imu}
 \caption{Representación ZMP modelo cart-table corregido}
-\label{figura513}
+\label{figura515}
 \end{figure}
 
 
