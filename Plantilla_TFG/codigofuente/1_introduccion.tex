@@ -7,10 +7,9 @@ Pero no todos los entornos reúnen las condiciones ideales de ser estáticos y r
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{imagenes/apartado_1/11_robot_humanoide}
-\caption{Robot humanoide}
+\caption{Robot humanoide \cite{ref39}}
 \label{figura1}
 \end{figure}
-%% Imagen sacada de https://sourcingguy.wordpress.com/2015/09/16/managing-procurement-in-a-digital-world/
 
 Evitar la pérdida de equilibrio del robot durante las fases de posición estática o caminata bípeda es una tarea compleja que está relacionada con el control.
 
@@ -29,19 +28,19 @@ De aquí surgió la idea del actual proyecto, en el que se pretende mejorar la r
 
 \subsection{Objetivos}
 
-El actual proyecto trata sobre el estudio de estabilidad del robot humanoide TEO haciendo uso de la información recibida de los diferentes sensores que posee, tanto los de fuerza-par como el inercial.
+El actual proyecto trata sobre el estudio de los parámetros que sirven para controlar la estabilidad del robot humanoide TEO. El parámetro principal es el Zero Moment Point (ZMP), que es un indicar de estabilidad del robot \cite{ref19}. Este parámetro se obtiene a partir de la información recibida de los diferentes sensores que posee, tanto los de fuerza-par como el inercial.
 
-Los objetivos del presente trabajo son:
+Teniendo en cuenta que se van a utilizar estos sensores para medir la estabilidad, y apoyándose sobre unos modelos que están relacionados con el ZMP, los objetivos del presente trabajo son:
 
-- Realizar un estudio de estabilidad a través de los diferentes modelos existentes, como son el modelo de péndulo invertido y el cart-table.
+- Realizar un estudio del funcionamiento de los sensores, comprobar que las medidas se computan correctamente, obtener los datos y aplicarlos a los modelos.
 
-- Desarrollar una mejora que reduzca el error del modelo de péndulo invertido y así conseguir que el ZMP práctico y el ZMP teórico coincidan.
+- Verificar el modelo con los parámetros calculados a partir de la información recibida de los sensores de fuerza-par.
 
-- Ajustar el modelo cart-table.
+- Una vez que se ha verificado el modelo, desarrollar una mejora que reduzca su error.
+
+- Aplicar dicha mejora a la IMU para que ambas medidas de ZMP coincidan.
 
 \subsection{Marco regulador}
-
-%https://blogthinkbig.com/las-6-leyes-de-la-robotica-de-la-union-europea
 
 Debido al aumento tanto de la tecnología como de la inteligencia artificial en nuestras vidas, las grandes organizaciones gubernamentales se han visto obligadas a redactar una serie de leyes que regulen la convivencia de los robots y los humanos. Se puede considerar como precursor de las normativas a Isaac Asimov, quien estableció las tres leyes principales que todo robot debe cumplir \cite{ref1}:
 
@@ -51,21 +50,16 @@ Debido al aumento tanto de la tecnología como de la inteligencia artificial en 
 \item Un robot debe proteger su propia existencia en la medida en la que dicha protección no entre en conflicto con la 1ª y la 2ª ley.
 \end{enumerate}
 
-%http://www.aenor.es/aenor/normas/buscadornormas/buscadornormas.asp#.WwxD43WFM8p
-
 Debido a la continua implantación de robots en el sector industrial y su interacción con seres humanos en un mismo espacio de trabajo, se redactaron una serie de leyes, entre las que se encuentran:
 
 \begin{enumerate}
 
 \item UNE-EN ISO 10218-1:2012 Robots y dispositivos robóticos. Requisitos de seguridad para robots industriales. Parte 1: Robots. (ISO 10218-1:2012) \cite{ref27}.
-%%https://www.aenor.com/normas-y-libros/buscador-de-normas/UNE?c=N0049289
 
 \item UNE-EN ISO 10218-2:2011 Robots y dispositivos robóticos. Requisitos de seguridad para robots industriales. Parte 2: Sistemas robot e integración. (ISO 10218-2:2011) \cite{ref28}.
-%%https://www.aenor.com/normas-y-libros/buscador-de-normas/UNE?c=N0048668
 
 \end{enumerate}
 
-%http://www.infoplc.net/actualidad-industrial/item/103207-iso-norma-ts15066-robots-colaborativos
 Estas leyes fueron concebidas para proporcionar unas pautas de seguridad en entornos en los que robot y humano comparten el mismo espacio de trabajo.
 
 Fuera del ámbito industrial, la Unión Europea ha propuesto una serie de leyes para, en un futuro, poder regular la convivencia de robots y seres humanos en cualquier entorno \cite{ref1}:

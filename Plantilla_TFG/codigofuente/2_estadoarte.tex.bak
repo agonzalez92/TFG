@@ -37,7 +37,7 @@ Resulta complicado establecer una clasificación exacta de los robots debido a l
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.12]{imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB}
-\caption{Robot Industrial ABB}
+\caption{Robot Industrial ABB \cite{ref37}}
 \label{figura21}
 \end{figure}
 
@@ -46,7 +46,7 @@ Resulta complicado establecer una clasificación exacta de los robots debido a l
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.15]{imagenes/apartado_2/22_movil2}
-\caption{Mars Pathfinder Rover Sojourner}
+\caption{Mars Pathfinder Rover Sojourner \cite{ref40}}
 \label{figura22}
 \end{figure}
 
@@ -71,7 +71,7 @@ Por el contrario, el grupo de los no caminadores es muy escaso y está poco evol
 
 \begin{figure}[H]
 \centering
-\subfigure[Robot caminador ANYmal]
+\subfigure[Robot caminador ANYmal \cite{ref36}]
 {\includegraphics[scale=0.2]{imagenes/apartado_2/24_1_zoomorfico1_ANYmal}}
 \quad
 \subfigure[Serpiente Robot Modular no caminador]
@@ -82,12 +82,12 @@ Por el contrario, el grupo de los no caminadores es muy escaso y está poco evol
 
 \item \textbf{Híbridos}\\ A este grupo pertenecen aquellos Robots que posean en su estructura una combinación de las anteriores ya expuestas, bien sea por conjunción o por yuxtaposición. 
 
-Por ejemplo, un dispositivo con ruedas y con brazos, siendo características de los Robots móviles y de los androides al mismo tiempo \footnote{Imágenes sacadas de \cite{ref36}, \cite{ref37} y wikipedia}.
+Por ejemplo, un dispositivo con ruedas y con brazos, siendo características de los Robots móviles y de los androides al mismo tiempo.
 
 \begin{figure}[H]
 \centering
 {\includegraphics[scale=0.15]{imagenes/apartado_2/25_hibrido_handle_bd}}
-\caption{Robot HANDLE}
+\caption{Robot HANDLE \cite{ref35}}
 \label{figura25}
 \end{figure}
 
@@ -137,7 +137,7 @@ Durante las décadas de los 60's a los 90's aparecieron numerosos robots bípedo
 \quad
 \subfigure[WL-3]
 {\includegraphics[scale=0.5]{imagenes/apartado_2/29_2_WL_3_1969}}
-\caption{Robots Waseda Legged}
+\caption{Robots Waseda Legged \cite{ref34}}
 \label{figura29}
 \end{figure}
 
@@ -151,7 +151,7 @@ Durante las décadas de los 60's a los 90's aparecieron numerosos robots bípedo
 \quad
 \subfigure[WAP-3]
 {\includegraphics[scale=0.6]{imagenes/apartado_2/210_3_WAP_3_1971}}
-\caption{Waseda's Anthropomorphic Pneumatically-activated pedipulators}
+\caption{Waseda's Anthropomorphic Pneumatically-activated pedipulators \cite{ref34}}
 \label{figura210}
 \end{figure}
 
@@ -164,7 +164,7 @@ Ya en 1970, con los avances en la investigación de robots antropomórficos inte
 \quad
 \subfigure[WABOT-2]
 {\includegraphics[scale=0.65]{imagenes/apartado_2/211_2_WABOT_2_1984}}
-\caption{Robots antropomórficos inteligentes WAseda roBOT}
+\caption{Robots antropomórficos inteligentes WAseda roBOT \cite{ref34}}
 \label{figura211}
 \end{figure}
 
@@ -188,7 +188,7 @@ Dos años más tarde, bajo el Ministerio de Económicas, Comercio e Industria de
 \label{figura213}
 \end{figure}
 
-En la actualidad, los robots humanoides están muy avanzados, pudiendo incluso correr y mantener el equilibrio. Un ejemplo de ello lo tenemos en ATLAS, desarrollado en 2013 por Boston Dynamics, capaz de caminar por terrenos irregulares sin perder el equilibrio, cargar objetos pesados, e incluso recientemente, dar saltos \cite{ref29}\footnote{Imágenes del apartado \ref{historia_robots_humanoides} están sacadas de \cite{ref34}, \cite{35} y wikipedia}.
+En la actualidad, los robots humanoides están muy avanzados, pudiendo incluso correr y mantener el equilibrio. Un ejemplo de ello lo tenemos en ATLAS, desarrollado en 2013 por Boston Dynamics, capaz de caminar por terrenos irregulares sin perder el equilibrio, cargar objetos pesados, e incluso recientemente, dar saltos \cite{ref29}.
 
 \begin{figure}[H]
 \centering
