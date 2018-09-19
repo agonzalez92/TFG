@@ -78,7 +78,9 @@
 %\usepackage[table,xcdraw]{xcolor}
 \usepackage{ulem}%para que cuando se utilice el comando \emph{•} la palabra entre llaves esté subrayada. si lo quitamos la palabra estría en cursiva
 \usepackage{eurosym} % para el euro
-\renewcommand{\theequation}{\thesection.\arabic{equation}}
-\counterwithin{equation}{section}
-\usepackage{cite}
+\renewcommand{\theequation}{\thesection.\arabic{equation}} %para poner el número del capítulo en las ecuaciones
+\counterwithin{equation}{section} %para reiniciar el número de ecuación en cada capítulo
+\usepackage{cite} %para referencias a la bibliografía
 \usepackage{hyperref}
+\usepackage{pdfpages} %para incluir documentos en pdf
+\usepackage{appendix}

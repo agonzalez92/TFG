@@ -19,7 +19,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.3}{Programa de adquisici\363n de datos}{subsection.3.2}% 19
 \BOOKMARK [2][-]{subsection.3.3}{Unidad de medida inercial \(IMU\)}{section.3}% 20
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Xsens MTi-28A53G35}{subsection.3.3}% 21
-\BOOKMARK [1][-]{section.4}{Estudio de la estabilidad}{}% 22
+\BOOKMARK [1][-]{section.4}{Modelos simplificados usados en el estudio de la estabilidad}{}% 22
 \BOOKMARK [2][-]{subsection.4.1}{Modelo P\351ndulo Invertido Lineal}{section.4}% 23
 \BOOKMARK [3][-]{subsubsection.4.1.1}{LIPM aplicado al robot humanoide TEO}{subsection.4.1}% 24
 \BOOKMARK [3][-]{subsubsection.4.1.2}{DLIPM: mejora del modelo del p\351ndulo invertido simple}{subsection.4.1}% 25
@@ -39,3 +39,6 @@
 \BOOKMARK [1][-]{section.6}{Conclusiones y trabajos futuros}{}% 39
 \BOOKMARK [1][-]{section.7}{Presupuesto}{}% 40
 \BOOKMARK [1][-]{section*.4}{Referencias}{}% 41
+\BOOKMARK [1][-]{appendix.Alph1}{Estructura del robot TEO}{}% 42
+\BOOKMARK [1][-]{appendix.Alph2}{Informaci\363n sensores JR3}{}% 43
+\BOOKMARK [1][-]{appendix.Alph3}{Informaci\363n sensor IMU}{}% 44

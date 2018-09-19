@@ -42,6 +42,7 @@
 \include{codigofuente/6_conclusiones}
 \include{codigofuente/7_presupuesto}
 \include{codigofuente/bibliografia}
+\include{codigofuente/apendices}
 
 \printglossary
 

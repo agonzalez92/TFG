@@ -15,7 +15,7 @@
 
 \bibitem{ref7} Robots and Androids, "The History of Robots", Robots and Androids. [En línea]. Disponible en: \url{http://www.robots-and-androids.com/history-of-robots.html}. Acceso: junio 2018.
 
-\bibitem{ref8} Md Akhtaruzzaman y A.A. Shafie, " Evolution of Humanoid Robot and contribution of various countries in advancing the research and development of the platform", presentada en Control Automation and Systems (ICCAS), Korea, 27-30 oct. 2010. [En línea]. Disponible en: \url{https://www.researchgate.net/publication/224205809_Evolution_of_Humanoid_Robot_and_contribution_of_various_countries_in_advancing_the_research_and_development_of_the_platform?enrichId=rgreq-ab514ae1b200677f50fc57e833fdf1d3-XXX&enrichSource=Y292ZXJQYWdlOzIyNDIwNTgwOTtBUzoxMDI4NTkwODEyNTY5NjhAMTQwMTUzNDkyNDI5Mw\%3D\%3D&el=1_x_2&_esc=publicationCoverPdf}. Acceso: julio 2018.
+\bibitem{ref8} Md Akhtaruzzaman y A.A. Shafie, " Evolution of Humanoid Robot and contribution of various countries in advancing the research and development of the platform", presentada en Control Automation and Systems (ICCAS), Korea, 27-30 oct. 2010. [En línea]. Disponible en: \url{https://ieeexplore.ieee.org/document/5669646/}. Acceso: julio 2018.
 
 \bibitem{ref9} T. Martín y A. Serrano, "Dinámica de sistemas. Centro de masas", Universidad Politécnica de Madrid. [En línea]. Disponible en: \url{http://www2.montes.upm.es/dptos/digfa/cfisica/dinamsist/cdm.html}.
 
@@ -57,7 +57,9 @@
 
 \bibitem{ref28} AENOR, "UNE-EN ISO 10218-2:2011", \textit{AENOR}, 2011. [En línea]. Disponible en: \url{https://www.aenor.com/normas-y-libros/buscador-de-normas/UNE?c=N0048668}.
 
-\bibitem{ref29} R. Álvarez, "El asombroso robot 'Atlas' de Boston Dynamics aprende a saltar y ahora es más aterrador (y espectacular) que antes", \textit{Xataka}, 17-11-2017. [En línea]. Disponible en: \url{https://www.xataka.com/robotica-e-ia/el-asombroso-robot-atlas-de-boston-dymanics-aprende-a-saltar-y-ahora-es-mas-aterrador-y-espectacular-que-antes}.
+%\bibitem{ref29} R. Álvarez, "El asombroso robot 'Atlas' de Boston Dynamics aprende a saltar y ahora es más aterrador (y espectacular) que antes", \textit{Xataka}, 17-11-2017. [En línea]. Disponible en: \url{https://www.xataka.com/robotica-e-ia/el-asombroso-robot-atlas-de-boston-dymanics-aprende-a-saltar-y-ahora-es-mas-aterrador-y-espectacular-que-antes}.
+
+\bibitem{ref29} "Mars Pathfinder Rover: Sojourner", \textit{Smithsonian: National Air and Space Museum}, 2011. [En línea]. Disponible en: \url{https://airandspace.si.edu/multimedia-gallery/web12070-2011640jpg}.
 
 \bibitem{ref30} Omega Engineering, "Acelerómetro", \textit{Omega}. [En línea]. Disponible en: \url{https://es.omega.com/prodinfo/acelerometro.html}.
 
@@ -79,6 +81,7 @@
 
 \bibitem{ref39} "Managing Procurement in a Digital World", \textit{Sourcing Guy}, 16-09-2015. [En línea]. Disponible en: \url{https://sourcingguy.wordpress.com/2015/09/16/managing-procurement-in-a-digital-world/}.
 
-\bibitem{ref40} "Mars Pathfinder Rover: Sojourner", \textit{Smithsonian: National Air and Space Museum}, 2011. [En línea]. Disponible en: \url{https://airandspace.si.edu/multimedia-gallery/web12070-2011640jpg}.
-
 \end{thebibliography} 
+
+\afterpage{\null\newpage}
+\newpage

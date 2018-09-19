@@ -1,0 +1,11 @@
+\appendix
+\includepdf[scale=0.8,pagecommand=\section{Estructura del robot TEO}\label{aped.A}]{apendices/teo-link-names}
+
+
+
+\includepdf[scale=0.8,pagecommand=\section{Información sensores JR3}\label{aped.B}]{apendices/Jr3_50M31_corregido}
+
+
+
+\includepdf[scale=0.8,pages=2-3,\section{Información sensor IMU}\label{aped.C}]{apendices/0referencia_inercial_mti_ahrs}
+

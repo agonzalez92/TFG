@@ -19,7 +19,7 @@ Estos microprocesadores son: visión artificial, que se encarga de computar las 
 
 Para la adquisición de datos, como se ha comentado anteriormente, el robot posee una IMU localizada en el tronco, capaz de medir aceleraciones, campos magnéticos y ángulos,  y 4 sensores de fuerza-par situados en muñecas y tobillos, capaces de medir fuerzas y torques.
 
-En cuanto a la comunicación se usa un protocolo CAN-bus y el software para controlar dichas comunicaciones entre CAN-bus y el ordenador se denomina YARP\footnote{YARP (Yet Another Robot Platform) es un middleware (software que ayuda a una aplicación a interactuar o comunicarse con otras aplicaciones, paquetes de programas, hardware, redes, y/o sistemas operativos) escrito en C ++ para interconectar sensores, procesadores y actuadores en robots.}.
+En cuanto a la comunicación se usa un protocolo CAN-bus\footnote{Bus de comunicaciones industriales físico} y el software para controlar dichas comunicaciones entre CAN-bus y el ordenador se denomina YARP\footnote{YARP (Yet Another Robot Platform) es un middleware (software que ayuda a una aplicación a interactuar o comunicarse con otras aplicaciones, paquetes de programas, hardware, redes, y/o sistemas operativos) escrito en C ++ para interconectar sensores, procesadores y actuadores en robots.}.
 
 \begin{figure}[H]
 \centering
@@ -34,8 +34,8 @@ En cuanto a la comunicación se usa un protocolo CAN-bus y el software para cont
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{imagenes/apartado_3/33_diagrama_comunicaciones}
-\caption{Diagrama comunicaciones con PC}
+\includegraphics[scale=0.6]{imagenes/apartado_3/33_diagrama_comunicaciones.pdf}
+\caption{Diagrama comunicaciones}
 \label{figura33}
 \end{figure}
 
