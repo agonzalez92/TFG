@@ -1,44 +1,46 @@
-\BOOKMARK [1][-]{section*.2}{\315ndice de figuras}{}% 1
-\BOOKMARK [1][-]{section*.3}{\315ndice de tablas}{}% 2
-\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 3
-\BOOKMARK [2][-]{subsection.1.1}{Motivaciones y origen del proyecto}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.2}{Objetivos}{section.1}% 5
-\BOOKMARK [2][-]{subsection.1.3}{Marco regulador}{section.1}% 6
-\BOOKMARK [2][-]{subsection.1.4}{Planificaci\363n}{section.1}% 7
-\BOOKMARK [1][-]{section.2}{Estado del arte}{}% 8
-\BOOKMARK [2][-]{subsection.2.1}{Origen de la rob\363tica}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Tipos de robots}{subsection.2.1}% 10
-\BOOKMARK [2][-]{subsection.2.2}{Evoluci\363n de los Robots Humanoides}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.3}{Locomoci\363n b\355peda}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.4}{Zero Moment Point \(ZMP\)}{section.2}% 13
-\BOOKMARK [1][-]{section.3}{Descripci\363n del sistema}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Robot humanoide TEO}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.2}{Sensores fuerza-par}{section.3}% 16
-\BOOKMARK [3][-]{subsubsection.3.2.1}{JR3 50M31A y 85M35A}{subsection.3.2}% 17
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Adquisici\363n de datos}{subsection.3.2}% 18
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Programa de adquisici\363n de datos}{subsection.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.3}{Unidad de medida inercial \(IMU\)}{section.3}% 20
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Xsens MTi-28A53G35}{subsection.3.3}% 21
-\BOOKMARK [1][-]{section.4}{Modelos simplificados usados en el estudio de la estabilidad}{}% 22
-\BOOKMARK [2][-]{subsection.4.1}{Modelo P\351ndulo Invertido Lineal}{section.4}% 23
-\BOOKMARK [3][-]{subsubsection.4.1.1}{LIPM aplicado al robot humanoide TEO}{subsection.4.1}% 24
-\BOOKMARK [3][-]{subsubsection.4.1.2}{DLIPM: mejora del modelo del p\351ndulo invertido simple}{subsection.4.1}% 25
-\BOOKMARK [2][-]{subsection.4.2}{Modelo cart-table}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.3}{Equivalencia de modelos}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.4}{Estrategias de control}{section.4}% 28
-\BOOKMARK [1][-]{section.5}{Estudio de la respuesta de los sensores del robot humanoide TEO y la aplicaci\363n de su informaci\363n al control del equilibrio}{}% 29
-\BOOKMARK [2][-]{subsection.5.1}{Estudio de la respuesta de los sensores F-T}{section.5}% 30
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Descripci\363n de la metodolog\355a experimental}{subsection.5.1}% 31
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Respuesta del sistema LIPM}{subsection.5.1}% 32
-\BOOKMARK [3][-]{subsubsection.5.1.3}{Respuesta del modelo mejorado DLIPM}{subsection.5.1}% 33
-\BOOKMARK [3][-]{subsubsection.5.1.4}{Control de ZMP}{subsection.5.1}% 34
-\BOOKMARK [3][-]{subsubsection.5.1.5}{Validaci\363n de datos experimentales}{subsection.5.1}% 35
-\BOOKMARK [2][-]{subsection.5.2}{Estudio de la respuesta del sensor inercial IMU}{section.5}% 36
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Descripci\363n de la metodolog\355a experimental}{subsection.5.2}% 37
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Respuesta del modelo cart-table}{subsection.5.2}% 38
-\BOOKMARK [1][-]{section.6}{Conclusiones y trabajos futuros}{}% 39
-\BOOKMARK [1][-]{section.7}{Presupuesto}{}% 40
-\BOOKMARK [1][-]{section*.4}{Referencias}{}% 41
-\BOOKMARK [1][-]{appendix.Alph1}{Estructura del robot TEO}{}% 42
-\BOOKMARK [1][-]{appendix.Alph2}{Informaci\363n sensores JR3}{}% 43
-\BOOKMARK [1][-]{appendix.Alph3}{Informaci\363n sensor IMU}{}% 44
+\BOOKMARK [1][-]{section*.1}{Agradecimientos}{}% 1
+\BOOKMARK [1][-]{section*.2}{Resumen}{}% 2
+\BOOKMARK [1][-]{section*.4}{\315ndice de figuras}{}% 3
+\BOOKMARK [1][-]{section*.5}{\315ndice de tablas}{}% 4
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 5
+\BOOKMARK [2][-]{subsection.1.1}{Motivaciones y origen del proyecto}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.2}{Objetivos}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.3}{Marco regulador}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.4}{Planificaci\363n}{section.1}% 9
+\BOOKMARK [1][-]{section.2}{Estado del arte}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{Origen de la rob\363tica}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Tipos de robots}{subsection.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.2}{Evoluci\363n de los Robots Humanoides}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.3}{Locomoci\363n b\355peda}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.4}{Zero Moment Point \(ZMP\)}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{Descripci\363n del sistema}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Robot humanoide TEO}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Sensores fuerza-par}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.1}{JR3 50M31A y 85M35A}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Adquisici\363n de datos}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Programa de adquisici\363n de datos}{subsection.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Unidad de medida inercial \(IMU\)}{section.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Xsens MTi-28A53G35}{subsection.3.3}% 23
+\BOOKMARK [1][-]{section.4}{Modelos simplificados usados en el estudio de la estabilidad}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{Modelo P\351ndulo Invertido Lineal}{section.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.1}{LIPM aplicado al robot humanoide TEO}{subsection.4.1}% 26
+\BOOKMARK [3][-]{subsubsection.4.1.2}{DLIPM: mejora del modelo del p\351ndulo invertido simple}{subsection.4.1}% 27
+\BOOKMARK [2][-]{subsection.4.2}{Modelo cart-table}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.3}{Equivalencia de modelos}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.4}{Estrategias de control}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{Estudio de la respuesta de los sensores del robot humanoide TEO y la aplicaci\363n de su informaci\363n al control del equilibrio}{}% 31
+\BOOKMARK [2][-]{subsection.5.1}{Estudio de la respuesta de los sensores F-T}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Descripci\363n de la metodolog\355a experimental}{subsection.5.1}% 33
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Respuesta del sistema LIPM}{subsection.5.1}% 34
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Respuesta del modelo mejorado DLIPM}{subsection.5.1}% 35
+\BOOKMARK [3][-]{subsubsection.5.1.4}{Control de ZMP}{subsection.5.1}% 36
+\BOOKMARK [3][-]{subsubsection.5.1.5}{Validaci\363n de datos experimentales}{subsection.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.2}{Estudio de la respuesta del sensor inercial IMU}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Descripci\363n de la metodolog\355a experimental}{subsection.5.2}% 39
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Respuesta del modelo cart-table}{subsection.5.2}% 40
+\BOOKMARK [1][-]{section.6}{Conclusiones y trabajos futuros}{}% 41
+\BOOKMARK [1][-]{section.7}{Presupuesto}{}% 42
+\BOOKMARK [1][-]{section*.6}{Referencias}{}% 43
+\BOOKMARK [1][-]{appendix.Alph1}{Estructura del robot TEO}{}% 44
+\BOOKMARK [1][-]{appendix.Alph2}{Informaci\363n sensores JR3}{}% 45
+\BOOKMARK [1][-]{appendix.Alph3}{Informaci\363n sensor IMU}{}% 46
