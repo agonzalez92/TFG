@@ -9,7 +9,7 @@ Para estudiar la respuesta de los sensores F-T ante perturbaciones y aplicar dic
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{imagenes/apartado_5/51_diagrama_desarrollo_nuevo_modelo}
-\caption{Diagrama del desarrollo experimental del nuevo modelo}
+\caption{Diagrama del desarrollo experimental del nuevo modelo \cite{ref21}}
 \label{figura51}
 \end{figure}
 
@@ -48,7 +48,7 @@ En el presente proyecto se ha llevado a cabo una batería de 30 experimentos en 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.65]{imagenes/apartado_5/53_postura_inicial_experimental_teo}
-\caption{Plano de desarrollo de los experimentos del robot TEO}
+\caption{Plano de desarrollo de los experimentos del robot TEO \cite{ref21}}
 \label{figura53}
 \end{figure}
 
@@ -66,9 +66,9 @@ En ellos se ajustó la altura del CoM del modelo para reducir lo máximo posible
 
 \begin{figure}[H]
 \centering
-\subfigure[altura no ajustada]{\includegraphics[width=7cm, height=6cm]{imagenes/apartado_5/test6_ft}}
+\subfigure[altura no ajustada]{\includegraphics[width=7cm, height=6cm]{imagenes/apartado_5/55_1_lipm_altura_no_ajustada}}
 \quad
-\subfigure[altura ajustada]{\includegraphics[width=7cm, height=5.9cm]{imagenes/apartado_5/55_2_altura_ajustada.pdf}}
+\subfigure[altura ajustada]{\includegraphics[width=7cm, height=5.9cm]{imagenes/apartado_5/55_2_lipm_altura_ajustada.pdf}}
 \caption{Evolucion ZMP modelo LIPM}
 \label{figura55}
 \end{figure}
@@ -87,7 +87,8 @@ En los siguientes experimentos, cuya arquitectura de control se muestra en la fi
 \begin{center}
 \begin{tabular}{|c|c|c|c|}
 \hline
-Exp. & $k_p$   & $k_d$    & $k_u$ \\ \hline
+\rowcolor[gray]{0.9}
+\cellcolor[gray]{0.7}Exp. & $k_p$   & $k_d$    & $k_u$ \\ \hline
 1    & -0.0025 & 0.00005  & 1    \\ \hline
 2    & -0.0025 & 0.00005  & 1.2  \\ \hline
 3    & -0.0025 & 0.00005  & 1.4  \\ \hline
@@ -162,7 +163,7 @@ donde $\gamma=g/l^{2}$, $\alpha=B_{a}/ml$ y $\beta=(k_{a}/ml) - (g/l)$, quedando
 
 \item \textbf{Caracterización del error en régimen permanente}
 
-El error anteriormente comentado entre el valor deseado de ZMP y el medido, que se detecta en la figura \ref{figura55}b), debe ser caracterizado. Es por ello que en la figura \ref{figura58} se representa dicha desviación a partir de los datos de la figura \ref{figura551} y se realiza su estudio en cada punto experimental ($ZMP_{F-T}$). A partir de dicho estudio se saca una ecuación polinómica de segundo orden para modelar su desviación con respecto al $ZMP_{ref}$:
+El error anteriormente comentado entre el valor deseado de ZMP y el medido, que se detecta en la figura \ref{figura55} b), debe ser caracterizado. Es por ello que en la figura \ref{figura58} se representa dicha desviación a partir de los datos de la figura \ref{figura55} b) y se realiza su estudio en cada punto experimental ($ZMP_{F-T}$). A partir de dicho estudio se saca una ecuación polinómica de segundo orden para modelar su desviación con respecto al $ZMP_{ref}$:
 
 \begin{equation}
 X_{ZMP_{F-T}} = a \cdot X_{ZMP_{ref}} + b \cdot X_{ZMP_{ref}} + c
@@ -174,7 +175,7 @@ donde $a=0.834$, $b=1.024$ y $c=-0.0004$.
 \begin{figure}[H]
 \centering
 \includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/58_evol_zmp_ft_vs_ref}
-\caption{Comparación experimental régimen permanente $ZMP_{F-T}$ y $ZMP_{ref}$}
+\caption{Comparación experimental régimen permanente $ZMP_{F-T}$ y $ZMP_{ref}$ \cite{ref21}}
 \label{figura58}
 \end{figure}
 
@@ -208,12 +209,12 @@ Una vez que el error estático se ha reducido gracias al parámetro $k_a$, se de
 
 \item \textbf{Caracterización de la respuesta transitoria del ZMP}
 
-Se ha demostrado que la respuesta del robot humanoide como péndulo invertido simple es un sistema subamortiguado. En dicho sistema se puede reducir las oscilaciones y modificar su respuesta global seleccionando adecuadamente tanto la ganancia como los parámetros dinámicos. En la figura \ref{figura59}, que muestra la diferencia entre las respuestas de las funciones de transferencia de los modelos LIPM y DLIPM ante una perturbación, se puede visualizar cómo dichos parámetros dinámicos pueden coger valores más altos en el modelo DLIPM, ya que posee un mayor margen de ajuste. 
+Se ha demostrado que la respuesta del robot humanoide como péndulo invertido simple es un sistema subamortiguado. En dicho sistema se puede reducir las oscilaciones y modificar su respuesta global seleccionando adecuadamente tanto la ganancia como los parámetros dinámicos. En la figura \ref{figura59}, que muestra la diferencia entre las respuestas de las funciones de transferencia de los modelos LIPM y DLIPM ante una perturbación, en la que se puede visualizar cómo dichos parámetros dinámicos tienen la posibilidad de coger valores más altos en el modelo DLIPM, ya que posee un mayor margen de ajuste. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/58_comparativa_paso}
-\caption{Comparativa de la respuesta angular entre LIPM y DLIPM}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_comparativa_paso}
+\caption{Comparativa de la respuesta angular entre LIPM y DLIPM \cite{ref21}}
 \label{figura59}
 \end{figure}
 
@@ -231,7 +232,7 @@ donde $w_{n}$ es la frecuencia natural no amortiguada, y $\zeta$, el factor de a
 %%imagen sacada de https://electronics.stackexchange.com/questions/135963/why-dont-over-damped-and-critically-damped-circuits-oscillate
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_zeta_response_system}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/510_zeta_response_system}
 \caption{Respuesta del sistema en función del factor de amortiguamiento}
 \label{figura510}
 \end{figure}
@@ -263,8 +264,8 @@ En \ref{ec510} como se puede observar hay 2 incógnitas para despejar, por lo qu
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/59_step_response}
-\caption{Respuesta angular del modelo DLIPM}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/511_step_response}
+\caption{Respuesta angular del modelo DLIPM \cite{ref21}}
 \label{figura511}
 \end{figure}
 
@@ -279,7 +280,7 @@ Las siguientes pruebas se han llevado a cabo siguiendo el esquema de la figura \
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.55]{imagenes/apartado_5/510_esquema_DLIPM}
+\includegraphics[scale=0.55]{imagenes/apartado_5/512_esquema_DLIPM}
 \caption{Arquitectura de control del modelo DLIPM}
 \label{figura512}
 \end{figure}
@@ -329,7 +330,7 @@ Para la respuesta en régimen permanente de los experimentos se ha desarrollado 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/511_compErrorModels}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/513_compErrorModels}
 \caption{Comparación ZMP de los modelos LIPM y DLIPM}
 \label{figura513}
 \end{figure}
@@ -339,10 +340,10 @@ En cuanto al régimen transitorio, la respuesta se muestra en la figura \ref{fig
 
 \begin{figure}[H]
 \centering
-\subfigure[]{\includegraphics[width=7cm, height=6cm]{imagenes/apartado_5/512_evolucion_zmp_dlipm.pdf}}
+\subfigure[]{\includegraphics[width=7cm, height=6cm]{imagenes/apartado_5/514_1_evolucion_zmp_dlipm}}
 \quad
-\subfigure[]{\includegraphics[width=7cm, height=6.2cm]{imagenes/apartado_5/ZMPstep_comparative-eps-converted-to2.pdf}}
-\caption{Evolucion ZMP modelo DLIPM. a) Respuesta modelo DLIPM ante diferentes simulaciones de perturbaciones; b) Comparación entre modelo LIPM y DLIPM para $ZMP_{ref} = 9 cm$.}
+\subfigure[]{\includegraphics[width=7cm, height=6.2cm]{imagenes/apartado_5/514_2_ZMP_step_comparative-eps-converted-to.pdf}}
+\caption{Evolucion ZMP modelo DLIPM. a) Respuesta modelo DLIPM ante diferentes simulaciones de perturbaciones; b) Comparación entre modelo LIPM y DLIPM para $ZMP_{ref} = 9 cm$ \cite{ref21}.}
 \label{figura514}
 \end{figure}
 
@@ -372,7 +373,7 @@ Como se ha comentado en el apartado \ref{equivalencia_modelos}, tanto el modelo 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/test6_imu}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/515_evol_cart_table}
 \caption{Evolucion ZMP modelo cart-table}
 \label{figura515}
 \end{figure}
@@ -383,11 +384,10 @@ Una vez que se computó la altura del modelo cart-table, se volvieron a hacer la
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/test_allcsv4_2}
-\caption{Representación ZMP modelo cart-table corregido}
+\includegraphics[width=13cm, height=8cm]{imagenes/apartado_5/516_evol_mejora_cart_table}
+\caption{Representación ZMP modelo cart-table mejorado}
 \label{figura516}
 \end{figure}
-
 
 
 \afterpage{\null\newpage}

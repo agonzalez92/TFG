@@ -61,9 +61,9 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Modelo Cart-Table}}{50}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces C\IeC {\'a}lculo del ZMP. a) Modelo ficticio, b) Modelo real}}{51}{figure.4.7}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Estrategias de balance}}{53}{figure.4.8}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo}}{56}{figure.5.1}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama del desarrollo experimental del nuevo modelo \cite {ref21}}}{56}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de flujo del programa}}{58}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO}}{58}{figure.5.3}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Plano de desarrollo de los experimentos del robot TEO \cite {ref21}}}{58}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Arquitectura de control de posici\IeC {\'o}n b\IeC {\'a}sica de ZMP para el modelo LIPM}}{59}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Evolucion ZMP modelo LIPM}}{59}{figure.5.5}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {altura no ajustada}}}{59}{figure.5.5}
@@ -75,14 +75,14 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Experimento 5}}}{61}{figure.5.7}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Experimento 10}}}{61}{figure.5.7}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Experimento 11}}}{61}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparaci\IeC {\'o}n experimental r\IeC {\'e}gimen permanente $ZMP_{F-T}$ y $ZMP_{ref}$}}{63}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparativa de la respuesta angular entre LIPM y DLIPM}}{64}{figure.5.9}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparaci\IeC {\'o}n experimental r\IeC {\'e}gimen permanente $ZMP_{F-T}$ y $ZMP_{ref}$ \cite {ref21}}}{63}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparativa de la respuesta angular entre LIPM y DLIPM \cite {ref21}}}{64}{figure.5.9}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Respuesta del sistema en funci\IeC {\'o}n del factor de amortiguamiento}}{65}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Respuesta angular del modelo DLIPM}}{66}{figure.5.11}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Respuesta angular del modelo DLIPM \cite {ref21}}}{66}{figure.5.11}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Arquitectura de control del modelo DLIPM}}{67}{figure.5.12}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Comparaci\IeC {\'o}n ZMP de los modelos LIPM y DLIPM}}{68}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolucion ZMP modelo DLIPM. a) Respuesta modelo DLIPM ante diferentes simulaciones de perturbaciones; b) Comparaci\IeC {\'o}n entre modelo LIPM y DLIPM para $ZMP_{ref} = 9 cm$.}}{68}{figure.5.14}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Evolucion ZMP modelo DLIPM. a) Respuesta modelo DLIPM ante diferentes simulaciones de perturbaciones; b) Comparaci\IeC {\'o}n entre modelo LIPM y DLIPM para $ZMP_{ref} = 9 cm$ \cite {ref21}.}}{68}{figure.5.14}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}{figure.5.14}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}{figure.5.14}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Evolucion ZMP modelo cart-table}}{70}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Representaci\IeC {\'o}n ZMP modelo cart-table corregido}}{70}{figure.5.16}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Representaci\IeC {\'o}n ZMP modelo cart-table mejorado}}{70}{figure.5.16}
