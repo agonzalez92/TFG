@@ -12,11 +12,18 @@ Una vez que se verificó que la respuesta del controlador en el nuevo modelo DLI
 
 Como trabajos futuros se proponen las siguientes ideas:
 
-Como la mejora aplicada al modelo LIPM no conseguía reducir lo suficiente la amplitud de la oscilación incial para asegurar que el robot mantendría el equilibrio en todo momento, sobre todo cuando el ZMP se sitúa al borde del polígono de soporte. Por tanto, se propone emejorar el controlador PD utilizado al principio.
+\begin{itemize}
 
-Otro posible trabajo futuro sería la utilización de modelos más complejos que permitieran un ajuste más fino.
+\item Como la mejora aplicada al modelo LIPM no conseguía reducir lo suficiente la amplitud de la oscilación inicial para asegurar que el robot mantendría el equilibrio en todo momento, sobre todo cuando el ZMP se sitúa al borde del polígono de soporte. Por tanto, se propone mejorar el controlador PD utilizado al principio.
 
-Por último, como las medidas de los sensores se ven afectadas por elementos físicos, se propone la mejora mejorar las elasticidades mecánicas rigidizando la estructura del robot, una mejor situación de los sensores, la utilización de otro tipo de sensores, es decir, cambiar componentes del robot para evitar al máximo la influencia de esos elementos físicos en las medidas. 
+\newpage
+
+\item Otro posible trabajo futuro sería la utilización de modelos más complejos que permitieran un ajuste más fino, como puede ser el péndulo doble.
+
+\item Para concluir, como las medidas de los sensores se ven afectadas por elementos físicos, se plantea mejorar las elasticidades mecánicas rigidizando la estructura del robot, una mejor situación de los sensores, la utilización de otro tipo de sensores, es decir, cambiar componentes del robot para evitar al máximo la influencia de esos elementos físicos en las medidas.
+
+\end{itemize}
+ 
 
 
 \afterpage{\null\newpage}

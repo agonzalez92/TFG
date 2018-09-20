@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.1)  20 SEP 2018 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.8.8)  20 SEP 2018 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4263,11 +4263,11 @@ on input line 59.
 (pdftex.def)             Requested size: 396.95345pt x 146.80386pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/55_1_lipm_altura_no_aj
 ustada.eps>
-(epstopdf)                    date: 2018-09-19 11:54:23
+(epstopdf)                    date: 2018-09-17 20:27:19
 (epstopdf)                    size: 171119 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/55_1_lipm_altura_no_aj
 ustada-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-09-19 11:54:23
+(epstopdf)                    date: 2018-09-19 11:11:33
 (epstopdf)                    size: 31974 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/55_1_l
 ipm_altura_no_ajustada-eps-converted-to.pdf imagenes/apartado_5/55_1_lipm_altur
@@ -4345,11 +4345,11 @@ Package pdftex.def Info: imagenes/apartado_5/56_esquema_bucle_cerrado.png used
 on input line 80.
 (pdftex.def)             Requested size: 353.22234pt x 150.41309pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/57_1_exp1.eps>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:03:24
 (epstopdf)                    size: 35320 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/57_1_exp1-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:15:22
 (epstopdf)                    size: 10160 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/57_1_e
 xp1-eps-converted-to.pdf imagenes/apartado_5/57_1_exp1.eps>
@@ -4365,11 +4365,11 @@ Package pdftex.def Info: imagenes/apartado_5/57_1_exp1-eps-converted-to.pdf use
 d on input line 112.
 (pdftex.def)             Requested size: 195.92853pt x 97.36201pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/57_2_exp3.eps>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:04:15
 (epstopdf)                    size: 36825 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/57_2_exp3-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:15:22
 (epstopdf)                    size: 10681 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/57_2_e
 xp3-eps-converted-to.pdf imagenes/apartado_5/57_2_exp3.eps>
@@ -4385,11 +4385,11 @@ Package pdftex.def Info: imagenes/apartado_5/57_2_exp3-eps-converted-to.pdf use
 d on input line 115.
 (pdftex.def)             Requested size: 195.92853pt x 97.36201pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/57_3_exp5.eps>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:02:44
 (epstopdf)                    size: 34592 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/57_3_exp5-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:15:23
 (epstopdf)                    size: 10280 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/57_3_e
 xp5-eps-converted-to.pdf imagenes/apartado_5/57_3_exp5.eps>
@@ -4405,11 +4405,11 @@ Package pdftex.def Info: imagenes/apartado_5/57_3_exp5-eps-converted-to.pdf use
 d on input line 118.
 (pdftex.def)             Requested size: 195.92853pt x 97.36201pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/57_4_exp10.eps>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:12:34
 (epstopdf)                    size: 37643 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/57_4_exp10-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:15:23
 (epstopdf)                    size: 10764 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/57_4_e
 xp10-eps-converted-to.pdf imagenes/apartado_5/57_4_exp10.eps>
@@ -4425,11 +4425,11 @@ Package pdftex.def Info: imagenes/apartado_5/57_4_exp10-eps-converted-to.pdf us
 ed on input line 121.
 (pdftex.def)             Requested size: 195.92853pt x 97.36201pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/57_5_exp11.eps>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:13:56
 (epstopdf)                    size: 37226 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/57_5_exp11-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-09-18 16:56:09
+(epstopdf)                    date: 2018-09-18 12:15:24
 (epstopdf)                    size: 10819 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/57_5_e
 xp11-eps-converted-to.pdf imagenes/apartado_5/57_5_exp11.eps>
@@ -4830,11 +4830,11 @@ l.337
        <./imagenes/apartado_5/512_esquema_DLIPM.PNG>]
 Package epstopdf Info: Source file: <imagenes/apartado_5/514_1_evolucion_zmp_dl
 ipm.eps>
-(epstopdf)                    date: 2018-09-19 11:54:23
+(epstopdf)                    date: 2018-09-17 16:17:05
 (epstopdf)                    size: 70674 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/514_1_evolucion_zmp_dl
 ipm-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-09-19 11:54:23
+(epstopdf)                    date: 2018-09-19 11:18:09
 (epstopdf)                    size: 16476 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/514_1_
 evolucion_zmp_dlipm-eps-converted-to.pdf imagenes/apartado_5/514_1_evolucion_zm
@@ -4988,11 +4988,11 @@ Package babel Info: Redefining spanish shorthand "?
  [72]
 Package epstopdf Info: Source file: <imagenes/apartado_5/516_evol_cart_table.ep
 s>
-(epstopdf)                    date: 2018-09-19 19:21:29
+(epstopdf)                    date: 2018-09-20 11:03:40
 (epstopdf)                    size: 172441 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/516_evol_cart_table-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2018-09-19 19:21:29
+(epstopdf)                    date: 2018-09-20 11:03:40
 (epstopdf)                    size: 28988 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/516_ev
 ol_cart_table-eps-converted-to.pdf imagenes/apartado_5/516_evol_cart_table.eps>
@@ -5011,11 +5011,11 @@ to.pdf used on input line 383.
 (pdftex.def)             Requested size: 369.87997pt x 227.62082pt.
 Package epstopdf Info: Source file: <imagenes/apartado_5/517_evol_mejora_cart_t
 able.eps>
-(epstopdf)                    date: 2018-09-19 19:21:29
+(epstopdf)                    date: 2018-09-20 11:03:40
 (epstopdf)                    size: 50194 bytes
 (epstopdf)             Output file: <imagenes/apartado_5/517_evol_mejora_cart_t
 able-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-09-19 19:21:29
+(epstopdf)                    date: 2018-09-20 11:03:40
 (epstopdf)                    size: 11296 bytes
 (epstopdf)             Command: <repstopdf --outfile=imagenes/apartado_5/517_ev
 ol_mejora_cart_table-eps-converted-to.pdf imagenes/apartado_5/517_evol_mejora_c
@@ -6119,7 +6119,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
 Here is how much of TeX's memory you used:
  16397 strings out of 493029
  251664 string characters out of 6136235
- 430420 words of memory out of 5000000
+ 430419 words of memory out of 5000000
  19031 multiletter control sequences out of 15000+600000
  16216 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6145,7 +6145,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eur
 osym/feybr10.pfb>
-Output written on plantilla_memoria_tfg.pdf (93 pages, 14071204 bytes).
+Output written on plantilla_memoria_tfg.pdf (93 pages, 14071262 bytes).
 PDF statistics:
  1613 PDF objects out of 1728 (max. 8388607)
  1300 compressed objects within 13 object streams
