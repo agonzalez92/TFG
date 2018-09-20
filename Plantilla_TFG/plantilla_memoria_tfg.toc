@@ -40,8 +40,8 @@
 \contentsline {subsubsection}{\numberline {5.2.1}Descripci\IeC {\'o}n de la metodolog\IeC {\'\i }a experimental}{72}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Respuesta del modelo cart-table}{72}{subsubsection.5.2.2}
 \contentsline {section}{\numberline {6}Conclusiones y trabajos futuros}{76}{section.6}
-\contentsline {section}{\numberline {7}Presupuesto}{78}{section.7}
-\contentsline {section}{Referencias}{80}{section*.6}
-\contentsline {section}{\numberline {A}Estructura del robot TEO}{85}{appendix.Alph1}
-\contentsline {section}{\numberline {B}Informaci\IeC {\'o}n sensores JR3}{86}{appendix.Alph2}
-\contentsline {section}{\numberline {C}Informaci\IeC {\'o}n sensor IMU}{87}{appendix.Alph3}
+\contentsline {section}{\numberline {7}Presupuesto}{79}{section.7}
+\contentsline {section}{Referencias}{81}{section*.6}
+\contentsline {section}{\numberline {A}Estructura del robot TEO}{86}{appendix.Alph1}
+\contentsline {section}{\numberline {B}Informaci\IeC {\'o}n sensores JR3}{87}{appendix.Alph2}
+\contentsline {section}{\numberline {C}Informaci\IeC {\'o}n sensor IMU}{88}{appendix.Alph3}
