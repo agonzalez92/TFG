@@ -1,8 +1,7 @@
 \section{Estado del arte}
 
 \subsection{Origen de la robótica}
-La palabra ``Robótica'' fue acuñada por Isaac Asimov para describir la ciencia que se encarga de estudiar la tecnología de los robots. Procede de las palabras checas robota (trabajo forzado) y robotnik
-(sirviente) \cite{ref2}.
+La palabra ``Robótica'' fue acuñada por Isaac Asimov para describir la ciencia que se encarga de estudiar la tecnología de los robots. Procede de las palabras checas robota (trabajo forzado) y robotnik (sirviente) \cite{ref2}.
 
 El término ``robot'', que procede de la palabra robota, se popularizó gracias a la obra literaria Rossum’s Universal Robot (R.U.R.), escrita por Karel Čapek en 1920 \cite{ref3}.
 
@@ -28,7 +27,7 @@ A su vez, la IFR proporciona la siguiente definición:
 
 \subsubsection{Tipos de robots}
 
-Resulta complicado establecer una clasificación exacta de los robots debido a la gran cantidad de ellos que existe, por lo que se pueden clasificar de forma más general según su arquitectura \cite{ref6}. 
+Resulta complicado establecer una clasificación exacta de los robots debido a la gran cantidad de ellos que existe, por lo que se pueden clasificar de forma más general según su arquitectura \cite{ref6}: 
 
 \begin{enumerate}
 
@@ -200,7 +199,7 @@ En la actualidad, los robots humanoides están muy avanzados, pudiendo incluso c
 \newpage
 
 \subsection{Locomoción bípeda}
-%%Definición de centro de masas sacada de http://www2.montes.upm.es/dptos/digfa/cfisica/dinamsist/cdm.html
+
 Para hablar de locomoción bípeda o caminata, primero hay que hacer una introducción de una serie de conceptos para poder entender mejor este movimiento.
 
 \begin{itemize}
@@ -337,7 +336,7 @@ Dando su proyección en el plano horizontal se obtiene:
 \label{ec24}
 \end{equation}
 
-Esta ecuación permite calcular la posición del punto de actuación de la fuerza de reacción del suelo (P) para la dinámica general del mecanismo. Sin embargo esto no sirve para saber si está en equilibrio dinámico cuando el sistema está en movimiento. Para ello hay que tener en cuenta el punto P calculado y el polígono de soporte. Como el punto P calculado con ec \eqref{ec24} nunca puede existir fuera del polígono de soporte, ya que si lo hiciera la fuerza total R no actuaría sobre el sistema, sólo si éste está dentro del polígono de soporte el sistema estará en equilibrio dinámico.
+Esta ecuación permite calcular la posición del punto de actuación de la fuerza de reacción del suelo (P) para la dinámica general del mecanismo. Sin embargo esto no sirve para saber si está en equilibrio dinámico cuando el sistema está en movimiento. Para ello hay que tener en cuenta el punto P calculado y el polígono de soporte. Como el punto P calculado con la ecuación \eqref{ec24} nunca puede existir fuera del polígono de soporte, ya que si lo hiciera la fuerza total R no actuaría sobre el sistema, sólo si éste está dentro del polígono de soporte el sistema estará en equilibrio dinámico.
 
 Si suponemos que el punto P obtenido de $M_x=M_y=0$ está fuera del polígono de soporte, consideraríamos dicho punto como ZMP ficticio (\textbf{FZMP}). 
 
@@ -348,7 +347,7 @@ Cuando el mecanismo está en movimiento, una manera de determinar el ZMP es midi
 \begin{enumerate}
 \item Calcular $\overrightarrow{OP}$ de la ec \eqref{ec24}. La posición obtenida de P sería el ZMP. Aquí no sabemos todavía si el punto P se encuentra dentro o fuera del polígono de soporte porque no se tiene en cuenta el tamaño real de dicho polígono (figura \ref{figura223} a).
 
-\item Una vez calculada la posición del ZMP, se compara con el tamaño real del polígono de soporte. Si está fuera significa que que el punto de actuación P de las fuerzas de reacción del suelo se encuentra en el borde del polígono de soporte y se poducirá una rotación del mecanismo debido al momento de desequilibrio, cuya intensidad depende de la distancia entre el borde del polígono de soporte y la posición del ZMP calculada, es decir, a la posición del FZMP. Si se encuentra dentro del polígono, el mecanismo estaría en equilibrio (figura \ref{figura223} b).
+\item Una vez calculada la posición del ZMP, se compara con el tamaño real del polígono de soporte. Si está fuera significa que que el punto de actuación P de las fuerzas de reacción del suelo se encuentra en el borde del polígono de soporte y se producirá una rotación del mecanismo debido al momento de desequilibrio, cuya intensidad depende de la distancia entre el borde del polígono de soporte y la posición del ZMP calculada, es decir, a la posición del FZMP. Si se encuentra dentro del polígono, el mecanismo estaría en equilibrio (figura \ref{figura223} b).
 
 \begin{figure}[H]
 \centering
@@ -378,7 +377,7 @@ Cuando el mecanismo está en movimiento, una manera de determinar el ZMP es midi
 \label{figura224}
 \end{figure}
 
-Sin embargo, si nos fijamos en la figura \ref{figura224}b vemos que el punto de ataque de las fuerzas cae fuera del soporte de apoyo, ZMP y CoP no coinciden, por lo que ahora $P \equiv FZMP$.
+Sin embargo, si nos fijamos en la figura \ref{figura224} b) vemos que el punto de ataque de las fuerzas cae fuera del soporte de apoyo, ZMP y CoP no coinciden, por lo que ahora $P \equiv FZMP$.
 
 \afterpage{\null\newpage}
 \newpage

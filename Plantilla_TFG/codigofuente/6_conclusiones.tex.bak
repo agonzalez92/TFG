@@ -20,7 +20,7 @@ Como trabajos futuros se proponen las siguientes ideas:
 
 \item Otro posible trabajo futuro sería la utilización de modelos más complejos que permitieran un ajuste más fino, como puede ser el péndulo doble.
 
-\item Para concluir, como las medidas de los sensores se ven afectadas por elementos físicos, se plantea mejorar las elasticidades mecánicas rigidizando la estructura del robot, una mejor situación de los sensores, la utilización de otro tipo de sensores, es decir, cambiar componentes del robot para evitar al máximo la influencia de esos elementos físicos en las medidas.
+\item Para concluir, como las medidas de los sensores se ven afectadas por elementos físicos, se plantea mejorar las elasticidades mecánicas rigidizando la estructura del robot, una mejor situación de los sensores o la utilización de otro tipo de sensores, es decir, cambiar componentes del robot para evitar al máximo la influencia de esos elementos físicos en las medidas.
 
 \end{itemize}
  

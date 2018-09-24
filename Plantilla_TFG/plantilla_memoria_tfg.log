@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.15)  20 SEP 2018 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.15)  24 SEP 2018 11:55
 entering extended mode
 **./plantilla_memoria_tfg.tex
 (plantilla_memoria_tfg.tex
@@ -1969,52 +1969,52 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 27. on 
-input line 27.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 26. on 
+input line 26.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 27.
+ 26.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 26.
  [19
 
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 28.
 
-Underfull \hbox (badness 1337) in paragraph at lines 35--36
+Underfull \hbox (badness 1337) in paragraph at lines 34--35
 \OT1/cmr/m/n/12 A este grupo pertenecen los robots cuya caracterstica comun 
 es el
  []
@@ -2025,111 +2025,111 @@ File: imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg Graphic f
 ile (type jpg)
 <use imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg>
 Package pdftex.def Info: imagenes/apartado_2/21_poliarticulado1_Robot_Industria
-l_ABB.jpg  used on input line 39. on input line 39.
+l_ABB.jpg  used on input line 38. on input line 38.
 Package pdftex.def Info: Requested size: 180.6672pt x 180.6672pt on input line 
-39.
+38.
 <imagenes/apartado_2/22_movil2.jpg, id=543, 1445.4pt x 1084.05pt>
 File: imagenes/apartado_2/22_movil2.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/22_movil2.jpg>
 Package pdftex.def Info: imagenes/apartado_2/22_movil2.jpg  used on input line 
-48. on input line 48.
+47. on input line 47.
 Package pdftex.def Info: Requested size: 216.80064pt x 162.60048pt on input lin
-e 48.
+e 47.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 52. on 
-input line 52.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 51. on 
+input line 51.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 52.
+ 51.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 51.
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.52 
+l.51 
       <./imagenes/apartado_2/21_poliarticulado1_Robot_Industrial_ABB.jpg>]
 <imagenes/apartado_2/23_1_androide1_asimo.jpg, id=552, 321.2pt x 405.515pt>
 File: imagenes/apartado_2/23_1_androide1_asimo.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/23_1_androide1_asimo.jpg>
 Package pdftex.def Info: imagenes/apartado_2/23_1_androide1_asimo.jpg  used on 
-input line 58. on input line 58.
+input line 57. on input line 57.
 Package pdftex.def Info: Requested size: 128.47772pt x 162.20311pt on input lin
-e 58.
+e 57.
 <imagenes/apartado_2/23_2_androide2_teo1.jpg, id=553, 2376.88pt x 3212.0pt>
 File: imagenes/apartado_2/23_2_androide2_teo1.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/23_2_androide2_teo1.jpg>
 Package pdftex.def Info: imagenes/apartado_2/23_2_androide2_teo1.jpg  used on i
-nput line 61. on input line 61.
+nput line 60. on input line 60.
 Package pdftex.def Info: Requested size: 118.85095pt x 160.6094pt on input line
- 61.
+ 60.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 70. on 
-input line 70.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 69. on 
+input line 69.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 70.
+ 69.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 69.
 
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 P
+l.69 P
       or el contrario, el grupo de los no caminadores es muy escaso y está ...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 P
+l.69 P
       or el contrario, el grupo de los no caminadores es muy escaso y está ...
  <./imagenes/apartado_2/22_movil2.jpg> <./imagenes/apartado_2/23_1_androide1_as
 imo.jpg> <./imagenes/apartado_2/23_2_androide2_teo1.jpg>]
@@ -2138,276 +2138,276 @@ imo.jpg> <./imagenes/apartado_2/23_2_androide2_teo1.jpg>]
 File: imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg>
 Package pdftex.def Info: imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg  used 
-on input line 75. on input line 75.
+on input line 74. on input line 74.
 Package pdftex.def Info: Requested size: 206.76883pt x 137.9128pt on input line
- 75.
+ 74.
 <imagenes/apartado_2/24_2_zoomorfico2.jpg, id=565, 1606.0pt x 1204.5pt>
 File: imagenes/apartado_2/24_2_zoomorfico2.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/24_2_zoomorfico2.jpg>
 Package pdftex.def Info: imagenes/apartado_2/24_2_zoomorfico2.jpg  used on inpu
-t line 78. on input line 78.
+t line 77. on input line 77.
 Package pdftex.def Info: Requested size: 160.6094pt x 120.45705pt on input line
- 78.
+ 77.
 <imagenes/apartado_2/25_hibrido_handle_bd.jpg, id=566, 966.61125pt x 1304.875pt
 >
 File: imagenes/apartado_2/25_hibrido_handle_bd.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/25_hibrido_handle_bd.jpg>
 Package pdftex.def Info: imagenes/apartado_2/25_hibrido_handle_bd.jpg  used on 
-input line 89. on input line 89.
+input line 88. on input line 88.
 Package pdftex.def Info: Requested size: 144.98543pt x 195.72281pt on input lin
-e 89.
+e 88.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 96. on 
-input line 96.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 95. on 
+input line 95.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 96.
+ 95.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 95.
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.96 \newpage
+l.95 \newpage
              pdfTeX warning (ext4): destination with the same identifier (name{
 figure.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.96 \newpage
+l.95 \newpage
               <./imagenes/apartado_2/24_1_zoomorfico1_ANYmal.jpg> <./imagenes/a
 partado_2/24_2_zoomorfico2.jpg> <./imagenes/apartado_2/25_hibrido_handle_bd.jpg
 >]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 <imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg, id=577, 1375.1375pt x 1375.1
 375pt>
 File: imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg>
 Package pdftex.def Info: imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg  used
- on input line 106. on input line 106.
+ on input line 105. on input line 105.
 Package pdftex.def Info: Requested size: 137.5218pt x 137.5218pt on input line 
-106.
+105.
 <imagenes/apartado_2/27_trompetista_mecanico.jpg, id=578, 642.4pt x 440.64626pt
 >
 File: imagenes/apartado_2/27_trompetista_mecanico.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/27_trompetista_mecanico.jpg>
 Package pdftex.def Info: imagenes/apartado_2/27_trompetista_mecanico.jpg  used 
-on input line 117. on input line 117.
+on input line 116. on input line 116.
 Package pdftex.def Info: Requested size: 192.72148pt x 132.19489pt on input lin
-e 117.
+e 116.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 121. on
- input line 121.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 120. on
+ input line 120.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 121.
+ 120.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
  [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.121 
+l.120 
        <./imagenes/apartado_2/26_robot_LeonardoDaVinci.jpg>]
 <imagenes/apartado_2/28_elektro_robot.jpg, id=584, 608.2725pt x 774.895pt>
 File: imagenes/apartado_2/28_elektro_robot.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/28_elektro_robot.jpg>
 Package pdftex.def Info: imagenes/apartado_2/28_elektro_robot.jpg  used on inpu
-t line 126. on input line 126.
+t line 125. on input line 125.
 Package pdftex.def Info: Requested size: 121.65234pt x 154.97626pt on input lin
-e 126.
+e 125.
 <imagenes/apartado_2/29_1_WL_1_1967.jpg, id=585, 230.90265pt x 236.68425pt>
 File: imagenes/apartado_2/29_1_WL_1_1967.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/29_1_WL_1_1967.jpg>
 Package pdftex.def Info: imagenes/apartado_2/29_1_WL_1_1967.jpg  used on input 
-line 136. on input line 136.
+line 135. on input line 135.
 Package pdftex.def Info: Requested size: 115.45103pt x 118.34183pt on input lin
-e 136.
+e 135.
 <imagenes/apartado_2/29_2_WL_3_1969.jpg, id=586, 228.3732pt x 233.07076pt>
 File: imagenes/apartado_2/29_2_WL_3_1969.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/29_2_WL_3_1969.jpg>
 Package pdftex.def Info: imagenes/apartado_2/29_2_WL_3_1969.jpg  used on input 
-line 139. on input line 139.
+line 138. on input line 138.
 Package pdftex.def Info: Requested size: 114.18631pt x 116.53508pt on input lin
-e 139.
+e 138.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 143. on
- input line 143.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 142. on
+ input line 142.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 143.
+ 142.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
  [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.143 
+l.142 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.143 
+l.142 
        <./imagenes/apartado_2/27_trompetista_mecanico.jpg> <./imagenes/apartado
 _2/28_elektro_robot.jpg>]
 <imagenes/apartado_2/210_1_WAP_1_1969.jpg, id=593, 171.64125pt x 230.90265pt>
 File: imagenes/apartado_2/210_1_WAP_1_1969.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/210_1_WAP_1_1969.jpg>
 Package pdftex.def Info: imagenes/apartado_2/210_1_WAP_1_1969.jpg  used on inpu
-t line 147. on input line 147.
+t line 146. on input line 146.
 Package pdftex.def Info: Requested size: 102.98552pt x 138.54265pt on input lin
-e 147.
+e 146.
 <imagenes/apartado_2/210_2_WAP_2_1970.jpg, id=594, 170.19585pt x 153.2124pt>
 File: imagenes/apartado_2/210_2_WAP_2_1970.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/210_2_WAP_2_1970.jpg>
 Package pdftex.def Info: imagenes/apartado_2/210_2_WAP_2_1970.jpg  used on inpu
-t line 150. on input line 150.
+t line 149. on input line 149.
 Package pdftex.def Info: Requested size: 136.15685pt x 122.57007pt on input lin
-e 150.
+e 149.
 <imagenes/apartado_2/210_3_WAP_3_1971.jpg, id=595, 169.1118pt x 228.01186pt>
 File: imagenes/apartado_2/210_3_WAP_3_1971.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/210_3_WAP_3_1971.jpg>
 Package pdftex.def Info: imagenes/apartado_2/210_3_WAP_3_1971.jpg  used on inpu
-t line 153. on input line 153.
+t line 152. on input line 152.
 Package pdftex.def Info: Requested size: 101.46785pt x 136.80817pt on input lin
-e 153.
+e 152.
 <imagenes/apartado_2/211_1_WABOT_1_1973.jpg, id=598, 162.6075pt x 244.63396pt>
 File: imagenes/apartado_2/211_1_WABOT_1_1973.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/211_1_WABOT_1_1973.jpg>
 Package pdftex.def Info: imagenes/apartado_2/211_1_WABOT_1_1973.jpg  used on in
-put line 163. on input line 163.
+put line 162. on input line 162.
 Package pdftex.def Info: Requested size: 97.56525pt x 146.7815pt on input line 
-163.
+162.
 <imagenes/apartado_2/211_2_WABOT_2_1984.jpg, id=599, 162.6075pt x 226.2051pt>
 File: imagenes/apartado_2/211_2_WABOT_2_1984.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/211_2_WABOT_2_1984.jpg>
 Package pdftex.def Info: imagenes/apartado_2/211_2_WABOT_2_1984.jpg  used on in
-put line 166. on input line 166.
+put line 165. on input line 165.
 Package pdftex.def Info: Requested size: 105.69362pt x 147.03156pt on input lin
-e 166.
+e 165.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 170. on
- input line 170.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 169. on
+ input line 169.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 170.
+ 169.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 169.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.170 
+l.169 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.170 
+l.169 
        <./imagenes/apartado_2/29_1_WL_1_1967.jpg> <./imagenes/apartado_2/29_2_W
 L_3_1969.jpg> <./imagenes/apartado_2/210_1_WAP_1_1969.jpg> <./imagenes/apartado
 _2/210_2_WAP_2_1970.jpg> <./imagenes/apartado_2/210_3_WAP_3_1971.jpg>]
@@ -2417,58 +2417,58 @@ File: imagenes/apartado_2/212_evolucion_Honda_robots.jpg Graphic file (type jpg
 )
 <use imagenes/apartado_2/212_evolucion_Honda_robots.jpg>
 Package pdftex.def Info: imagenes/apartado_2/212_evolucion_Honda_robots.jpg  us
-ed on input line 177. on input line 177.
+ed on input line 176. on input line 176.
 Package pdftex.def Info: Requested size: 293.4142pt x 119.38922pt on input line
- 177.
+ 176.
 <imagenes/apartado_2/213_HRP_2.png, id=613, 622.325pt x 933.4875pt>
 File: imagenes/apartado_2/213_HRP_2.png Graphic file (type png)
 <use imagenes/apartado_2/213_HRP_2.png>
 Package pdftex.def Info: imagenes/apartado_2/213_HRP_2.png  used on input line 
-186. on input line 186.
+185. on input line 185.
 Package pdftex.def Info: Requested size: 124.46278pt x 186.69418pt on input lin
-e 186.
+e 185.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 190. on
- input line 190.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 189. on
+ input line 189.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 190.
+ 189.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 190.
+(babel)             in language  on input line 189.
  [26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.190 
+l.189 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.190 
+l.189 
        <./imagenes/apartado_2/211_1_WABOT_1_1973.jpg> <./imagenes/apartado_2/21
 1_2_WABOT_2_1984.jpg> <./imagenes/apartado_2/212_evolucion_Honda_robots.jpg>]
 <imagenes/apartado_2/214_atlas_boston_dynamics.jpg, id=622, 870.25125pt x 1304.
@@ -2477,191 +2477,191 @@ File: imagenes/apartado_2/214_atlas_boston_dynamics.jpg Graphic file (type jpg)
 
 <use imagenes/apartado_2/214_atlas_boston_dynamics.jpg>
 Package pdftex.def Info: imagenes/apartado_2/214_atlas_boston_dynamics.jpg  use
-d on input line 195. on input line 195.
+d on input line 194. on input line 194.
 Package pdftex.def Info: Requested size: 174.04716pt x 260.97038pt on input lin
-e 195.
+e 194.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 200. on
- input line 200.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 199. on
+ input line 199.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 200.
+ 199.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 
 [27pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \newpage
+l.199 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name
 {figure.2.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.200 \newpage
+l.199 \newpage
                <./imagenes/apartado_2/213_HRP_2.png> <./imagenes/apartado_2/214
 _atlas_boston_dynamics.jpg>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 201.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 202.
+(babel)             in language  on input line 201.
 <imagenes/apartado_2/215_center_of_mass.png, id=629, 228.10219pt x 392.96812pt>
 
 File: imagenes/apartado_2/215_center_of_mass.png Graphic file (type png)
 <use imagenes/apartado_2/215_center_of_mass.png>
 Package pdftex.def Info: imagenes/apartado_2/215_center_of_mass.png  used on in
-put line 211. on input line 211.
+put line 210. on input line 210.
 Package pdftex.def Info: Requested size: 114.0508pt x 196.48357pt on input line
- 211.
+ 210.
 <imagenes/apartado_2/216_supportpolygon.png, id=630, 450.18187pt x 213.79875pt>
 
 File: imagenes/apartado_2/216_supportpolygon.png Graphic file (type png)
 <use imagenes/apartado_2/216_supportpolygon.png>
 Package pdftex.def Info: imagenes/apartado_2/216_supportpolygon.png  used on in
-put line 220. on input line 220.
+put line 219. on input line 219.
 Package pdftex.def Info: Requested size: 270.1112pt x 128.28023pt on input line
- 220.
+ 219.
 <imagenes/apartado_2/217_zmp.png, id=632, 402.50375pt x 285.065pt>
 File: imagenes/apartado_2/217_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/217_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/217_zmp.png  used on input line 22
-9. on input line 229.
+8. on input line 228.
 Package pdftex.def Info: Requested size: 241.5041pt x 171.04031pt on input line
- 229.
+ 228.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 233. on
- input line 233.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 232. on
+ input line 232.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 233.
+ 232.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 232.
  [28pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.233 
+l.232 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.233 
+l.232 
        <./imagenes/apartado_2/215_center_of_mass.png> <./imagenes/apartado_2/21
 6_supportpolygon.png>]
 <imagenes/apartado_2/218_cop.jpg, id=641, 180.675pt x 88.83188pt>
 File: imagenes/apartado_2/218_cop.jpg Graphic file (type jpg)
 <use imagenes/apartado_2/218_cop.jpg>
 Package pdftex.def Info: imagenes/apartado_2/218_cop.jpg  used on input line 23
-8. on input line 238.
+7. on input line 237.
 Package pdftex.def Info: Requested size: 234.87746pt x 115.48141pt on input lin
-e 238.
+e 237.
 <imagenes/apartado_2/219_centroidal_moment_pivot.png, id=644, 725.71124pt x 419
 .5675pt>
 File: imagenes/apartado_2/219_centroidal_moment_pivot.png Graphic file (type pn
 g)
 <use imagenes/apartado_2/219_centroidal_moment_pivot.png>
 Package pdftex.def Info: imagenes/apartado_2/219_centroidal_moment_pivot.png  u
-sed on input line 247. on input line 247.
+sed on input line 246. on input line 246.
 Package pdftex.def Info: Requested size: 290.27936pt x 167.82402pt on input lin
-e 247.
+e 246.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 251. on
- input line 251.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 250. on
+ input line 250.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 251.
+ 250.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 250.
  [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 
+l.250 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 
+l.250 
        <./imagenes/apartado_2/217_zmp.png> <./imagenes/apartado_2/218_cop.jpg>]
 <imagenes/apartado_2/220_com_zmp_supportpolygon.png, id=653, 438.63875pt x 313.
 17pt>
@@ -2669,51 +2669,51 @@ File: imagenes/apartado_2/220_com_zmp_supportpolygon.png Graphic file (type png
 )
 <use imagenes/apartado_2/220_com_zmp_supportpolygon.png>
 Package pdftex.def Info: imagenes/apartado_2/220_com_zmp_supportpolygon.png  us
-ed on input line 264. on input line 264.
+ed on input line 263. on input line 263.
 Package pdftex.def Info: Requested size: 197.3856pt x 140.92519pt on input line
- 264.
+ 263.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 270. on
- input line 270.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 269. on
+ input line 269.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 270.
+ 269.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 270.
+(babel)             in language  on input line 269.
 [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 
+l.269 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.270 
+l.269 
        <./imagenes/apartado_2/219_centroidal_moment_pivot.png> <./imagenes/apar
 tado_2/220_com_zmp_supportpolygon.png>]
 <imagenes/apartado_2/221_ciclo_paso_humano.png, id=662, 687.31781pt x 207.77625
@@ -2721,238 +2721,238 @@ pt>
 File: imagenes/apartado_2/221_ciclo_paso_humano.png Graphic file (type png)
 <use imagenes/apartado_2/221_ciclo_paso_humano.png>
 Package pdftex.def Info: imagenes/apartado_2/221_ciclo_paso_humano.png  used on
- input line 288. on input line 288.
+ input line 287. on input line 287.
 Package pdftex.def Info: Requested size: 412.39386pt x 124.6667pt on input line
- 288.
+ 287.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 293. on
- input line 293.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 292. on
+ input line 292.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 293.
+ 292.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 292.
  [31pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.293 \newpage
+l.292 \newpage
                <./imagenes/apartado_2/221_ciclo_paso_humano.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 294.
 <imagenes/apartado_2/222_fuerzas_momentos.png, id=668, 271.76532pt x 222.07968p
 t>
 File: imagenes/apartado_2/222_fuerzas_momentos.png Graphic file (type png)
 <use imagenes/apartado_2/222_fuerzas_momentos.png>
 Package pdftex.def Info: imagenes/apartado_2/222_fuerzas_momentos.png  used on 
-input line 301. on input line 301.
+input line 300. on input line 300.
 Package pdftex.def Info: Requested size: 163.06044pt x 133.24883pt on input lin
-e 301.
+e 300.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 335. on
- input line 335.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 334. on
+ input line 334.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 335.
+ 334.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 334.
  [32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.335 \begin{equation}
+l.334 \begin{equation}
                        <./imagenes/apartado_2/222_fuerzas_momentos.png>]
 <imagenes/apartado_2/223_1_zmp.png, id=683, 315.42844pt x 188.95593pt>
 File: imagenes/apartado_2/223_1_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/223_1_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/223_1_zmp.png  used on input line 
-356. on input line 356.
+355. on input line 355.
 Package pdftex.def Info: Requested size: 157.71382pt x 94.47772pt on input line
- 356.
+ 355.
 <imagenes/apartado_2/223_2_zmp.png, id=684, 293.59688pt x 193.47281pt>
 File: imagenes/apartado_2/223_2_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/223_2_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/223_2_zmp.png  used on input line 
-359. on input line 359.
+358. on input line 358.
 Package pdftex.def Info: Requested size: 161.47878pt x 106.41037pt on input lin
-e 359.
+e 358.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 363. on
- input line 363.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 362. on
+ input line 362.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 363.
+ 362.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 363.
+(babel)             in language  on input line 362.
 
 [33]
 <imagenes/apartado_2/224_1_cop_zmp.png, id=694, 271.0125pt x 236.38312pt>
 File: imagenes/apartado_2/224_1_cop_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/224_1_cop_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/224_1_cop_zmp.png  used on input l
-ine 373. on input line 373.
+ine 372. on input line 372.
 Package pdftex.def Info: Requested size: 135.5059pt x 118.19127pt on input line
- 373.
+ 372.
 <imagenes/apartado_2/224_2_cop_zmp.png, id=695, 255.20343pt x 269.50688pt>
 File: imagenes/apartado_2/224_2_cop_zmp.png Graphic file (type png)
 <use imagenes/apartado_2/224_2_cop_zmp.png>
 Package pdftex.def Info: imagenes/apartado_2/224_2_cop_zmp.png  used on input l
-ine 376. on input line 376.
+ine 375. on input line 375.
 Package pdftex.def Info: Requested size: 140.36232pt x 148.22923pt on input lin
-e 376.
+e 375.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 384. on
- input line 384.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 383. on
+ input line 383.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 384.
+ 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
  [34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.384 \newpage
+l.383 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name
 {figure.2.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.384 \newpage
+l.383 \newpage
                <./imagenes/apartado_2/223_1_zmp.png> <./imagenes/apartado_2/223
 _2_zmp.png> <./imagenes/apartado_2/224_1_cop_zmp.png> <./imagenes/apartado_2/22
 4_2_cop_zmp.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 384. on
- input line 384.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 383. on
+ input line 383.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 384.
+ 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
  [35])
 \openout2 = `codigofuente/3_descripcionsistema.aux'.
 
@@ -3405,115 +3405,115 @@ l.142 \newpage
                <./imagenes/apartado_3/38_2_inertial_sensor_xsens.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 178. on
- input line 178.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 174. on
+ input line 174.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 178.
+ 174.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 174.
  [43pdfTeX warning (ext4): destination with the same identifier (name{table.3.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.178 \newpage
+l.174 \newpage
               ]
 <imagenes/apartado_3/39_cable_rs_232.png, id=801, 357.58594pt x 242.40562pt>
 File: imagenes/apartado_3/39_cable_rs_232.png Graphic file (type png)
 <use imagenes/apartado_3/39_cable_rs_232.png>
 Package pdftex.def Info: imagenes/apartado_3/39_cable_rs_232.png  used on input
- line 182. on input line 182.
+ line 178. on input line 178.
 Package pdftex.def Info: Requested size: 214.5532pt x 145.44447pt on input line
- 182.
+ 178.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 191. on
- input line 191.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 187. on
+ input line 187.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 191.
+ 187.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
  [44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.191 \newpage
+l.187 \newpage
                <./imagenes/apartado_3/39_cable_rs_232.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 191. on
- input line 191.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 187. on
+ input line 187.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 191.
+ 187.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 187.
  [45])
 \openout2 = `codigofuente/4_estudioestabilidad.aux'.
 
@@ -3549,57 +3549,57 @@ File: imagenes/apartado_4/41_plano_anatomico_sagital3.png Graphic file (type pn
 g)
 <use imagenes/apartado_4/41_plano_anatomico_sagital3.png>
 Package pdftex.def Info: imagenes/apartado_4/41_plano_anatomico_sagital3.png  u
-sed on input line 16. on input line 16.
+sed on input line 15. on input line 15.
 Package pdftex.def Info: Requested size: 264.99203pt x 251.14018pt on input lin
-e 16.
+e 15.
 <imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png, id=815, 300.
 3722pt x 329.73187pt>
 File: imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png Graphic 
 file (type png)
 <use imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png>
 Package pdftex.def Info: imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Mode
-l_LIPM.png  used on input line 24. on input line 24.
+l_LIPM.png  used on input line 23. on input line 23.
 Package pdftex.def Info: Requested size: 195.2396pt x 214.32317pt on input line
- 24.
+ 23.
 <imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png, id=816, 300.
 3722pt x 329.73187pt>
 File: imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png Graphic 
 file (type png)
 <use imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png>
 Package pdftex.def Info: imagenes/apartado_4/42_2_Linear_Inverted_Pendulum_Mode
-l_LIPM.png  used on input line 27. on input line 27.
+l_LIPM.png  used on input line 26. on input line 26.
 Package pdftex.def Info: Requested size: 195.2396pt x 214.32317pt on input line
- 27.
+ 26.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 31. on 
-input line 31.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 30. on 
+input line 30.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 31.
+ 30.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
  [46
 
 
@@ -3608,10 +3608,10 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.31 
+l.30 
       <./imagenes/apartado_4/41_plano_anatomico_sagital3.png>]
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 39.
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 38.
 
 
 <imagenes/apartado_4/43_3D_linear_inverted_pendulum_model.png, id=823, 407.2715
@@ -3620,528 +3620,528 @@ File: imagenes/apartado_4/43_3D_linear_inverted_pendulum_model.png Graphic file
  (type png)
 <use imagenes/apartado_4/43_3D_linear_inverted_pendulum_model.png>
 Package pdftex.def Info: imagenes/apartado_4/43_3D_linear_inverted_pendulum_mod
-el.png  used on input line 44. on input line 44.
+el.png  used on input line 43. on input line 43.
 Package pdftex.def Info: Requested size: 203.63527pt x 152.06775pt on input lin
-e 44.
+e 43.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 48. on 
-input line 48.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 47. on 
+input line 47.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 48.
+ 47.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 47.
 [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.48 
+l.47 
       <./imagenes/apartado_4/42_1_Linear_Inverted_Pendulum_Model_LIPM.png> <./i
 magenes/apartado_4/42_2_Linear_Inverted_Pendulum_Model_LIPM.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 111. on
- input line 111.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 110. on
+ input line 110.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 111.
+ 110.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 110.
  [48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.111 \end{equation}
+l.110 \end{equation}
                      <./imagenes/apartado_4/43_3D_linear_inverted_pendulum_mode
 l.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 164. on
- input line 164.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 163. on
+ input line 163.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 164.
+ 163.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 163.
  [49]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 178.
+(babel)             in language  on input line 177.
 <imagenes/apartado_4/44_LIPM_TEO.png, id=872, 235.63031pt x 265.74281pt>
 File: imagenes/apartado_4/44_LIPM_TEO.png Graphic file (type png)
 <use imagenes/apartado_4/44_LIPM_TEO.png>
 Package pdftex.def Info: imagenes/apartado_4/44_LIPM_TEO.png  used on input lin
-e 200. on input line 200.
+e 199. on input line 199.
 Package pdftex.def Info: Requested size: 188.5045pt x 212.59453pt on input line
- 200.
+ 199.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 203. on
- input line 203.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 202. on
+ input line 202.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 203.
+ 202.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 203.
+(babel)             in language  on input line 202.
  [50]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 215.
+(babel)             in language  on input line 214.
 <imagenes/apartado_4/45_modelo_dlipm.png, id=885, 326.21875pt x 399.4925pt>
 File: imagenes/apartado_4/45_modelo_dlipm.png Graphic file (type png)
 <use imagenes/apartado_4/45_modelo_dlipm.png>
 Package pdftex.def Info: imagenes/apartado_4/45_modelo_dlipm.png  used on input
- line 221. on input line 221.
+ line 220. on input line 220.
 Package pdftex.def Info: Requested size: 146.79707pt x 179.76996pt on input lin
-e 221.
+e 220.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 225. on
- input line 225.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 224. on
+ input line 224.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 225.
+ 224.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 224.
  [51pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.225 
+l.224 
        <./imagenes/apartado_4/44_LIPM_TEO.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 258. on
- input line 258.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 257. on
+ input line 257.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 258.
+ 257.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 257.
  [52pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.258 \newpage
+l.257 \newpage
                <./imagenes/apartado_4/45_modelo_dlipm.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 259.
 <imagenes/apartado_4/46_cart_table_model_2.png, id=905, 698.61pt x 341.02406pt>
 
 File: imagenes/apartado_4/46_cart_table_model_2.png Graphic file (type png)
 <use imagenes/apartado_4/46_cart_table_model_2.png>
 Package pdftex.def Info: imagenes/apartado_4/46_cart_table_model_2.png  used on
- input line 268. on input line 268.
+ input line 267. on input line 267.
 Package pdftex.def Info: Requested size: 349.30414pt x 170.51161pt on input lin
-e 268.
+e 267.
 
-Underfull \hbox (badness 1590) in paragraph at lines 273--274
+Underfull \hbox (badness 1590) in paragraph at lines 272--273
 []\OT1/cmr/m/n/12 Las ecuaciones del modelo cart-table para controlar el ZMP se
  obtienen
  []
 
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 290. on
- input line 290.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 289. on
+ input line 289.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 290.
+ 289.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 289.
 [53pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.290 
+l.289 
        <./imagenes/apartado_4/46_cart_table_model_2.png>]
 <imagenes/apartado_4/47_cart_table_real.png, id=923, 463.7325pt x 248.93pt>
 File: imagenes/apartado_4/47_cart_table_real.png Graphic file (type png)
 <use imagenes/apartado_4/47_cart_table_real.png>
 Package pdftex.def Info: imagenes/apartado_4/47_cart_table_real.png  used on in
-put line 300. on input line 300.
+put line 299. on input line 299.
 Package pdftex.def Info: Requested size: 278.24164pt x 149.35915pt on input lin
-e 300.
+e 299.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 307. on
- input line 307.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 306. on
+ input line 306.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 307.
+ 306.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 307.
+(babel)             in language  on input line 306.
  [54pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.307 \newpage
+l.306 \newpage
                <./imagenes/apartado_4/47_cart_table_real.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 308.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 308.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 357. on
- input line 357.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 356. on
+ input line 356.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 357.
+ 356.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 356.
  [55]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 358.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 358.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 358.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 358.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 358.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 358.
 <imagenes/apartado_4/49_balance_strategies.png, id=943, 365.86688pt x 197.98969
 pt>
 File: imagenes/apartado_4/49_balance_strategies.png Graphic file (type png)
 <use imagenes/apartado_4/49_balance_strategies.png>
 Package pdftex.def Info: imagenes/apartado_4/49_balance_strategies.png  used on
- input line 369. on input line 369.
+ input line 368. on input line 368.
 Package pdftex.def Info: Requested size: 292.6939pt x 158.39195pt on input line
- 369.
+ 368.
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 378. on
- input line 378.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 377. on
+ input line 377.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 378.
+ 377.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 377.
  [56pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.378 L
+l.377 L
        a última estrategia es la del paso. Ésta se lleva a cabo cuando apa...
  <./imagenes/apartado_4/49_balance_strategies.png>]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 384. on
- input line 384.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 383. on
+ input line 383.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 384.
+ 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
  [57]
 File: imagenes/Interior_Logo.png Graphic file (type png)
 <use imagenes/Interior_Logo.png>
-Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 384. on
- input line 384.
+Package pdftex.def Info: imagenes/Interior_Logo.png  used on input line 383. on
+ input line 383.
 Package pdftex.def Info: Requested size: 213.43686pt x 21.19914pt on input line
- 384.
+ 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 384.
+(babel)             in language  on input line 383.
  [58])
 \openout2 = `codigofuente/5_estudiorespuestasensoreshumanoide.aux'.
 
@@ -6246,10 +6246,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `plantilla_memoria_tfg.out' has not changed.
 (rerunfilecheck)             Checksum: F4CE154A5A5D75DB541B62F01466D402;3696.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
@@ -6280,7 +6276,7 @@ msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/eurosym/feybr10.pfb>
-Output written on plantilla_memoria_tfg.pdf (93 pages, 14127806 bytes).
+Output written on plantilla_memoria_tfg.pdf (93 pages, 14127855 bytes).
 PDF statistics:
  1599 PDF objects out of 1728 (max. 8388607)
  361 named destinations out of 1000 (max. 500000)

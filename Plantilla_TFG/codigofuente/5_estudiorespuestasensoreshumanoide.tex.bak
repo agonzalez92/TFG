@@ -394,7 +394,7 @@ Se hizo el estudio de ambos modelos para averiguar los parámetros más importan
 \label{figura517}
 \end{figure}
 
-Una vez que se computó la altura del modelo cart-table, se volvieron a hacer las pruebas, mejorando su respuesta en régimen permanente. La corrección de dicho error en régimen permanente puede observarse en la figura \ref{figura517} en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
+Una vez que se computó la altura del modelo cart-table, se volvieron a hacer las pruebas, mejorando su respuesta en régimen permanente. La corrección de dicho desajuste en régimen permanente puede observarse en la figura \ref{figura517} en la que se indica de color negro la referencia a la que debían llegar los ZMP tanto del modelo DLIPM (en rojo) como el modelo cart-table (en verde).
 
 
 \afterpage{\null\newpage}

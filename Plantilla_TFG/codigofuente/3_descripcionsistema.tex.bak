@@ -120,7 +120,7 @@ La figura \ref{figura36} muestra el procedimiento de adquisición de datos, y la
 
 Para el sistema de percepción como se ha comentado antes se utiliza una IMU, capaz de medir aceleraciones lineales, campos magnéticos y velocidades angulares, gracias a la combinación de acelerómetros, giróscopos y magnetómetros, y en algunos casos incluso barómetros, para obtener información de la temperatura, presión y altitud.
 
-- \emph{Acelerómetro}: Dispositivo que mide el cambio de aceleración o vibración debido a los movimientos de la estructura a la que está acoplado \cite{ref30}. %%sacado de https://es.omega.com/prodinfo/acelerometro.html
+- \emph{Acelerómetro}: Dispositivo que mide el cambio de aceleración o vibración debido a los movimientos de la estructura a la que está acoplado \cite{ref30}.
 
 - \emph{Giróscopo}: Dispositivo mecánico que sirve para medir, mantener o cambiar la orientación en el espacio tridimensional \cite{ref31}. 
 
@@ -167,11 +167,7 @@ Entre sus características más destacadas se encuentran la capacidad de calcula
 \label{tabla32}
 \end{table}
 
-Todo los datos recogidos por el sensor MTi son volcados e interpretados por la computadora gracias al MTi SDK (Software Development Kit), un paquete propietario de Xsens que sirve de interfaz a múltiples niveles: librerías binarias API%%abreviatura 
-(Windows, Linux), pero también proporciona código fuente implementando el protocolo de comunicación binario MTi para una fácil integración en cualquier plataforma \cite{ref12}.
-
-%%Este apartado sacado de http://www.sensores-de-medida.es/uploads/0referencia_inercial_mti_ahrs.pdf
-%%http://wiki.icub.org/images/8/82/XsensMtx.pdf
+Todo los datos recogidos por el sensor MTi son volcados e interpretados por la computadora gracias al MTi SDK (Software Development Kit), un paquete propietario de Xsens que sirve de interfaz a múltiples niveles: librerías binarias API (Windows, Linux), pero también proporciona código fuente implementando el protocolo de comunicación binario MTi para una fácil integración en cualquier plataforma \cite{ref12}.
 
 El software para acceder al sensor inercial MTi, que está instalado en la CPU de locomoción de TEO, se ha extraído del robot iCub\footnote{iCub se trata de un robot humanoide para la investigación en cognición corporal que fue desarrollado entre el Instituto Italiano de Tecnología y la Universidad de Génova, dentro del consorcio internacional RobotCub, en el que participan varias universidades europeas. Mide 104cm de altura, pesa 22kg y posee 53 grados de libertad. Posee sensores de cámara, micrófonos, sensores inerciales, sensores fuerza/par, sensores de posición o sensores táctiles.}, cuyo software es de código abierto siguiendo las licencias GPL/FDL y desarrollado sobre YARP, gracias a que éste tenía implementado el acceso a uno de sus sensores inerciales MTx \cite{ref32}.
 
