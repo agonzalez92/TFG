@@ -1,9 +1,0 @@
-En el test 1 el robot chocó con la grúa al desplazarse al ángulo comandado por el Xzmp de referencia.
-
-En el test 2 la prueba ha salido satisfactoria aunque los valores de ZmpxLoli han salido raros.
-
-Los test 3 y 4 no valen ya que no se han incluido todas las variables correctamente para realizar la gráfica con mm en vez de con metros.
-
-El test 5 se ha hecho en mm incluyendo las variables correctamente y la gráfica no sale como se deasea.
-
-Los test del 1 al 6 no son válidos. El válido es el 7. Lo único que hemos cambiado ha sido poner más decimales a la hora de coger y guardar los datos en el csv para que la gráfica (Tiempo,Xzmp_ref y XzmpLoli) saliera más exacta.

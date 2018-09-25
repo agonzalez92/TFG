@@ -1,3 +1,0 @@
-/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/juanmi/exp2/cod_OpenLoop/build/CMakeFiles/rebuild_cache.dir
-/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/juanmi/exp2/cod_OpenLoop/build/CMakeFiles/edit_cache.dir
-/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/juanmi/exp2/cod_OpenLoop/build/CMakeFiles/graph9_4.dir

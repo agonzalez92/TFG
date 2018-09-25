@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/graph9_4.dir/LIPM2d.cpp.o CMakeFiles/graph9_4.dir/main.cpp.o  -o graph9_4 -rdynamic /usr/local/lib/libYARP_dev.so.2.3.72 /usr/local/lib/libYARP_name.so.2.3.72 /usr/local/lib/libYARP_init.so.2.3.72 /usr/local/lib/libYARP_math.so.2.3.72 /usr/local/lib/libYARP_sig.so.2.3.72 /usr/local/lib/libYARP_OS.so.2.3.72 -Wl,-rpath,/usr/local/lib 

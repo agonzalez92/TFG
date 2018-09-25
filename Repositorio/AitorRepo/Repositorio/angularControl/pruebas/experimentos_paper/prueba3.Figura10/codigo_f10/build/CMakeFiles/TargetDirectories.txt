@@ -1,1 +1,0 @@
-/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/experimentos_paper/prueba3.Figura10/codigo_f10/build/CMakeFiles/graph10.dir

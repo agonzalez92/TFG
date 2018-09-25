@@ -1,5 +1,0 @@
-
-5 de oct de 2017
-
-la bateria de test corresponden a distintas ZMP_ref. 
-desde el test1 con ZMP_ref=0.01m al ZMP_ref=0.09m en intervalos de 0.01m

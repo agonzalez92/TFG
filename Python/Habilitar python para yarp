@@ -1,8 +1,0 @@
-
-Para instalar python en yarp:
-	1- cd repos/yarp/build
-	2- ccmake ..
-	   CREATE_PYTHON                    ON
-	3- Presionar 'c' para configuar
-	4- make -j4
-	5- sudo make install

@@ -1,3 +1,0 @@
-/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/inertialSensor-master/build/CMakeFiles/edit_cache.dir
-/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/inertialSensor-master/build/CMakeFiles/rebuild_cache.dir
-/home/teo/Desktop/home/teo/repos/AitorRepo/Repositorio/inertialSensor-master/build/CMakeFiles/inertialSensor.dir

@@ -1,1 +1,0 @@
-/home/teo/repos/AitorRepo/Repositorio/angularControl/pruebas/20171026/codigo/build/CMakeFiles/graph.dir

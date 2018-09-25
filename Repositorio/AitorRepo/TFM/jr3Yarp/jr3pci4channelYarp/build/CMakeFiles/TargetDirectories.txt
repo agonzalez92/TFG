@@ -1,1 +1,0 @@
-/home/teo/repos/AitorRepo/TFM/jr3Yarp/jr3pci4channelYarp/build/CMakeFiles/jr3pci4channelYarp.dir

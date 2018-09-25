@@ -1,1 +1,0 @@
-/home/teo/repos/AitorRepo/LoliRepo-master/TFM/control/build-zmp_zones-Desktop-Default/CMakeFiles/yarpy.dir
